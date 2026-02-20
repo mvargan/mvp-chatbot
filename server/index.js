@@ -31,6 +31,34 @@ function loadAllMdFiles() {
 }
 
 function chunkMd(md, filename) {
+    const cleaned = md.trim();
+
+  // 1) TRY Q/A chunks: each "Question?" + next lines as answer
+  const lines = cleaned.split(/\r?\n/).map(l => l.trim()).filter(l => l.length);
+  const qa = [];
+  for (let i = 0; i < lines.length; i++) {
+    const q = lines[i];
+    if (!q.endsWith("?")) continue;
+
+    let a = [];
+    let j = i + 1;
+    while (j < lines.length && !lines[j].endsWith("?")) {
+      a.push(lines[j]);
+      j++;
+    }
+    const ans = a.join(" ").trim();
+    if (ans) {
+      qa.push({
+        id: `${filename}::Q${qa.length + 1}`,
+        title: `${filename} :: ${q}`,
+        text: `Q: ${q}\nA: ${ans}`,
+        filename,
+      });
+    }
+  }
+  if (qa.length >= 5) return qa;
+
+  // 2) original heading chunking
   const parts = md.split(/\n##\s+/g);
   const chunks = [];
 
@@ -159,9 +187,20 @@ function expandQuery(q) {
   return s;
 }
 
+function sanitizeForLunr(q) {
+  return (q || "")
+    .toLowerCase()
+    .replace(/['"]/g, " ")          // makni navodnike
+    .replace(/[^\p{L}\p{N}\s]/gu, " ") // makni interpunkciju (uklj. ? ! : etc.)
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function pickTop(query, k = 5) {
   if (!KB_INDEX) return [];
-  const results = KB_INDEX.search(query).slice(0, k);
+  const safe = sanitizeForLunr(query);
+if (!safe) return [];
+const results = KB_INDEX.search(safe).slice(0, k);
   const byId = new Map(KB_CHUNKS.map((c) => [c.id, c]));
   return results
     .map((r) => ({ score: r.score, chunk: byId.get(r.ref) }))
@@ -179,7 +218,7 @@ function simplifySentence(sentence) {
 
 function formatAnswer(message, hits, sessionId) {
   const best = hits[0];
-  if (!best || best.score < 0.35) return null;
+  if (!best || best.score < 0.15) return null;
 
   const text = best.chunk.text;
 
