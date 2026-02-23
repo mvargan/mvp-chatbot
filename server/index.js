@@ -192,7 +192,7 @@ function reloadKb() {
 // ---------- Intent handling (friendly + safe + SOS-only) ----------
 function detectIntent(message) {
   const inappropriate = [
-    /\b(sex|porn|nude|blowjob|fuck|dick|pussy)\b/i,
+    /\b(sex|porn|nude|blowjob|fuck|dick|pussy)\b/i,
     /\b(kill myself|suicide|self harm)\b/i,
     /\b(hate|racist|nazi)\b/i,
   ];
@@ -310,6 +310,15 @@ app.post("/chat", (req, res) => {
   const sessionId = req.ip; // simple session
   const state = SESSION_MEMORY.get(sessionId) || {};
   const detected = detectCountryInMessage(message);
+
+  // Detect intent
+  const intent = detectIntent(message);
+  if (intent === "inappropriate") return res.json({ reply: inappropriateReply() });
+
+  if (intent !== "domain") {
+    const reply = smallTalkReply(intent);
+    if (reply) return res.json({ reply });
+  }
 
   // if user inputs only "CRO" / "PL" / ...
   if (detected && stripCountryFromMessage(message).length === 0) {
