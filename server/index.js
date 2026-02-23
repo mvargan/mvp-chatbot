@@ -51,7 +51,7 @@ function chunkMd(md, filename) {
       qa.push({
         id: `${filename}::Q${qa.length + 1}`,
         title: `${filename} :: ${q}`,
-        text: `Q: ${q}\nA: ${ans}`,
+        text: ans,
         filename,
       });
     }
@@ -216,7 +216,7 @@ function simplifySentence(sentence) {
     .trim();
 }
 
-function formatAnswer(message, hits, sessionId) {
+function formatAnswer(message, hits) {
   const best = hits[0];
   if (!best || best.score < 0.15) return null;
 
@@ -225,20 +225,13 @@ function formatAnswer(message, hits, sessionId) {
   const sentences = text
     .replace(/\n+/g, " ")
     .split(/(?<=[.!?])\s+/)
-    .filter(s => s.length > 20);
+    .filter(s => s.length > 20)
+    .slice(0, 3);
 
-  const bullets = sentences
-    .slice(0, 3)
-    .map(s => "• " + simplifySentence(s))
-    .join("\n");
+  const reply = sentences.join(" ");
 
   return {
-    reply:
-      bullets +
-      "\n\nWould you like:\n" +
-      "1) Full explanation\n" +
-      "2) A simple example\n" +
-      "3) A mini task?"
+    reply
   };
 }
 
@@ -289,7 +282,7 @@ app.post("/chat", (req, res) => {
   }
 
   const hits = pickTop(expandQuery(message), 5);
-  const out = formatAnswer(message, hits, sessionId);
+  const out = formatAnswer(message, hits);
   if (!out) return res.json({ reply: outOfScopeReply() });
 
   return res.json(out);
