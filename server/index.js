@@ -7,6 +7,67 @@ import rateLimit from "express-rate-limit";
 import lunr from "lunr";
 const SESSION_MEMORY = new Map();
 
+const COUNTRY_ALIASES = {
+  CRO: ["cro", "croatia", "hr", "hrvatska", "hrv", "cro "],
+  PL: ["pl", "poland", "polska"],
+  IT: ["it", "italy", "italia"],
+  GR: ["gr", "greece", "hellas", "ellada"],
+  LT: ["lt", "lithuania", "lietuva"],
+};
+
+const COUNTRY_NAMES = {
+  CRO: "Croatia",
+  PL: "Poland",
+  IT: "Italy",
+  GR: "Greece",
+  LT: "Lithuania",
+};
+
+function normalizeToken(s) {
+  return (s || "").toLowerCase().replace(/[^a-z0-9čćđšž]+/gi, "").trim();
+}
+
+function detectCountryInMessage(message) {
+  const raw = (message || "").toLowerCase();
+  const tokens = raw.split(/\s+/).map(normalizeToken).filter(Boolean);
+
+  for (const [code, aliases] of Object.entries(COUNTRY_ALIASES)) {
+    if (tokens.includes(code.toLowerCase())) return code;
+    for (const a of aliases) {
+      if (tokens.includes(normalizeToken(a))) return code;
+    }
+  }
+  return null;
+}
+
+function stripCountryFromMessage(message) {
+  const raw = (message || "").toLowerCase();
+  const words = raw.split(/\s+/);
+
+  const removeSet = new Set();
+  for (const [code, aliases] of Object.entries(COUNTRY_ALIASES)) {
+    removeSet.add(code.toLowerCase());
+    aliases.forEach(a => removeSet.add(normalizeToken(a)));
+  }
+
+  const kept = words.filter(w => !removeSet.has(normalizeToken(w)));
+  return kept.join(" ").trim();
+}
+
+function inferCountryFromFilename(filename) {
+  const f = (filename || "").toLowerCase();
+
+  // po tvojim KB filenameovima:
+  if (f.includes("croatia")) return "CRO";
+  if (f.includes("poland")) return "PL";
+  if (f.includes("italy")) return "IT";
+  if (f.includes("greece")) return "GR";
+  if (f.includes("lithuania")) return "LT";
+
+  // core/global dokumenti:
+  return "GLOBAL";
+}
+
 const app = express();
 app.use(express.json({ limit: "128kb" }));
 app.use(cors({ origin: "*", methods: ["POST", "GET"] }));
@@ -31,78 +92,81 @@ function loadAllMdFiles() {
 }
 
 function chunkMd(md, filename) {
-    const cleaned = md.trim();
+  const cleaned = (md || "").trim();
 
-  // 1) TRY Q/A chunks: each "Question?" + next lines as answer
-  const lines = cleaned.split(/\r?\n/).map(l => l.trim()).filter(l => l.length);
-  const qa = [];
-  for (let i = 0; i < lines.length; i++) {
-    const q = lines[i];
-    if (!q.endsWith("?")) continue;
+  // Split into Q blocks: find lines starting with "Q:"
+  const lines = cleaned.split(/\r?\n/);
 
-    let a = [];
-    let j = i + 1;
-    while (j < lines.length && !lines[j].endsWith("?")) {
-      a.push(lines[j]);
-      j++;
-    }
-    const ans = a.join(" ").trim();
-    if (ans) {
-      qa.push({
-        id: `${filename}::Q${qa.length + 1}`,
-        title: `${filename} :: ${q}`,
-        text: ans,
-        filename,
-      });
-    }
-  }
-  if (qa.length >= 5) return qa;
+  const blocks = [];
+  let current = null;
 
-  // 2) original heading chunking
-  const parts = md.split(/\n##\s+/g);
-  const chunks = [];
+  const pushCurrent = () => {
+    if (current && current.question && current.bodyLines.length) blocks.push(current);
+    current = null;
+  };
 
-  // fallback if no headings
-  if (parts.length <= 1) {
-    const cleaned = md.trim();
-    const size = 2200;
-    const overlap = 200;
-    let i = 0;
-    let idx = 1;
-    while (i < cleaned.length) {
-      const end = Math.min(i + size, cleaned.length);
-      const body = cleaned.slice(i, end).trim();
-      if (body.length > 120) {
-        chunks.push({
-          id: `${filename}::chunk${idx}`,
-          title: `${filename} :: chunk ${idx}`,
-          text: body,
-          filename,
-        });
-        idx++;
-      }
-      if (end === cleaned.length) break;
-      i = Math.max(0, end - overlap);
-    }
-    return chunks;
-  }
+  for (const raw of lines) {
+    const line = raw.trim();
 
-  // split by headings
-  for (let i = 1; i < parts.length; i++) {
-    const part = parts[i].trim();
-    const lines = part.split("\n");
-    const title = (lines[0] || `Section ${i}`).trim();
-    const body = lines.slice(1).join("\n").trim();
-    if (!body) continue;
+    // ignore empty or separator lines
+    if (!line) continue;
+    if (/^=+$/.test(line)) continue;
+    if (/^-+$/.test(line)) continue;
 
-    chunks.push({
-      id: `${filename}::${title}`,
-      title: `${filename} :: ${title}`,
-      text: `## ${title}\n${body}`,
-      filename,
-    });
-  }
-  return chunks;
+    // New question block
+    if (/^Q:\s*/i.test(line)) {
+      pushCurrent();
+      current = { question: line.replace(/^Q:\s*/i, "").trim(), bodyLines: [] };
+      continue;
+    }
+
+    // Add content lines to current block
+    if (current) current.bodyLines.push(line);
+  }
+  pushCurrent();
+
+  const chunks = blocks.map((block, i) => {
+    const q = block.question;
+    const body = block.bodyLines.join("\n");
+
+    const short = extractSection(body, "Short");
+    const full = extractSection(body, "Full");
+    const example = extractSection(body, "Example");
+    const task = extractSection(body, "Mini Task");
+
+    return {
+      id: `${filename}::Q${i + 1}`,
+      title: `${filename} :: ${q}`,
+      text: [q, short, full, example, task].filter(Boolean).join("\n"),
+      answerShort: short,
+      answerFull: full,
+      answerExample: example,
+      answerTask: task,
+      filename,
+      countryCode: inferCountryFromFilename(filename),
+    };
+  });
+
+  return chunks;
+}
+
+function extractSection(body, sectionName) {
+  // grabs text after "### {sectionName}" until next "### " or end
+  const re = new RegExp(
+    `###\\s*${escapeReg(sectionName)}\\s*\\n([\\s\\S]*?)(?=\\n###\\s|$)`,
+    "i"
+  );
+  const m = body.match(re);
+  if (!m) return null;
+
+  return m[1]
+    .replace(/^[-*]\s+/gm, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function escapeReg(s) {
+  return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function buildIndex(chunks) {
@@ -148,7 +212,7 @@ function smallTalkReply(intent) {
     case "greeting":
       return "Hi! I’m the S.O.S. chatbot. Ask me about the Erasmus S.O.S. project (science, engineering, art, green skills & green jobs).";
     case "thanks":
-      return "You’re welcome! Tell me the country (HR/PL/IT/GR/LT) and the topic, and I’ll answer faster.";
+      return "You’re welcome! Tell me the country (CRO/PL/IT/GR/LT) and the topic, and I’ll answer faster.";
     case "howareyou":
       return "I’m doing great — ready to help with the S.O.S. project. What topic are you working on?";
     case "identity":
@@ -165,7 +229,7 @@ function inappropriateReply() {
 }
 
 function outOfScopeReply() {
-  return "I’m specialized only for the S.O.S. Erasmus project content, so I can’t answer that. Please ask about science, engineering, art, green skills, or green jobs in HR/PL/IT/GR/LT.";
+  return "I’m specialized only for the S.O.S. Erasmus project content, so I can’t answer that. Please ask about science, engineering, art, green skills, or green jobs in CRO/PL/IT/GR/LT.";
 }
 
 // query expansion = better matching (permutations)
@@ -220,19 +284,20 @@ function formatAnswer(message, hits) {
   const best = hits[0];
   if (!best || best.score < 0.15) return null;
 
-  const text = best.chunk.text;
+  const c = best.chunk;
+  const clean = (t) => (t || "")
+    .replace(/=+/g, " ")
+    .replace(/-+/g, " ")
+    .replace(/###\s*/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 
-  const sentences = text
-    .replace(/\n+/g, " ")
-    .split(/(?<=[.!?])\s+/)
-    .filter(s => s.length > 20)
-    .slice(0, 3);
+  let short = clean(c.answerShort);
+  const cc = c.countryCode && c.countryCode !== "GLOBAL" ? c.countryCode : null;
 
-  const reply = sentences.join(" ");
+  if (short) return { reply: cc ? `(${cc}) ${short}` : short };
 
-  return {
-    reply
-  };
+  return null;
 }
 
 // ---------- Routes ----------
@@ -243,46 +308,29 @@ app.post("/chat", (req, res) => {
   if (!message) return res.status(400).json({ error: "Missing message" });
 
   const sessionId = req.ip; // simple session
+  const state = SESSION_MEMORY.get(sessionId) || {};
+  const detected = detectCountryInMessage(message);
 
-  const memory = SESSION_MEMORY.get(sessionId);
-
-  if (memory) {
-    const m = message.toLowerCase();
-
-    if (m.includes("1") || m.includes("full")) {
-      return res.json({
-        reply: memory.fullText
-      });
-    }
-
-    if (m.includes("2") || m.includes("example")) {
-      return res.json({
-        reply:
-          "Example:\n\n" +
-          memory.fullText.split(".")[0] +
-          ".\n\nThis is how it works in practice."
-      });
-    }
-
-    if (m.includes("3") || m.includes("task")) {
-      return res.json({
-        reply:
-          "Mini task:\n\nExplain this concept in 3 sentences in your own words.\nThen give one real-life example from your country."
-      });
-    }
+  // if user inputs only "CRO" / "PL" / ...
+  if (detected && stripCountryFromMessage(message).length === 0) {
+    SESSION_MEMORY.set(sessionId, { ...state, country: detected });
+    return res.json({ reply: `OK — using ${detected}. Ask your question.` });
   }
 
-  const intent = detectIntent(message);
+  // if user inputs "CRO green job" -> detect CRO and remove token from query
+  let country = state.country || null;
+  let queryMessage = message;
 
-  if (intent === "inappropriate") return res.json({ reply: inappropriateReply() });
-
-  if (intent !== "domain") {
-    const r = smallTalkReply(intent);
-    if (r) return res.json({ reply: r });
+  if (detected) {
+    country = detected;
+    queryMessage = stripCountryFromMessage(message);
+    SESSION_MEMORY.set(sessionId, { ...state, country });
   }
 
-  const hits = pickTop(expandQuery(message), 5);
-  const out = formatAnswer(message, hits);
+  const hitsAll = pickTop(expandQuery(queryMessage), 15);
+  const hits = country ? hitsAll.filter(h => h.chunk?.countryCode === country) : hitsAll;
+
+  const out = formatAnswer(queryMessage, hits.length ? hits : hitsAll, sessionId);
   if (!out) return res.json({ reply: outOfScopeReply() });
 
   return res.json(out);
