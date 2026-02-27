@@ -1,0 +1,1478 @@
+{
+  "kbName": "Green Skills & Jobs Knowledge Base",
+  "kbVersion": "1.0.0",
+  "language": "en",
+  "createdAt": "2026-02-26",
+  "notes": [
+    "Each entry can be triggered by any of the 'questions' (synonyms/paraphrases).",
+    "Use answerShort for the first (short) reply, and answerLong when the user asks to know more.",
+    "If you want Croatian support, add parallel entries with language='hr' or add hr variants into questions."
+  ],
+  "entries": [
+    {
+      "id": "Q0001",
+      "topics": ["Conservation", "Science"],
+      "questions": ["What is the role of conservation science?"],
+      "answerShort": "Conservation science protects and maintains natural environments so they can continue to exist.",
+      "answerLong": "Conservation science ensures protection and maintenance of natural environments to ensure their existence."
+    },
+    {
+      "id": "Q0002",
+      "topics": ["Conservation", "Jobs"],
+      "questions": ["What jobs are connected to conservation science?"],
+      "answerShort": "Examples include botanist, conservation and resource forester, marine biologist, zoologist, and ranger.",
+      "answerLong": "Botanist, conservation and recourse forester, marine biologist, zoologist, ranger are jobs connected to conservation science."
+    },
+    {
+      "id": "Q0003",
+      "topics": ["Conservation", "Jobs", "Botany"],
+      "questions": ["What does a botanist do?"],
+      "answerShort": "A botanist studies plants, often specializing in areas like ecology, genetics, structure, and distribution.",
+      "answerLong": "A botanist is a scientist who studies plants, such as algae, conifers and ferns. They study many areas of plants, including their genetics, physical structures and distribution. Many botanists specialize in an area of botany, such as ecology, which is the study of the relationship between plants and their environment."
+    },
+    {
+      "id": "Q0004",
+      "topics": ["Conservation", "Jobs", "Forestry"],
+      "questions": ["What does a conservation and recourse forester do?", "What does a conservation and resource forester do?"],
+      "answerShort": "They assess forests/soils, evaluate damage, and lead actions like fire suppression and replanting.",
+      "answerLong": "A conservation scientists and foresters evaluate data on forest and soil quality, assessing damage to trees and forest lands caused by fires and logging activities. In addition, they lead activities such as suppressing fires and planting seedlings."
+    },
+    {
+      "id": "Q0005",
+      "topics": ["Conservation", "Forests"],
+      "questions": ["What is the meaning of forest conservation?"],
+      "answerShort": "Forest conservation is managing and maintaining forests sustainably for future generations.",
+      "answerLong": "A forest conservation is the practice of planning and maintaining forested areas for the benefit and sustainability of future generations. Forest conservation involves the upkeep of the natural resources within a forest that are beneficial for both humans and the ecosystem."
+    },
+    {
+      "id": "Q0006",
+      "topics": ["Conservation", "Jobs", "Marine Biology"],
+      "questions": ["What does a marine biologist do?"],
+      "answerShort": "A marine biologist studies ocean organisms and ecosystems and may monitor impacts like pollution using field and lab methods.",
+      "answerLong": "A marine biologist studies biological oceanography and the associated fields of chemical, physical, and geological oceanography to understand marine organisms. Depending on his area of work, his duties as a marine biologist could include: conducting species inventories, testing and monitoring sea creatures exposed to pollutants. collecting samples and data-using processes such as coring techniques, geographic information systems (GIS), visual recording and sampling."
+    },
+    {
+      "id": "Q0007",
+      "topics": ["Conservation", "Jobs", "Zoology"],
+      "questions": ["What does a zoologist do?"],
+      "answerShort": "A zoologist scientifically studies animals: their behavior, physiology, classification, and distribution.",
+      "answerLong": "A zoologist specializes in the scientific examination of animals, encompassing their behavior, physiology, classification, and distribution. A zoologist studies the behaviours, functions, natural environments and ecology of animals."
+    },
+    {
+      "id": "Q0008",
+      "topics": ["Conservation", "Zoology"],
+      "questions": ["What is a zoology?", "What is zoology?"],
+      "answerShort": "Zoology is the branch of biology that studies animal life and supports areas like conservation and medicine.",
+      "answerLong": "Zoology is an area of biology that studies animal life. The purpose of zoology is to expand scientific knowledge and utilise it in wildlife management, conservation, agriculture and medicine."
+    },
+    {
+      "id": "Q0009",
+      "topics": ["Conservation", "Jobs", "Ranger"],
+      "questions": ["What does a ranger do?"],
+      "answerShort": "A ranger protects areas and wildlife: patrols, prevents poaching, works with communities, and supports tourism.",
+      "answerLong": "A ranger patrols protected areas, monitor wildlife, prevent poaching, engage local communities in conservation, help communities resolve human-wildlife conflicts, and assist with tourism."
+    },
+
+    {
+      "id": "Q0010",
+      "topics": ["Hydroponics", "Sustainable Agriculture"],
+      "questions": ["What is Hydroponic gardening?", "What is Hydroponics?"],
+      "answerShort": "Hydroponics grows plants without soil, delivering nutrients through water.",
+      "answerLong": "Hydroponic Gardening involves growing plants without soil. All the nutrients a plant needs are provided through water."
+    },
+    {
+      "id": "Q0011",
+      "topics": ["Hydroponics", "Sustainability"],
+      "questions": ["Is Hydroponics sustainable?", "Why hydroponic gardening is sustainable?"],
+      "answerShort": "It saves space and water, reduces pesticides, avoids weather limits, needs less labor, and can increase growth and yield.",
+      "answerLong": "Hydroponic Gardening is Sustainable Agriculture for the following reasons:\n• It maximizes space as soil is not needed and vertical farming may be applied.\n• It uses 20 times less water than conventional agriculture.\n• It uses less pesticides as there are no soil-growing diseases.\n• It is unaffected by weather conditions as technical microclimate is applied.\n• It needs less labour to set up and maintain\n• It achieves faster plant growth and higher production."
+    },
+    {
+      "id": "Q0012",
+      "topics": ["Hydroponics", "Consulting"],
+      "questions": ["Who to consult regarding hydroponics?", "Who can help set up a hydroponic garden?"],
+      "answerShort": "Consult an agricultural engineer specialized in hydroponics.",
+      "answerLong": "An agricultural engineer specialising in hydroponics is the engineer you should consult for setting up a hydroponic garden."
+    },
+    {
+      "id": "Q0013",
+      "topics": ["Hydroponics", "Equipment"],
+      "questions": ["What materials are needed to set up a hydroponic garden?", "What equipment do you need for hydroponics?"],
+      "answerShort": "You need reservoirs, a pump, plants, meters (pH/EC), lights, net pots, fertilizer nutrients, and water.",
+      "answerLong": "The following materials are required to set up a hydroponic garden:\n• polystyrene boxes\n• water pump\n• Micro plants\n• Hydroponic combo meter for pH, Temperature, Conductivity, and Dissolved solids.\n• LED grow light.\n• Cups or net pots.\n• Fertilizer including 5 key nutrients: nitrogen, phosphorous, potassium, calcium, and magnesium.\n• Water."
+    },
+    {
+      "id": "Q0014",
+      "topics": ["Hydroponics", "Procedure"],
+      "questions": ["What procedure do you follow for hydroponics?", "How do you set up a hydroponic garden?"],
+      "answerShort": "Set up reservoirs, check pH and conductivity, add nutrients, run pump for oxygen, place plants in net pots, and use grow lights.",
+      "answerLong": "The Hydroponic Gardening procedure includes seven steps:\n• The first step is filling in the polystyrene boxes with water to use them as water reservoirs.\n• The second step is to measure the water pH using the hydroponic combo meter, to ensure the pH optimal range for hydroponics between 5.5 and 6\n• The third step involves adding hydroponic nutrients to the water and measuring its conductivity. Using the hydroponic combo meter you should ensure its level between 8 and 9 indicating that there are enough fertilizers.\n• The fourth step is to adjust the water pump in the water reservoirs and turn it on. Notably, the water pump is very important as it provides oxygen to plant roots.\n• The fifth step is to drill holes in the cups to use them as pots allowing plant roots to come out\n• The sixth step is to fix the micro plants in the pots and place them in the water reservoirs so that plant roots are in the water.\n• The seventh step involves using LED grow lights to advance the plants’ growth"
+    },
+    {
+      "id": "Q0015",
+      "topics": ["Hydroponics", "Equipment"],
+      "questions": ["Why using a water pump is important in hydroponics?", "Why use water pumps in hydroponic gardens?"],
+      "answerShort": "Because roots still need oxygen; the pump oxygenates the water since there’s no soil air pockets.",
+      "answerLong": "The plants need oxygen to grow! In traditional farming, roots can get the oxygen needed for respiration from pockets of air in the soil. Οn a hydroponic setup, you need to oxygenate your container by installing an air pump."
+    },
+    {
+      "id": "Q0016",
+      "topics": ["Hydroponics", "Fertilizer"],
+      "questions": ["Why fertilizer is important in hydroponics?", "Why use fertilizer in a hydroponic garden?"],
+      "answerShort": "Hydroponic plants need added nutrients (e.g., magnesium, phosphorus, calcium) since they don’t get them from soil.",
+      "answerLong": "Just like plants growing in the soil need healthy soil and nutrients, hydroponic plants also need nutrients. Plants need plenty of magnesium, phosphorus, calcium, and other nutrients to stay healthy and productive. For this reason, fertilizers should be added to the water containers of hydroponic gardens."
+    },
+    {
+      "id": "Q0017",
+      "topics": ["Hydroponics", "Maintenance"],
+      "questions": ["What to do after setting up a hydroponic garden?"],
+      "answerShort": "Monitor it: every three days check pH and conductivity, and top up water/nutrients if needed.",
+      "answerLong": "After setting up a Hydroponic Garden, it is important to monitor it. Every three days check the water for pH and conductivity. Add water or nutrients if necessary."
+    },
+    {
+      "id": "Q0018",
+      "topics": ["Hydroponics", "Growth"],
+      "questions": ["How fast do hydroponic plants grow?", "How can hydroponic plants grow fast?"],
+      "answerShort": "Organic hydroponics may be slower; faster growth can be achieved by increasing fertilizer levels.",
+      "answerLong": "Following an organic hydroponic procedure entails having the plants grow slower. In case you want the plants to grow faster then you should add more fertilizers in the water."
+    },
+
+    {
+      "id": "Q0019",
+      "topics": ["Green Jobs", "Italy"],
+      "questions": ["What do we mean with “Green Jobs”?"],
+      "answerShort": "Green jobs support the transition from a brown economy to a green economy by protecting biodiversity and reducing emissions without lowering quality of life.",
+      "answerLong": "With this term we refer to specialized professional figures and the creation of jobs in sectors such as manufacturing, agriculture, management of mobility services, city planning, construction industry, tourism, research and development. The aim of these jobs is promoting a new approach to the labour market where biodiversity protection, a more efficient use of resources and the reduction of pollutant emissions do not necessarily result in the worsening of the quality of life, or loss of jobs. Green Jobs are jobs that guide the transition process from traditional Brown Economy model to Green Economy."
+    },
+    {
+      "id": "Q0020",
+      "topics": ["Green Jobs", "Italy", "Benefits"],
+      "questions": ["What positive effects would/will green jobs have?"],
+      "answerShort": "They improve energy/resource efficiency, cut emissions, reduce waste, restore ecosystems, and support climate adaptation.",
+      "answerLong": "They will increase an efficient consumption of energy and raw materials.\nThey will limit greenhouse gas emissions.\nThey will minimize waste and contamination.\nThey will protect and restore ecosystems.\nThey will contribute to adaption to climate change."
+    },
+    {
+      "id": "Q0021",
+      "topics": ["Climate Change", "Human Impact"],
+      "questions": ["What are the major damages caused to the Earth by humans?"],
+      "answerShort": "Burning fossil fuels and cutting rainforests increase greenhouse gases, strengthening the greenhouse effect and warming the planet.",
+      "answerLong": "Human activities increasingly influence the Earth's climate and temperature by burning fossil fuels and cutting down rainforests. This adds enormous quantities of greenhouse gases to those naturally present in the atmosphere, increasing the greenhouse effect and global warming."
+    },
+    {
+      "id": "Q0022",
+      "topics": ["Green Materials", "Italy"],
+      "questions": ["What are the most recommended sustainable materials for these jobs?"],
+      "answerShort": "Natural insulating materials can include animal-origin materials or materials from food production.",
+      "answerLong": "The list of possible natural insulating materials includes, for example, materials of animal origin or from food production."
+    },
+    {
+      "id": "Q0023",
+      "topics": ["Green Skills", "Italy", "Workforce"],
+      "questions": ["What skills are required by companies?"],
+      "answerShort": "Energy-saving via recycling plus sustainability mindset, plus problem solving, innovation management, math and IT skills.",
+      "answerLong": "The skills that are required by companies are: aptitude for energy saving through recycling and positive attitude towards environmental sustainability. In addition to these two basic skills, the following skills are also required: problem solving, ability to manage innovative solutions, mathematical and computer skills."
+    },
+    {
+      "id": "Q0024",
+      "topics": ["Green Jobs", "Italy"],
+      "questions": ["What are the most demanded green jobs in Italy?"],
+      "answerShort": "Examples include photovoltaic designers/installers, wind plant designers/installers, and environmental engineers.",
+      "answerLong": "Some of the most demanded green jobs in Italy are: Designers or installers of photovoltaic solar systems; Designers or installers of wind power plants; Environmental engineer, etc."
+    },
+    {
+      "id": "Q0025",
+      "topics": ["Green Jobs", "Italy", "Statistics"],
+      "questions": ["What is the situation of Green Jobs in Italy?"],
+      "answerShort": "GreenItaly reports ~3.2M green workers (13.9% of employed) and high recycling (83.4% of waste).",
+      "answerLong": "According to the latest GreenItaly report published annually by Unioncamere and the Symbola Foundation with the patronage of the Ministry of the Environment and Energy Security, in Italy there are 3.2 million green workers, equal to 13.9 % of employed people. The same report also positions us as first in the ranking “in the circular economy” with the highest percentage of recycling on all waste: 83.4%."
+    },
+    {
+      "id": "Q0026",
+      "topics": ["Sustainable Construction"],
+      "questions": ["Why is sustainable construction important?"],
+      "answerShort": "Because climate impacts are already here, and sustainable buildings improve quality of life and reduce harm through cleaner, safer environments.",
+      "answerLong": "Sustainable construction is important because the effects of climate change have already been felt across the globe. Sustainability is important for a variety of reasons, including a better quality of life and environmental quality. In order to have healthy communities we need to have clean air, natural resources and a non-toxic environment. With the advancements in technology and sustainable materials, the construction industry can lead the way for greener projects."
+    },
+    {
+      "id": "Q0027",
+      "topics": ["Sustainable Construction", "Challenges"],
+      "questions": ["What are the Challenges of Sustainable Construction?"],
+      "answerShort": "Main challenges are time and money, training needs, and higher upfront costs.",
+      "answerLong": "Sustainable construction comes with a multitude of benefits, nevertheless switching to a more sustainable process takes time and money. Moreover, training needs to be implemented in order to start practising sustainable methods. Another obstacle that many companies may come across is the actual cost of sustainable construction."
+    },
+    {
+      "id": "Q0028",
+      "topics": ["Green Jobs", "Italy", "Geography"],
+      "questions": ["How are Green Jobs distributed on the Italian territory?"],
+      "answerShort": "North-west has the most planned activations; the biggest growth is in the center; the south grows slower than the national average.",
+      "answerLong": "The updated picture of the commitment of the Italian production system in the green transition reveals that at a territorial level, the north-west is the area with the highest number of planned green activations. But, the most significant growth rate is recorded in the centre, while the South grows less than the national average."
+    },
+
+    {
+      "id": "Q0029",
+      "topics": ["Environmental Protection", "Lithuania"],
+      "questions": ["How does Lithuania pay special attention to environmental protection?"],
+      "answerShort": "Through programs, contests, events, forest protection funds, and many related professions across institutions.",
+      "answerLong": "In Lithuania there are held lots of environmental protection programs, contests, and events. Funds are being created to protect old-growth forests.Various professions related to environmental protection occupy an important place in different institution."
+    },
+
+    {
+      "id": "Q0030",
+      "topics": ["Green Jobs", "Physics"],
+      "questions": ["What are green jobs related to physics?"],
+      "answerShort": "Laser systems technician, laser physicist, and LIDAR specialist.",
+      "answerLong": "Laser systems technician, laser physicist and LIDAR Specialist."
+    },
+    {
+      "id": "Q0031",
+      "topics": ["Green Jobs", "Chemistry"],
+      "questions": ["What are green jobs related to chemistry?"],
+      "answerShort": "Water quality analyst, renewable energy chemist, and eco-friendly materials scientist.",
+      "answerLong": "Water Quality Analyst, Renewable Energy Chemist, Eco-friendly Materials Scientist."
+    },
+
+    {
+      "id": "Q0032",
+      "topics": ["Biology", "Environment"],
+      "questions": ["What is the role of biology science?"],
+      "answerShort": "It supports sustainability by studying soil, plants, animals, and ways to reduce climate change impacts.",
+      "answerLong": "Biology science is focusing on protecting the environment and sustainability, helps to reduce the effects of climate change, studies soil, plants, animals and helps them to survive."
+    },
+    {
+      "id": "Q0033",
+      "topics": ["Biology", "Jobs"],
+      "questions": ["What professions does biology science include?"],
+      "answerShort": "Examples include biosystems engineer, biotechnologist, microbiologist, zoologist, marine biologist, ornithologist, botanist, and research scientist.",
+      "answerLong": "Biology science includes professions like biological systems engineer, biotechnologist, plant biotechnologist, microbiologist, zoologist, marine biologist, ornithologist, botanist, research scientist and etc."
+    },
+    {
+      "id": "Q0034",
+      "topics": ["Biology", "Jobs", "Engineering"],
+      "questions": ["What does a biological systems engineer do?"],
+      "answerShort": "They develop bio-based solutions like renewable biofuels, bioenergy, and sustainable biomaterials to support environmental resilience.",
+      "answerLong": "Does experiments to solve problems such as developing renewable biofuels and bioenergy, developing sustainable biomaterials and bioproducts and etc. Biosystems engineers are working towards environmental resiliency and sustainability, they ensure there is clean water, renewable energy and a healthy environment, solutions to technical problems."
+    },
+    {
+      "id": "Q0035",
+      "topics": ["Biology", "Jobs", "Biotech"],
+      "questions": ["What does a biotechnologist do?"],
+      "answerShort": "They apply biological processes (often plants/photosynthetic organisms) to improve outcomes like agricultural crops.",
+      "answerLong": "Biotechnologists makes the application of plants and other photosynthetic organisms by experiments. They are also aiming to improve agricultural crops."
+    },
+    {
+      "id": "Q0036",
+      "topics": ["Biology", "Jobs", "Microbiology"],
+      "questions": ["What does a microbiologist do?"],
+      "answerShort": "They monitor and study microorganisms affecting health, environment, climate, food, and agriculture, and develop useful products.",
+      "answerLong": "Microbiologists solves a range of problems affecting our health, the environment, climate, food and agriculture. They monitor, identifies and tracks microorganisms in a range of environments. They also develop products such as enzymes, vitamins, hormones, grow microbial cultures and etc."
+    },
+    {
+      "id": "Q0037",
+      "topics": ["Biology", "Jobs", "Zoology"],
+      "questions": ["What does a zoologist do? (detailed)"],
+      "answerShort": "They research animal behavior, physiology, genetics, and ecology, analyze data, and help protect endangered species and habitats.",
+      "answerLong": "Zoologists research on various aspects of animals’ behaviour, physiology, genetics, and ecology. They carry out experiments, collects data, and analyses results, study animal’s population to determine their distribution, abundance, and trends over time. Zoologist also work to develop strategies to protect endangered species and their habitats."
+    },
+    {
+      "id": "Q0038",
+      "topics": ["Biology", "Jobs", "Marine Biology"],
+      "questions": ["What does a marine biologist do? (detailed)"],
+      "answerShort": "They study marine ecosystems, food chains, adaptation, and pollution impacts (runoff, oil spills, silting).",
+      "answerLong": "Marine biologists research for sea animals and plants, studies how they adapt, explores the skeletal remains. They give special attention to marine ecosystems, particularly to the understanding of food chains and predator-prey relationship, concerns with the effects of oceans pollution, pesticide and fertilizer runoff from land, oil spills and silting from coastline construction activities."
+    },
+    {
+      "id": "Q0039",
+      "topics": ["Biology", "Jobs", "Ornithology"],
+      "questions": ["What does an ornithologist do?"],
+      "answerShort": "They study birds in labs/field, count birds during migration, and may help with nesting, feeding, and treatment when needed.",
+      "answerLong": "Ornithologists conducts research with specimens in a laboratory or out in the field, where they study birds in their natural environments. They count birds due to their migration and if necessary, helps to make nests, gives food, nurses and treats them."
+    },
+    {
+      "id": "Q0040",
+      "topics": ["Biology", "Jobs", "Ecology"],
+      "questions": ["What does an ecologist do?"],
+      "answerShort": "They identify ecological and climate change problems and propose solutions.",
+      "answerLong": "Identifies ecological and climate change problems and proposes ways to solve them."
+    },
+    {
+      "id": "Q0041",
+      "topics": ["Agriculture", "Sustainability"],
+      "questions": ["What does a farmer do?"],
+      "answerShort": "Farmers produce food while supporting environmental stewardship and rural economic development.",
+      "answerLong": "A farmer is responsible for food production; Environmental stewardship/sustainable farming; Economic development and rural development."
+    },
+    {
+      "id": "Q0042",
+      "topics": ["Agriculture", "Vertical Farming"],
+      "questions": ["What is a vertical farm?"],
+      "answerShort": "A building where crops are grown commercially in multiple stacked layers.",
+      "answerLong": "It is a building in which crops are grown commercially in multiple layers or levels."
+    },
+
+    {
+      "id": "Q0043",
+      "topics": ["Green Skills"],
+      "questions": ["What are green skills?"],
+      "answerShort": "Green skills are competences that support green transformation toward climate neutrality (e.g., SDG goals like 9 and 12).",
+      "answerLong": "Green skills are competences which improve going through the process of green transformation, aiming at reaching climate neutrality by 2050. The need to switch into more environmentally balanced ways of production and consumption has become a necessity for developed as well as for developing countries. Regarding the green competences one must remember about the goals of balanced growth, which has been actualised in 2015 for next 15 years up to 2030, exceptionally regarding goals 9 and 12."
+    },
+    {
+      "id": "Q0044",
+      "topics": ["SDG", "SDG9"],
+      "questions": ["What does Sustainable Development Goal 9 include?"],
+      "answerShort": "Upgrading infrastructure and industries to be sustainable, improving resource efficiency, and adopting clean technologies by 2030.",
+      "answerLong": "Sustainable Development Goal 9 includes the target of upgrading infrastructure and retrofitting industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes by 2030."
+    },
+    {
+      "id": "Q0045",
+      "topics": ["SDG", "SDG12"],
+      "questions": ["What does Sustainable Development Goal 12 include?"],
+      "answerShort": "Achieving sustainable management and efficient use of natural resources by 2030.",
+      "answerLong": "Sustainable Development Goal 12 includes the target of achieving the sustainable management and efficient use of natural resources by 2030."
+    },
+    {
+      "id": "Q0046",
+      "topics": ["Green Jobs", "Definition"],
+      "questions": ["What are Green Jobs ?"],
+      "answerShort": "ILO: jobs that maintain or restore the environment to a healthier state.",
+      "answerLong": "According to the International Labor Organization green jobs are the ones that contribute to maintaining or restoring the environment, to a state before its excessive degradation."
+    },
+    {
+      "id": "Q0047",
+      "topics": ["Green Jobs", "Impact"],
+      "questions": ["What do Green Jobs affect?"],
+      "answerShort": "They increase efficiency, cut emissions, reduce waste/pollution, restore ecosystems, and support climate adaptation.",
+      "answerLong": "Green jobs have a positive impact on increasing energy and raw material efficiency, limiting the emission of greenhouse gases, minimalizing waste and pollution, protecting and restoring ecosystems and supporting adaptation to the effects of climate change."
+    },
+    {
+      "id": "Q0048",
+      "topics": ["Green Jobs", "Examples"],
+      "questions": ["What are the examples of green jobs?"],
+      "answerShort": "Examples include energy auditors, ESG managers, decarbonization specialists, and energy transformation specialists.",
+      "answerLong": "Among the new job positions created in response to the green transformation processes there are: energy auditors; ESG managers, managers and specialists in decarbonization, specialists in energy transformation;"
+    },
+    {
+      "id": "Q0049",
+      "topics": ["Green Jobs", "Energy"],
+      "questions": ["What do energy auditors do?"],
+      "answerShort": "They find energy waste and recommend strategies to save energy (lighting, insulation, appliances, etc.).",
+      "answerLong": "They identify sources of energy waste such as inefficient lighting, insulation or appliances. They develop and recommend energy-saving strategies."
+    },
+    {
+      "id": "Q0050",
+      "topics": ["ESG"],
+      "questions": ["What does ESG stand for?"],
+      "answerShort": "Environmental, Social and Governance.",
+      "answerLong": "ESG stands for Environmental, Social and Governance. It is a set of standards which evaluate a company’s sustainability and ethical impact."
+    },
+    {
+      "id": "Q0051",
+      "topics": ["Decarbonization"],
+      "questions": ["What is decarbonization?"],
+      "answerShort": "Reducing and eliminating CO2 and other greenhouse gas emissions from the atmosphere.",
+      "answerLong": "It is the process that aims at reducing and eliminating the emissions of carbon dioxide and other greenhouse gas emissions from the atmosphere."
+    },
+    {
+      "id": "Q0052",
+      "topics": ["Energy", "Transformation"],
+      "questions": ["What does Energy Transformation mean?"],
+      "answerShort": "Energy changing from one form to another (electrical, thermal, nuclear, mechanical, etc.).",
+      "answerLong": "It happens when when one type of energy turns into another type of energy. There are many different forms of energy such as electrical, thermal, nuclear, mechanical, electromagnetic, sound, and chemical"
+    },
+
+    {
+      "id": "Q0053",
+      "topics": ["Green Skills", "Daily Life"],
+      "questions": ["What are some basic green skills that individuals can adopt in their daily lives?"],
+      "answerShort": "Recycle/compost, save energy and water, use public transport/bike, and support sustainable products.",
+      "answerLong": "Basic green skills include recycling and composting, reducing energy consumption by using energy-efficient appliances, conserving water, using public transportation or biking instead of driving, and supporting sustainable products and practices."
+    },
+    {
+      "id": "Q0054",
+      "topics": ["Green Skills", "Business"],
+      "questions": ["How can businesses implement green skills to reduce their environmental impact?"],
+      "answerShort": "Use efficient tech, reduce waste, improve supply chains, promote remote work, and encourage eco-habits.",
+      "answerLong": "Businesses can implement green skills by adopting energy-efficient technologies, reducing waste through recycling and reusing materials, implementing sustainable supply chain practices, promoting remote work to reduce commuting, and encouraging employees to adopt eco-friendly habits."
+    },
+    {
+      "id": "Q0055",
+      "topics": ["Renewable Energy", "Careers", "Skills"],
+      "questions": ["What are the key green skills needed for a career in renewable energy?"],
+      "answerShort": "Know renewable tech, energy efficiency, regulations, installation/maintenance, and project management.",
+      "answerLong": "Key green skills for a career in renewable energy include knowledge of renewable energy technologies (e.g., solar, wind, hydro), proficiency in energy management and efficiency, understanding of environmental regulations and policies, technical skills for installation and maintenance of renewable energy systems, and project management skills."
+    },
+    {
+      "id": "Q0056",
+      "topics": ["Sustainable Agriculture", "Skills"],
+      "questions": ["What green skills are important for sustainable agriculture?"],
+      "answerShort": "Organic farming, soil conservation, water/irrigation efficiency, crop rotation, pest management, and sustainable livestock practices.",
+      "answerLong": "Important green skills for sustainable agriculture include knowledge of organic farming practices, soil conservation techniques, water management and irrigation efficiency, crop rotation and diversification, integrated pest management, and understanding of sustainable livestock practices."
+    },
+    {
+      "id": "Q0057",
+      "topics": ["Waste", "Recycling"],
+      "questions": ["How can green skills help in reducing waste and promoting recycling?"],
+      "answerShort": "By encouraging reuse/recycling, teaching proper sorting, composting, and mindful consumption.",
+      "answerLong": "Green skills help reduce waste by encouraging the use of recyclable and reusable materials, teaching proper sorting and disposal methods, promoting composting of organic waste, and fostering a culture of minimalism and mindful consumption to decrease the overall generation of waste."
+    },
+    {
+      "id": "Q0058",
+      "topics": ["Green Skills", "Learning"],
+      "questions": ["What educational resources are available for learning green skills?"],
+      "answerShort": "Online courses (Coursera/edX/Udemy), government/nonprofit guides, local workshops, books, and university programs.",
+      "answerLong": "Educational resources for learning green skills include online platforms like Coursera, edX, and Udemy, which offer courses on sustainability and environmental science; government and nonprofit organization websites that provide guides and toolkits; local community workshops and seminars; books and publications by environmental experts; and educational programs at universities and colleges."
+    },
+
+    {
+      "id": "Q0059",
+      "topics": ["Passive House", "History"],
+      "questions": ["Where was the term \"passive house\" first invented?"],
+      "answerShort": "Germany.",
+      "answerLong": "The term \"passive house\" was first invented in Germany."
+    },
+    {
+      "id": "Q0060",
+      "topics": ["Passive House", "Goal"],
+      "questions": ["What is the primary goal of a passive house?"],
+      "answerShort": "Ultra-low heating/cooling energy use to reduce ecological footprint.",
+      "answerLong": "The primary goal of a passive house is to achieve ultra-low energy consumption for heating and cooling, thereby reducing the building's ecological footprint."
+    },
+    {
+      "id": "Q0061",
+      "topics": ["Passive House", "Design"],
+      "questions": ["What are the key principles of passive house design?"],
+      "answerShort": "High insulation, airtightness, high-performance windows, heat-recovery ventilation, and minimal thermal bridging.",
+      "answerLong": "The key principles of passive house design include high levels of insulation, airtight construction, high-performance windows, heat recovery ventilation, and minimal thermal bridging."
+    },
+    {
+      "id": "Q0062",
+      "topics": ["Passive House", "Certification"],
+      "questions": ["What is the maximum annual heating demand for a certified passive house?"],
+      "answerShort": "15 kWh per square meter of living space per year.",
+      "answerLong": "The maximum annual heating demand for a certified passive house is 15 kWh per square meter of living space."
+    },
+    {
+      "id": "Q0063",
+      "topics": ["Passive House", "Air Quality"],
+      "questions": ["How does a passive house maintain indoor air quality?"],
+      "answerShort": "By mechanical ventilation with heat recovery, bringing fresh air while keeping most heat.",
+      "answerLong": "A passive house maintains indoor air quality through a mechanical ventilation system with heat recovery, which ensures a constant supply of fresh air while retaining most of the heat from the exhausted air."
+    },
+    {
+      "id": "Q0064",
+      "topics": ["Passive House", "Applicability"],
+      "questions": ["Can passive house principles be applied to all types of buildings?"],
+      "answerShort": "Yes—homes, offices, schools, and commercial buildings.",
+      "answerLong": "Yes, passive house principles can be applied to all types of buildings, including residential homes, offices, schools, and commercial buildings."
+    },
+    {
+      "id": "Q0065",
+      "topics": ["Passive House", "Thermal Bridges"],
+      "questions": ["What is the significance of thermal bridges in passive house design?"],
+      "answerShort": "They’re minimized because they increase heat loss and reduce energy efficiency.",
+      "answerLong": "In passive house design, thermal bridges are minimized because they can significantly increase heat loss and reduce the overall energy efficiency of the building."
+    },
+
+    {
+      "id": "Q0066",
+      "topics": ["Sustainability", "Definition"],
+      "questions": ["What is sustainability?"],
+      "answerShort": "Meeting today’s needs without harming future generations’ ability to meet theirs.",
+      "answerLong": "Sustainability is the ability to meet the needs of the present without compromising the ability of future generations to meet their own needs."
+    },
+    {
+      "id": "Q0067",
+      "topics": ["Sustainability", "Actions"],
+      "questions": ["How can individuals contribute to sustainability?"],
+      "answerShort": "Use less energy, recycle, use public transport, conserve water, buy local, and support eco-friendly policies.",
+      "answerLong": "Individuals can reduce energy use, recycle, use public transport, conserve water, buy local products, and support eco-friendly policies."
+    },
+    {
+      "id": "Q0068",
+      "topics": ["Green Jobs", "Industries"],
+      "questions": ["Which industries offer the most green jobs?"],
+      "answerShort": "Renewable energy, waste management, public transport, and sustainable construction.",
+      "answerLong": "Industries like renewable energy, waste management, public transportation, and sustainable construction offer many green jobs."
+    },
+    {
+      "id": "Q0069",
+      "topics": ["Green Jobs", "Environment"],
+      "questions": ["How do green jobs benefit the environment?"],
+      "answerShort": "They reduce pollution, conserve resources, and expand renewable energy use.",
+      "answerLong": "Green jobs reduce pollution, conserve resources, and promote the use of renewable energy, leading to a healthier planet."
+    },
+    {
+      "id": "Q0070",
+      "topics": ["Passive House", "Benefits"],
+      "questions": ["What are the benefits of living in a passive house?"],
+      "answerShort": "Lower bills, better air quality, more comfort, and a smaller carbon footprint.",
+      "answerLong": "Benefits include lower energy bills, improved indoor air quality, increased comfort, and a smaller carbon footprint."
+    },
+    {
+      "id": "Q0071",
+      "topics": ["Green Jobs", "Careers"],
+      "questions": ["Is it worth it to work for a green job industry?"],
+      "answerShort": "Yes—demand is increasing as companies and governments focus on sustainability.",
+      "answerLong": "The job outlook for green careers is strong, with increasing demand as more companies and governments focus on sustainability."
+    },
+    {
+      "id": "Q0072",
+      "topics": ["Passive House", "Renovation"],
+      "questions": ["Can existing buildings be renovated to be passive houses?"],
+      "answerShort": "Yes, but it can be challenging and costly; it involves insulation, windows, airtightness, and ventilation upgrades.",
+      "answerLong": "Yes, existing buildings can be renovated to meet passive house standards, though it can be challenging and costly. Renovating involves upgrading insulation, windows, airtightness, and ventilation systems."
+    },
+
+    {
+      "id": "Q0073",
+      "topics": ["Green Skills", "Technology"],
+      "questions": ["What are green skills related to technology?"],
+      "answerShort": "Tech skills that reduce environmental impact: renewable energy, efficiency, smart cities, analytics, green IT, recycling tech, and more.",
+      "answerLong": "Green skills related to technology refer to the knowledge and abilities that enable the application of technology to achieve sustainability, reduce environmental impact, and promote energy efficiency. Key green skills connected to technology include:\n1) Development and implementation of renewable energy sources\n2) Energy management and energy efficiency\n3) Development of green technologies\n4) Sustainable IT and digital transformation\n5) Smart technologies for sustainable development\n6) Waste management and recycling\n7) Environmental data analytics and modeling\n8) Green manufacturing\n9) Water resource management\n10) Education and training for green technologies"
+    },
+    {
+      "id": "Q0074",
+      "topics": ["Green Jobs", "Technology"],
+      "questions": ["What are green jobs related to technology?"],
+      "answerShort": "Examples include renewable energy engineer, energy efficiency specialist, green tech developer, environmental data analyst, smart city engineer, and more.",
+      "answerLong": "Green jobs related to technology involve roles that contribute to environmental conservation, sustainable development, and reducing harmful emissions through the use of advanced technologies. Examples include: Renewable Energy Engineer; Energy Efficiency Specialist; Green Technology Developer; Environmental Data Analyst; Smart City Engineer; E-Waste Management Specialist; Sustainable Manufacturing Engineer; IoT Specialist in Sustainability; Water Resources Engineer; Green Technology Consultant; Battery Development and Energy Storage Specialist; Digital Transformation Specialist in Sustainability; Green Robotics Engineer."
+    },
+    {
+      "id": "Q0075",
+      "topics": ["Green Tech"],
+      "questions": ["What is green use of technology?"],
+      "answerShort": "Using science and technology to create eco-friendly products/services like renewables, clean transport, recycling, and efficiency solutions.",
+      "answerLong": "Green tech is the use of science and technology to develop eco-friendly products and services that protect our environment. It includes renewable energy, sustainable transportation, waste management and recycling, energy efficiency solutions"
+    },
+    {
+      "id": "Q0076",
+      "topics": ["Green Jobs", "Technology", "Examples"],
+      "questions": ["What are some popular green jobs?"],
+      "answerShort": "Examples include Green IT Business Analyst, Sustainable Cloud Computing Architect, and Renewable Energy Data Scientist.",
+      "answerLong": "Green IT Business Analyst; Sustainable Cloud Computing Architect; Green Business Intelligence Analyst; Green Software Project Manager; Renewable Energy Data Scientist; Environmental Data Scientist; Energy Management System Software Developer; Sustainability Operations Manager."
+    },
+    {
+      "id": "Q0077",
+      "topics": ["Green Tech", "Economy"],
+      "questions": ["Why is green technology important for the economy?"],
+      "answerShort": "It creates jobs/skills and reduces costs and risks from pollution, climate change, and environmental degradation.",
+      "answerLong": "It can create new jobs and skills stimulating the demand for green products and services; it reduces the costs and risks associated with environmental degradation, pollution and climate change."
+    },
+    {
+      "id": "Q0078",
+      "topics": ["Green Skills", "Learning"],
+      "questions": ["How can you acquire and update your green skills?"],
+      "answerShort": "Through formal education, informal learning (webinars/podcasts/blogs), projects/internships, and networking.",
+      "answerLong": "You can pursue formal education or training in green technology fields (engineering, science, management, design); take advantage of informal learning opportunities such as webinars, podcasts, blogs, newsletters or online communities; participate in green projects or internships; network with green professionals and organizations."
+    },
+    {
+      "id": "Q0079",
+      "topics": ["Green Skills", "Technology"],
+      "questions": ["What are green skills in technology?"],
+      "answerShort": "Competencies that let people work sustainably within the tech industry and reduce environmental impact.",
+      "answerLong": "They are competencies, knowledge and abilities that enable individuals to work in environmentally sustainable sectors and roles within the technology industry. These skills are crucial for addressing environmental challenges and promoting sustainability in various technological fields."
+    },
+    {
+      "id": "Q0080",
+      "topics": ["Green Skills", "Technology", "Examples"],
+      "questions": ["What are examples of green skills in technology?"],
+      "answerShort": "Renewables, efficiency optimization, sustainable design, green IT, environmental monitoring, recycling tech, sustainable transport, and regulation knowledge.",
+      "answerLong": "Examples include: renewable energy technology; energy efficiency optimization; sustainable design and engineering; green IT and computing; environmental monitoring and analysis; waste reduction and recycling technologies; sustainable transportation solutions; environmental policy and regulation familiarity."
+    },
+
+    {
+      "id": "Q0081",
+      "topics": ["Passive House", "Definition"],
+      "questions": ["What is a passive house?"],
+      "answerShort": "A low-energy house with high comfort, stable temperatures, good ventilation, and very low to near-zero consumption.",
+      "answerLong": "A passive house is a house that is characterised by great thermal comfort throughout the year, maintains constant temperatures in all areas of the house without humidity, has good ventilation and ensures very low to zero consumption. As a consequence, a passive house is a low-energy house."
+    },
+    {
+      "id": "Q0082",
+      "topics": ["Passive House", "Characteristics"],
+      "questions": ["What are the characteristics of a passive house?"],
+      "answerShort": "Strong insulation, airtightness with ventilation, humidity control, acoustic performance, fire protection, and rodent proofing.",
+      "answerLong": "The main characteristic of a passive house is its insulation. It employs high-quality thermal insulation to reduce heat loss by minimising thermal bridges. Also, a passive house is controlled by a ventilation system that causes airtightness. Conclusively, a passive house caters to humidity control, acoustic performance, fire protection and rodent proofing."
+    },
+    {
+      "id": "Q0083",
+      "topics": ["Passive House", "Insulation"],
+      "questions": ["What is the thermal insulation of a passive house?"],
+      "answerShort": "It uses high-quality insulation (e.g., cork, wood fibre, cellulose, hemp, straw) to reduce heat loss and thermal bridges.",
+      "answerLong": "Thermal insulation is one of the critical characteristics that must be considered since the conception stage of a passive house. It employs materials such as cork, wood fibre, cellulose wadding, hemp, and straw to reduce heat loss by minimising the heat exchange between the outside and the inside environment."
+    },
+    {
+      "id": "Q0084",
+      "topics": ["Passive House", "Materials"],
+      "questions": ["What thermal insulation materials are used in a passive house?"],
+      "answerShort": "Mineral (glass/rock wool), organic (cork, wood fibre, hemp, straw), and synthetic (expanded polystyrene).",
+      "answerLong": "There are three types of insulation materials used in a passive house:\n1) Mineral insulation materials, such as glass wool and rock wool, which are generally fire-resistant.\n2) Organic insulation materials produced from plant or animal materials, such as cork, wood fibre, cellulose wadding, hemp, and straw.\n3) Synthetic insulation materials that come from fossil resources such as expanded polystyrene."
+    },
+    {
+      "id": "Q0085",
+      "topics": ["Passive House", "Heat Loss"],
+      "questions": ["Where does the heat loss in a non-passive house come from?", "What heat loss can a passive house avoid?"],
+      "answerShort": "Mostly roof/attic, walls, windows, and ground; passive houses design to avoid these losses.",
+      "answerLong": "The majority of heat losses of an uninsulated building are coming through:\n● Attics and roof (30%)\n● Walls (25%)\n● Windows and glass (between 10 and 15%)\n● Ground (between 7 and 10%)\nThus, constructing a passive should cater to avoid heat losses to these spots."
+    },
+    {
+      "id": "Q0086",
+      "topics": ["Passive House", "Construction"],
+      "questions": ["How is a passive house constructed?"],
+      "answerShort": "With continuous super-insulation around the whole building shell: slab, walls, windows, and roof.",
+      "answerLong": "To construct a passive house, a building’s shell should be considered, i.e., all the elements that separate the interior from the exterior. A passive house is constructed with continuous super-insulation around the building’s entire shell, insulating the slab, walls, windows and roof."
+    },
+    {
+      "id": "Q0087",
+      "topics": ["Passive House", "Thermal Bridges"],
+      "questions": ["What is a thermal bridge?"],
+      "answerShort": "A high-conductivity path that lets heat transfer more easily between outside and inside.",
+      "answerLong": "A thermal bridge is an area which has higher thermal conductivity than the surrounding materials and creates a path of least resistance for heat transfer. In other words, a thermal bridge causes the heat exchange between the outside and the inside environment."
+    },
+    {
+      "id": "Q0088",
+      "topics": ["Passive House", "Thermal Bridges"],
+      "questions": ["When thermal bridges appear in a passive house?"],
+      "answerShort": "When continuous insulation is broken due to material changes or construction elements.",
+      "answerLong": "Thermal bridges appear when the continuous insulation of the shell, i.e. the external parts of a house, which are walls, windows, roof and slab, are broken. This may be due to a change in the thermal transmittance of the materials or to the appearance of different constructive elements."
+    },
+    {
+      "id": "Q0089",
+      "topics": ["Passive House", "Thermal Bridges"],
+      "questions": ["What are the consequences of thermal bridging in a passive house?"],
+      "answerShort": "Lower surface temperatures can cause moisture/mould; and heat losses rise.",
+      "answerLong": "The consequences of thermal bridging in a passive house are:\n● Altering low interior surface temperatures. This can lead to moisture penetration and mould growth in building components in the worst case.\n● Altering high heat losses."
+    },
+    {
+      "id": "Q0090",
+      "topics": ["Passive House", "Thermal Bridges"],
+      "questions": ["How does a passive house deal with thermal bridging?"],
+      "answerShort": "By ensuring insulation continuity and airtightness; materials like polyurethane can help prevent bridges.",
+      "answerLong": "A passive house must avoid thermal bridges to comply with the standards of being a passive house. It can be done with polyurethane to prevent thermal bridges and achieve optimal thermal insulation and airtightness. This is possible since it allows continuity of the insulating layer of the shell, avoiding thermal bridges and achieving airtightness."
+    },
+    {
+      "id": "Q0091",
+      "topics": ["Passive House", "Windows"],
+      "questions": ["What windows are appropriate for a passive house?"],
+      "answerShort": "Triple-glazed windows: ~35% less heat loss than double glazing, typically 10–15% more upfront cost.",
+      "answerLong": "The triple-glazed windows are appropriate for a passive house. A triple-glazed window comprises three layers of glass set within a frame. Triple-glazed windows can offer a 35% reduction in heat loss compared to double-glazing. Triple-glazed windows generally cost 10-15% more than double-pane windows, but the improved energy efficiency can lead to long-term savings on heating and cooling bills."
+    },
+    {
+      "id": "Q0092",
+      "topics": ["Passive House", "Airtightness"],
+      "questions": ["How does air tightness affect a house?"],
+      "answerShort": "Poor airtightness causes air leaks that carry moisture, leading to condensation, mould, and rot.",
+      "answerLong": "Lack of airtightness results in air leakage and moisture that is carried through a house shell. The escaping warm air rises to condensation, mould, and ultimately rot house materials."
+    },
+    {
+      "id": "Q0093",
+      "topics": ["Passive House", "Benefits"],
+      "questions": ["What are the advantages of a passive house?"],
+      "answerShort": "Up to ~90% heating/cooling savings versus typical buildings, and >75% versus average new builds.",
+      "answerLong": "Passive house buildings allow heating and cooling-related energy savings of up to 90% compared with typical building stock and over 75% compared with average new builds."
+    },
+    {
+      "id": "Q0094",
+      "topics": ["Passive House", "Traditional"],
+      "questions": ["Is there a traditional passive house technique?"],
+      "answerShort": "Cave houses: they use the land’s thermal inertia; an example is Santorini cave houses.",
+      "answerLong": "Cave houses apply the traditional passive house technique. In cave houses, thermal insulation is integrated. Cave houses are considered a sustainable housing typology as they are built using a construction type that utilises the thermal inertia of the land. For example, cave houses on Santorini island."
+    },
+
+    {
+      "id": "Q0095",
+      "topics": ["Green Jobs", "Technology"],
+      "questions": ["What types of green jobs are related to technology?"],
+      "answerShort": "Renewables technicians, efficiency engineers, sustainable IT, environmental data analysts, smart grid and EV technicians.",
+      "answerLong": "Green jobs related to technology are increasingly important for environmental sustainability. Key roles include renewable energy technicians who install and maintain solar and wind systems, and energy efficiency engineers who design solutions to reduce energy consumption. Sustainable IT specialists develop low-impact technologies, while environmental data analysts use data to assess ecological impacts. Smart grid technicians and electric vehicle technicians are crucial for integrating renewable energy and promoting sustainable mobility. These roles illustrate how technology can be leveraged to address environmental challenges and contribute to a more sustainable future."
+    },
+    {
+      "id": "Q0096",
+      "topics": ["Technology", "Sustainability"],
+      "questions": ["How does technology contribute to sustainability?"],
+      "answerShort": "By enabling renewables, efficiency, precision farming, better recycling, EVs, and smart cities using IoT and data analytics.",
+      "answerLong": "Technology plays a crucial role in advancing sustainability through various means. It enables the production of renewable energy, such as solar and wind, reducing dependence on fossil fuels. Energy-efficient systems, like smart grids and advanced appliances, help lower consumption and emissions. In agriculture, precision farming technologies enhance yields while conserving resources. Innovations in waste management improve recycling and reduce landfill use. Electric vehicles and public transit options decrease greenhouse gas emissions. Additionally, smart city initiatives utilize IoT and data analytics to enhance urban resource management. Overall, technology enhances efficiency, reduces waste, and supports sustainable practices across multiple sectors."
+    },
+    {
+      "id": "Q0097",
+      "topics": ["Green Jobs", "Technology", "Future"],
+      "questions": ["What is the future outlook for green jobs in technology?"],
+      "answerShort": "Very strong: growth in renewables, EVs, sustainable agriculture, and circular economy increases demand across engineering, IT, and materials.",
+      "answerLong": "The future of green jobs in technology is very promising. The growth of renewable energy, electric mobility, sustainable agriculture, and the circular economy is creating new job opportunities. Sectors like engineering, IT, and materials management will see an increased demand for professionals. In summary, green jobs not only help combat climate change but also offer significant opportunities for economic growth and innovation."
+    },
+
+    {
+      "id": "Q0098",
+      "topics": ["Greece", "Art", "Sustainability"],
+      "questions": ["Are there any famous Greek artists who promote sustainability through their artwork?", "Who are the famous Greek artists who promote sustainability through their artwork?"],
+      "answerShort": "Examples include Theodoros Papadimitriou, Yiannis Gaitis, Gabriella Simosi, Alex Martinez, Gera1, Billy Gee, INO, and Simple Gee.",
+      "answerLong": "Many Greek artists promote sustainability through their artwork. Some of them are: Theodoros Papadimitriou, Yiannis Gaitis, Gabriella Simosi, Alex Martinez, Gera1, Billy Gee, INO, and Simple Gee."
+    },
+    {
+      "id": "Q0099",
+      "topics": ["Greece", "Art", "Sustainability"],
+      "questions": ["How do Greek artists promote sustainability through their artwork?"],
+      "answerShort": "Often through themes in street art, painting, and sculpture that communicate sustainability goals like climate action, peace, justice, and reducing inequalities.",
+      "answerLong": "There are several ways that Greek artists promote sustainability through their artwork. A predominant approach is that of street artists, painters, and sculptors who depict themes that communicate sustainable goals regarding communities’ development, reducing inequalities, promoting peace and justice, and tackling climate change."
+    },
+    {
+      "id": "Q0100",
+      "topics": ["Greece", "Art", "Sustainability"],
+      "questions": ["What are Greek artists’ perceptions of sustainability?", "What are Theodoros Papadimitriou's perceptions of sustainability?"],
+      "answerShort": "They see art as a tool to communicate sustainable goals to citizens and shape society toward balanced development.",
+      "answerLong": "Greek artists perceive their art as a means of communicating sustainable goals to citizens, thus promoting sustainability to the general public. An indicative quote of the Greek artist Theodoros Papadimitriou is “The art has to regulate structures of society for sustainable development and balanced evolution”."
+    },
+    {
+      "id": "Q0101",
+      "topics": ["Greece", "Art", "Sustainability"],
+      "questions": ["What is a famous Greek artwork promoting sustainability?", "Which is Yiannis Gaitis’ most famous artwork, and how does it promote sustainability?"],
+      "answerShort": "Yiannis Gaitis’ “Little People” highlights issues of uniformity and isolation and promotes diversity for sustainable community development.",
+      "answerLong": "Yannis Gaitis was a 20th-century Greek painter and sculptor. He is best known for his “Little People” artwork, a series of figures with identical clothing and no facial characteristics or expressions. These figures represent men of modern society: alone, homogeneous, interchangeable. He aimed to promote the need for diversity and its promotion through sustainable community development. His art reflects social problems linked to modern lifestyles."
+    },
+    {
+      "id": "Q0102",
+      "topics": ["Greece", "Art", "Gender Equality"],
+      "questions": ["Who is a famous Greek female artist who promoted sustainability?", "How have Greek artists promoted sustainability for gender equality?", "How has Gabriela Simosi promoted sustainability through her artwork?"],
+      "answerShort": "Gabriella Simosi highlighted gender inequality through sculpted female figures, emphasizing women’s role in community and art.",
+      "answerLong": "Among several Greek male and female artists who promoted sustainability, a female sculptor stands out for her work on gender inequality. Gabriella Simosi was a Greek sculptor who mainly created female figures who seemed to be silenced in isolation. She introduces the female role in the community and art."
+    },
+    {
+      "id": "Q0103",
+      "topics": ["Greece", "Street Art", "Sustainability"],
+      "questions": ["Have Greek street artists promoted sustainability?", "What is the role of Greek street art in sustainability?"],
+      "answerShort": "Street art acts as a “silent chat” with the community, using climate/sustainability themes to push citizens to act.",
+      "answerLong": "Street artwork has been a “silent chat” between artists and the Greek community. Several graffiti pieces throughout Greece depict themes that promote sustainability for climate change. Graffitis trigger citizens to realise their impact on the environment and promotes the need to take action."
+    },
+    {
+      "id": "Q0104",
+      "topics": ["Greece", "Street Art", "Artists"],
+      "questions": ["Who are some famous Greek street artists who promote sustainability?", "Are there any Greek street artists who promote sustainability?", "What artworks were made by famous Greek street artists?"],
+      "answerShort": "Artists include INO, Gera1, Billy Gee, Simple G, Alex Martinez; notable works include “Make Love Not War”, “Riot Dog”, “Freedom”, and “Save your future”.",
+      "answerLong": "Indicative artists are INO, Gera 1, Billy Gee, Simple G, and Alex Martinez. Among their graffiti pieces that stand out are the “Make Love Not War”, by Alex Martinez, “Riot Dog” by Billy Gee and Alex Martinez, “Freedom” by INO, and “Save your future” by Simple G."
+    },
+    {
+      "id": "Q0105",
+      "topics": ["Greece", "Street Art", "Sustainability"],
+      "questions": ["What are Greek street artists’ perceptions of sustainability?", "What are Alex Martinez's perceptions of sustainability?"],
+      "answerShort": "They use art to communicate sustainability to everyday people; e.g., “make love, not war” promoting peace.",
+      "answerLong": "Greek street artists use art to communicate sustainability to everyday people. A slogan in a graffiti by Alex Martinez promoting peace was “make love, not war”."
+    },
+
+    {
+      "id": "Q0106",
+      "topics": ["Greece", "Green Jobs", "Art"],
+      "questions": ["Are green jobs in Greece related to art?", "Are there any green jobs related to art in Greece?", "What innovative green job in Greece involves art?", "How do green jobs in Greece involve art?"],
+      "answerShort": "Yes—eco-businesses turn recycling/upcycling into art and products (textiles, jewelry, furniture) to support circular economy.",
+      "answerLong": "Several green jobs in Greece are related to art. Ecologically conscious businesses combine creativity with respect for people and environment. Initiatives include producing fabrics, jewels, and furniture from recycled materials. Companies like “Anaskela” weave towels from reusable water bottles, and “Apilotis” uses 100% recycled certified silver for jewelry. Designers like Polina Miliou transform materials like paper pulp and expanded polystyrene foam into functional art."
+    },
+    {
+      "id": "Q0107",
+      "topics": ["Greece", "Weaving", "Sustainability"],
+      "questions": ["How can fabric weaving be sustainable?", "How has weaving adopted sustainable practices?"],
+      "answerShort": "By replacing wool with recycled materials (old clothes/carpets), reducing new material use and waste.",
+      "answerLong": "Weaving in Greece has advanced: sheep’s wool has been replaced with recycled raw materials, such as the fabric of old clothes and carpets. In this way, sustainability is promoted as the amount of wool used for weaving is reduced."
+    },
+    {
+      "id": "Q0108",
+      "topics": ["Greece", "Company", "Recycling"],
+      "questions": ["How has the company “Anaskela” promoted sustainability?"],
+      "answerShort": "They turn plastic bottles into fabric and weave beach towels from it.",
+      "answerLong": "“Anaskela” is a Greek company established by two young women who create beach towels from reusable water bottles. They turn plastic bottles into fabric and use it to weave towels."
+    },
+    {
+      "id": "Q0109",
+      "topics": ["Greece", "Company", "Upcycling"],
+      "questions": ["How has the company “Apolotis” promoted sustainability?"],
+      "answerShort": "They make jewelry from 100% recycled certified silver and produce only on request to reduce footprint.",
+      "answerLong": "“Apilotis” is a Greek jewelry-designing company. Based on upcycling and reducing ecological footprint, they utilize 100% recycled and certified silver. The jewelry is not mass-produced; it is made on request, reducing ecological footprint even more."
+    },
+    {
+      "id": "Q0110",
+      "topics": ["Greece", "Design", "Sustainability"],
+      "questions": ["How have Greek designers promoted sustainability?", "Are there any female designers who contribute to sustainability in Greece?"],
+      "answerShort": "Designers like Polina Miliou create functional art from low-impact materials (paper pulp, polystyrene foam) with Mediterranean inspiration.",
+      "answerLong": "Polina Miliou is a female Greek designer renowned for designing vibrant, handcrafted furniture. She transforms materials like paper pulp and expanded polystyrene foam into functional art pieces. Her inspiration derives from Cycladic art, primitivism, and Mediterranean architecture."
+    },
+
+    {
+      "id": "Q0111",
+      "topics": ["Lithuania", "Technology", "Sustainability"],
+      "questions": ["How does Professor Getautis's work contribute to everyday green technologies?"],
+      "answerShort": "By creating innovative materials that boost efficiency in devices like solar panels and mobile phones while saving resources.",
+      "answerLong": "His work supports the development of energy-efficient devices, such as solar panels and mobile phones, by creating innovative materials that enhance performance while conserving resources."
+    },
+    {
+      "id": "Q0112",
+      "topics": ["Lithuania", "Project", "Energy"],
+      "questions": ["What is the “encompass” project?"],
+      "answerShort": "A project that promotes energy-saving behavior using digital tools and smart meter data.",
+      "answerLong": "The ,,encompass” project promotes energy-saving behaviour through digital tools and smart meter data."
+    },
+    {
+      "id": "Q0113",
+      "topics": ["Renewable Energy", "Challenges"],
+      "questions": ["What issues come with renewable energy?"],
+      "answerShort": "Weather dependence, high setup costs, storage needs, space use, grid changes, rare materials, and local opposition.",
+      "answerLong": "Renewable energy has problems like depending on the weather, being expensive to set up, and needing better ways to store power. It also takes up a lot of space, requires changes to power grids, relies on rare materials, and some people don’t want it in their area."
+    },
+    {
+      "id": "Q0114",
+      "topics": ["Lithuania", "Green Jobs"],
+      "questions": ["In what way does Daiva Dumčiuvienė’s work influence green jobs?"],
+      "answerShort": "It supports new roles in data analysis, energy consulting, and energy-efficiency technology development.",
+      "answerLong": "Her project fosters the creation of new roles in data analysis, energy consulting, and technology development related to energy efficiency."
+    },
+    {
+      "id": "Q0115",
+      "topics": ["Green Jobs", "Importance"],
+      "questions": ["Why are green jobs becoming more important?"],
+      "answerShort": "They help reduce environmental impact and support the shift to cleaner energy and transport.",
+      "answerLong": "As the world shifts towards sustainability, green jobs are crucial for reducing environmental impact and supporting the transition to cleaner energy and transportation solutions."
+    },
+    {
+      "id": "Q0116",
+      "topics": ["Renewable Energy", "Skills"],
+      "questions": ["What skills are important for a career in renewable energy?"],
+      "answerShort": "Engineering knowledge, data analysis, problem-solving, project management, and understanding energy systems.",
+      "answerLong": "Key skills include engineering knowledge, data analysis, problem-solving, project management, and an understanding of energy systems."
+    },
+    {
+      "id": "Q0117",
+      "topics": ["Water", "Sustainable Jobs"],
+      "questions": ["What sustainable jobs work with water?"],
+      "answerShort": "Water resource engineers, marine biologists, hydrologists, wastewater specialists, and desalination operators.",
+      "answerLong": "Jobs related to water sustainability include water resource engineers, marine biologists, hydrologists, wastewater treatment specialists, and desalination plant operators."
+    },
+    {
+      "id": "Q0118",
+      "topics": ["Green Jobs", "Common"],
+      "questions": ["What sustainable jobs are most common?"],
+      "answerShort": "Renewable energy engineers, environmental consultants, sustainability managers, energy auditors, and green construction specialists.",
+      "answerLong": "Some of the most common sustainable jobs include renewable energy engineers, environmental consultants, sustainability managers, energy auditors, and green construction specialists"
+    },
+    {
+      "id": "Q0119",
+      "topics": ["Lithuania", "Renewables"],
+      "questions": ["What sustainable field does Professor Vytautas Getautis work in?"],
+      "answerShort": "Solar technology development.",
+      "answerLong": "He works in solar technology development, advancing renewable energy solutions."
+    },
+    {
+      "id": "Q0120",
+      "topics": ["Engineering", "Sustainability"],
+      "questions": ["What do sustainable engineers do?"],
+      "answerShort": "They minimize waste, use renewables, reduce pollution, and design long-lasting efficient systems.",
+      "answerLong": "Sustainable engineers focus on minimising waste, using renewable energy sources, reducing pollution and creating long-lasting, efficient systems."
+    },
+    {
+      "id": "Q0121",
+      "topics": ["Lithuania", "Renewable Energy"],
+      "questions": ["What are the most relevant renewable energy sources in Lithuania?"],
+      "answerShort": "Wind is the largest contributor; hydropower is also significant (about a fifth of the mix).",
+      "answerLong": "Wind energy is the dominant clean energy contributor, supplying just over a third, while hydropower accounts for nearly a fifth of the electricity mix."
+    },
+    {
+      "id": "Q0122",
+      "topics": ["Lithuania", "Company", "Energy"],
+      "questions": ["What does the company ‘’Ignitis’’ do?"],
+      "answerShort": "A renewable energy and natural gas distributor that also supports people building solar/wind for households.",
+      "answerLong": "‘’Ignitis’’ is a renewable energy and natural gas distributor in Lithuania, that also works on creating opportunities for individual people to build solar and wind farms to run their households."
+    },
+    {
+      "id": "Q0123",
+      "topics": ["Lithuania", "Climate"],
+      "questions": ["In what ways are green jobs in Lithuania helping to combat climate change?"],
+      "answerShort": "By expanding renewables and improving energy efficiency in buildings and transport to cut emissions.",
+      "answerLong": "Green jobs in Lithuania are driving the expansion of renewable energy sources like wind and solar power, reducing the country's reliance on fossil fuels. These jobs also contribute to improving energy efficiency in buildings and transportation, further lowering greenhouse gas emissions."
+    },
+    {
+      "id": "Q0124",
+      "topics": ["Lithuania", "Policy", "Renewables"],
+      "questions": ["How is Lithuania's government supporting the growth of renewable energy industries?"],
+      "answerShort": "Incentives (subsidies/loans), renewable targets, energy communities, and simpler permitting.",
+      "answerLong": "Lithuania's government supports renewable energy growth through financial incentives like subsidies and loans for renewable energy projects, and by setting targets for renewable energy integration. They also promote energy communities and simplify permitting processes for renewable energy installations."
+    },
+    {
+      "id": "Q0125",
+      "topics": ["Transport", "Sustainability"],
+      "questions": ["How does sustainable transportation help the environment?"],
+      "answerShort": "It cuts carbon emissions via EVs, public transit, cycling, and efficient logistics.",
+      "answerLong": "Sustainable transportation reduces carbon emissions by promoting electric vehicles, public transit, cycling, and fuel-efficient logistics."
+    },
+    {
+      "id": "Q0126",
+      "topics": ["Lithuania", "Company", "Renewables"],
+      "questions": ["What is green genius?", "What is Green Genius?"],
+      "answerShort": "A Lithuanian renewable energy company developing solar, wind, biogas, and hydrogen projects across Europe.",
+      "answerLong": "Green Genius is a renewable energy company based in Lithuania that develops solar, wind, biogas, and hydrogen projects across Europe. It focuses on sustainable energy solutions to reduce carbon emissions and promote a greener future."
+    },
+    {
+      "id": "Q0127",
+      "topics": ["Green Jobs", "Future"],
+      "questions": ["What is the future of green jobs?"],
+      "answerShort": "Expected to grow with renewable transition, energy efficiency, and stricter environmental regulations.",
+      "answerLong": "The demand for green jobs is expected to grow as countries transition to renewable energy, improve energy efficiency, and implement stricter environmental regulations."
+    },
+    {
+      "id": "Q0128",
+      "topics": ["Renewable Energy", "Jobs"],
+      "questions": ["What does a solar energy engineer do?"],
+      "answerShort": "Designs and optimizes solar systems, assesses sites, oversees installation, ensures compliance, and advances technology.",
+      "answerLong": "A solar energy engineer designs, develops, and optimizes solar power systems. They assess sites, improve efficiency, oversee installation, ensure compliance, and research new technologies to advance renewable energy."
+    },
+    {
+      "id": "Q0129",
+      "topics": ["Water", "Jobs"],
+      "questions": ["What does a water resource engineer do?"],
+      "answerShort": "Designs and manages infrastructure and systems for sustainable water use and distribution.",
+      "answerLong": "A water resource engineer designs, manages, and optimizes water-related infrastructure and systems. Their work focuses on the sustainable use, distribution, and conservation of water resources."
+    },
+    {
+      "id": "Q0130",
+      "topics": ["Water", "Jobs", "Marine Biology"],
+      "questions": ["What does a marine biologist do? (short definition)"],
+      "answerShort": "Studies ocean ecosystems, organisms, and their interactions—supporting research, conservation, policy, and education.",
+      "answerLong": "A marine biologist is a scientist who studies ocean ecosystems, marine organisms, and their interactions with the environment. Their work ranges from research and conservation to policy-making and education."
+    },
+    {
+      "id": "Q0131",
+      "topics": ["Water", "Jobs"],
+      "questions": ["What does a hydrlologist do?", "What does a hydrologist do?"],
+      "answerShort": "Studies water movement, distribution, and quality to manage resources and predict floods/droughts.",
+      "answerLong": "A hydrologist is a scientist who studies the movement, distribution, and quality of water on Earth. Their work helps in managing water resources, predicting floods and droughts, and addressing environmental issues related to water."
+    },
+    {
+      "id": "Q0132",
+      "topics": ["Water", "Jobs"],
+      "questions": ["What does a wastewater treatment specialist do?"],
+      "answerShort": "Runs and optimizes wastewater treatment so water is safe for discharge or reuse.",
+      "answerLong": "A wastewater treatment specialist is a professional who manages and optimizes the process of treating wastewater to make it safe for discharge or reuse. They work with sewage, industrial waste, and stormwater to protect public health and the environment."
+    },
+    {
+      "id": "Q0133",
+      "topics": ["Environment", "Jobs"],
+      "questions": ["What does an environmental consultant do?"],
+      "answerShort": "Advises organizations on compliance, sustainability, and pollution control to reduce environmental impact.",
+      "answerLong": "An environmental consultant is a professional who advises businesses, governments, and organizations on environmental issues to ensure compliance with regulations, sustainability practices, and pollution control. They work across various industries to minimize environmental impact and promote sustainable development."
+    },
+    {
+      "id": "Q0134",
+      "topics": ["Sustainability", "Jobs"],
+      "questions": ["What do sustainability managers do?"],
+      "answerShort": "They design and oversee initiatives that reduce impact and improve responsibility while supporting long-term viability.",
+      "answerLong": "Sustainability managers focus on developing and overseeing initiatives that help organizations minimize their environmental impact, improve social responsibility, and ensure long-term economic viability. Their primary role involves integrating sustainable practices into a company’s operations and ensuring that these practices align with both regulatory requirements and business goals."
+    },
+    {
+      "id": "Q0135",
+      "topics": ["Energy", "Jobs"],
+      "questions": ["What do energy auditors do? (detailed)"],
+      "answerShort": "They assess energy use in buildings/facilities and identify cost-saving efficiency improvements.",
+      "answerLong": "Energy auditors assess how efficiently a building or facility uses energy and identify opportunities to improve energy efficiency, reduce energy consumption, and lower costs. Their goal is to help businesses, homeowners, and organizations optimize their energy use, often leading to cost savings and reduced environmental impact."
+    },
+
+    {
+      "id": "Q0136",
+      "topics": ["Restoration", "Culture"],
+      "questions": ["What do restorers preserve?"],
+      "answerShort": "Cultural and historical objects/structures (art, documents, photos, buildings, textiles, metals, etc.) by cleaning, stabilizing, and preventing deterioration.",
+      "answerLong": "Restorers preserve a wide variety of cultural, historical, and artistic objects and structures. Their work focuses on maintaining, repairing, and preventing further deterioration of valuable items. Restorers typically preserve: fine art paintings, drawings, and prints; historical documents, books, and manuscripts; photographs and film; sculptures and decorative objects; furniture and wooden artifacts; textiles, clothing, and tapestries; archaeological artifacts; historic buildings and architectural elements; mosaics and frescoes; musical instruments; metals, ceramics, and glass objects. Restoration work requires specialized knowledge of materials, historical techniques, chemistry, and conservation ethics. Restorers aim to maintain the original integrity and authenticity of items while ensuring they survive for future generations to appreciate and study."
+    },
+    {
+      "id": "Q0137",
+      "topics": ["Recycling", "Crafts"],
+      "questions": ["What materials do recycled crafts use?"],
+      "answerShort": "Commonly paper, plastics, glass, metals, fabric scraps, wood pallets, e-waste parts, rubber, cork, CDs/DVDs, etc.",
+      "answerLong": "Recycled crafts use a wide variety of repurposed materials that would otherwise be discarded. Common materials include: paper products; plastic containers; glass bottles/jars; metal items; fabric scraps/old clothing; wood pallets/scrap lumber; broken jewelry/watches; electronic waste components; rubber; cork; CDs/DVDs; leather scraps; yarn from unraveled sweaters; bottle corks; egg cartons and food packaging; old puzzle pieces and game components. These are transformed into home decor, jewelry, storage solutions, toys, art pieces, and practical household objects."
+    },
+    {
+      "id": "Q0138",
+      "topics": ["Design", "Landscape Architecture"],
+      "questions": ["What does a landscape architect do?"],
+      "answerShort": "Designs functional, sustainable outdoor spaces (parks, stormwater systems, habitat restoration, green urban spaces) using tools like CAD and GIS.",
+      "answerLong": "A landscape architect designs outdoor spaces that are functional, sustainable, and aesthetically pleasing. Their work includes planning parks and public spaces, sustainable landscapes, stormwater systems, restoring habitats, urban green planning, and collaborating with architects/engineers. They use tools like CAD and GIS to visualize designs."
+    },
+    {
+      "id": "Q0139",
+      "topics": ["Digital Art", "Waste Reduction"],
+      "questions": ["How does digital art reduce waste?"],
+      "answerShort": "It avoids physical materials like paper, canvas, and paint.",
+      "answerLong": "Digital art eliminates the need for materials like paper, canvas, or paint."
+    },
+    {
+      "id": "Q0140",
+      "topics": ["Digital Art"],
+      "questions": ["What do digital artists create?"],
+      "answerShort": "Illustrations, 3D models, animations, game art, UI, generative art, VR/AR, and more.",
+      "answerLong": "Digital artists create digital illustrations/paintings, 3D models/sculptures, photo manipulations, motion graphics/animations, video game assets, UI designs, NFT artwork, digital comics, concept art, generative art using algorithms, and VR/AR experiences."
+    },
+    {
+      "id": "Q0141",
+      "topics": ["Fashion", "Sustainability"],
+      "questions": ["What does an eco-fashion designer do?"],
+      "answerShort": "Designs clothing with sustainable materials, low-waste methods, ethical supply chains, and circular end-of-life approaches.",
+      "answerLong": "An eco-fashion designer creates clothing and accessories with environmental and ethical considerations: sourcing sustainable materials; zero/low-waste pattern cutting; designing for longevity; low-impact dyes; transparent fair labor supply chains; closed-loop repair/reuse/recycle; upcycling; local production; and educating consumers to extend garment life."
+    },
+    {
+      "id": "Q0142",
+      "topics": ["Eco-Education", "Art"],
+      "questions": ["What is the goal of eco-education through art?"],
+      "answerShort": "To raise environmental awareness.",
+      "answerLong": "To raise environmental awareness."
+    },
+
+    {
+      "id": "Q0143",
+      "topics": ["Green Jobs"],
+      "questions": ["What are green jobs? (simple)"],
+      "answerShort": "Jobs that focus on sustainability across many industries.",
+      "answerLong": "Green jobs are occupations that focus on sustainability. They can be in renewable energy, conservation, sustainable construction, and other eco-friendly industries."
+    },
+    {
+      "id": "Q0144",
+      "topics": ["Green Jobs", "Examples"],
+      "questions": ["What are some examples of green jobs? (simple)"],
+      "answerShort": "Solar panel installer, wind turbine technician, environmental engineer, sustainable agriculture specialist.",
+      "answerLong": "Solar panel installer, wind turbine technician, environmental engineer, sustainable agriculture specialist."
+    },
+    {
+      "id": "Q0145",
+      "topics": ["Green Skills"],
+      "questions": ["What are green skills? (simple)"],
+      "answerShort": "Skills that help preserve the environment, like efficiency, recycling, renewables, and sustainable practices.",
+      "answerLong": "Green skills are skills that contribute to improve or to preserve the environment. These skills include energy efficiency, waste management, renewable energy, and sustainable practices in various industries."
+    },
+    {
+      "id": "Q0146",
+      "topics": ["Green Skills", "Importance"],
+      "questions": ["Why are green skills important?"],
+      "answerShort": "They support sustainable development, enable new jobs, and help create healthier communities and ecosystems.",
+      "answerLong": "They support sustainable development, and create economic opportunities in emerging green sectors, by offering new jobs. They also contribute to healthier communities and ecosystems."
+    },
+    {
+      "id": "Q0147",
+      "topics": ["Green Skills", "Examples"],
+      "questions": ["What are examples of green skills? (simple)"],
+      "answerShort": "Renewable energy tech, sustainable agriculture, and waste management/recycling.",
+      "answerLong": "Renewable energy technology, sustainable agriculture techniques, waste management and recycling."
+    },
+    {
+      "id": "Q0148",
+      "topics": ["Green Jobs", "Climate"],
+      "questions": ["How do green jobs contribute to addressing climate change and promoting sustainable development?"],
+      "answerShort": "They lower emissions, expand renewables, improve efficiency, and support circular economy and resilient infrastructure.",
+      "answerLong": "Green jobs help to reduce climate change by lowering emissions, promoting renewable energy, and improving energy efficiency. These jobs promote sustainable development by creating green technologies, climate-resilient infrastructures, and supporting a circular economy that reduces waste and optimizes resource efficiency."
+    },
+
+    {
+      "id": "Q0149",
+      "topics": ["Green Engineering", "Passive House"],
+      "questions": ["What can be considered an example of green engineering and why?"],
+      "answerShort": "A Passivhaus: it uses far less energy due to insulation and design that keeps heat in зимой and out летом.",
+      "answerLong": "A passivhaus can be considered a perfect example of green engineering because it consumes less than a normal house thanks to its thermal insulation; the architectural unit keeps heat inside in winter and doesn’t allow it to enter in summer. That’s why it is important to increase their production because they are actually zero environmental impact."
+    },
+    {
+      "id": "Q0150",
+      "topics": ["Green Engineering", "Materials", "Passive House"],
+      "questions": ["What Materials Are Used In A Passive House?"],
+      "answerShort": "Eco-friendly materials and techniques like timber frames, engineered/recycled lumber, low-VOC paints, and efficient lighting can be used.",
+      "answerLong": "Passivhaus buildings tend to use sustainable construction techniques, thus reducing the environmental impact related to extraction/production of building materials and eco-friendly materials such as: bio-based spray foam insulation, closed panel timber frames for doors and windows, engineered and recycled lumber, environmentally-friendly paint types with low voc, fluorescent light bulbs, etc."
+    },
+    {
+      "id": "Q0151",
+      "topics": ["Green Engineering", "Industry"],
+      "questions": ["How is the field of engineering adapting to the growing demand for sustainability and environmental responsibility?"],
+      "answerShort": "By prioritizing low-carbon tech, energy efficiency, circular economy, and waste minimization across design and operations.",
+      "answerLong": "The engineering sector is increasingly prioritizing sustainability, incorporating green technologies, energy-efficient solutions, and sustainable materials into design, manufacturing, and operations. Engineers are developing low-carbon technologies, applying circular economy principles, and minimizing waste, all while fostering innovation in renewable energy, water management, and transportation."
+    },
+    {
+      "id": "Q0152",
+      "topics": ["Renewable Energy", "Engineering", "Skills"],
+      "questions": ["What specific green skills are essential for engineers working in renewable energy sectors?"],
+      "answerShort": "Deep knowledge of renewables, efficiency, sustainable design, regulations, and strong project management.",
+      "answerLong": "Engineers in renewable energy need in-depth knowledge of solar/wind/hydro/geothermal systems, expertise in energy efficiency and sustainable design, understanding environmental regulations, and strong project management skills to lead sustainability projects balancing environmental, economic, and social factors."
+    },
+
+    {
+      "id": "Q0153",
+      "topics": ["Art", "Green Jobs", "Poland"],
+      "questions": ["What are the examples of Public Art & Activism in Poland?"],
+      "answerShort": "Eco-friendly murals (Łódź, Warsaw) using pollution-reducing paint; Converse City Forests with artists Dawid Ryski and Maciek Polak.",
+      "answerLong": "In Poland, eco-friendly public art is gaining traction: eco-friendly street art using non-toxic paint; Łódź’s mural scene; a pollution-fighting mural in Warsaw as part of Converse City Forests, designed by Dawid Ryski and Maciek Polak and executed by Good Looking Studio using special paint that cuts down on pollution."
+    },
+    {
+      "id": "Q0154",
+      "topics": ["Art", "Sustainable Materials", "Poland"],
+      "questions": ["What do artists use to make their art?"],
+      "answerShort": "Examples: non-toxic glazes and sustainable clay, recycled metals, fair-trade gemstones, and organic plant-based resins.",
+      "answerLong": "Eco-friendly ceramic artists use non-toxic glazes, sustainable clay, and energy-efficient kilns. Handmade jewelry artists use recycled metals, fair-trade gemstones, and organic materials like wood and plant-based resins."
+    },
+    {
+      "id": "Q0155",
+      "topics": ["Fashion", "Sustainability", "Poland"],
+      "questions": ["What are the fabrics used by Polish designers?"],
+      "answerShort": "Organic and recycled fabrics, ethical production, eco-dyes, local production, low-waste design, and durable timeless pieces.",
+      "answerLong": "Polish designers focus on organic fabrics, recycled materials, ethical production, eco-friendly dyeing, local production, minimal waste design, and timeless durable pieces to reduce environmental impact."
+    },
+    {
+      "id": "Q0156",
+      "topics": ["Art", "Renewable Energy", "Poland"],
+      "questions": ["What impact does green energy have on art?"],
+      "answerShort": "Some artworks use renewables like solar power for installations (e.g., light-based solar works).",
+      "answerLong": "Some artists use solar energy and other renewable sources to power public art installations. For example, Aleksandra Stratimirovic incorporates solar-powered elements into her installations, highlighting sustainability."
+    },
+    {
+      "id": "Q0157",
+      "topics": ["Entertainment", "Green Jobs"],
+      "questions": ["What kind of impact does green jobs have on entertainment?"],
+      "answerShort": "They raise awareness, promote sustainable lifestyles, document ecosystems, encourage greener production, and inspire activism.",
+      "answerLong": "Green jobs in entertainment raise environmental awareness (documentaries/photography), promote sustainable lifestyles, document endangered ecosystems, drive eco-conscious storytelling, push greener production practices, inspire activism, and support ethical content aligned with sustainability."
+    },
+
+    {
+      "id": "Q0158",
+      "topics": ["Art", "Sustainability", "Poland", "Artists"],
+      "questions": ["Who are some of the most famous Polish artists focusing on sustainability and environmental themes?"],
+      "answerShort": "Examples: Alicja Biała, Ewa Ciepielewska, Alicja Patnowska, Cecylia Malik, Jadwiga Sawicka, Izabela Rutkowska.",
+      "answerLong": "Some of the most famous Polish artists focusing on sustainability include Alicja Biała, Ewa Ciepielewska, Alicja Patnowska, Cecylia Malik, Jadwiga Sawicka, and Izabela Rutkowska."
+    },
+    {
+      "id": "Q0159",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["What common goals do these artists share in their work?"],
+      "answerShort": "To raise ecological awareness, promote sustainable thinking, and improve how people relate to the environment.",
+      "answerLong": "These artists aim to raise awareness about ecological issues, promote sustainable thinking, and inspire people to reflect on their relationship with the environment."
+    },
+    {
+      "id": "Q0160",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["What are some recurring themes in the work of environmentally conscious Polish artists?"],
+      "answerShort": "Fragility of nature, balance, overconsumption, deforestation, and human impact.",
+      "answerLong": "Recurring themes include the fragility of nature, ecological balance, overconsumption, deforestation, and the impact of human activity on the environment."
+    },
+    {
+      "id": "Q0161",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["What is the main focus of Alicja Biała’s artwork?"],
+      "answerShort": "The relationship between humans and nature.",
+      "answerLong": "Alicja Biała’s artwork focuses on the relationship between humans and nature."
+    },
+    {
+      "id": "Q0162",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["What kind of materials does Biała use to reflect ecological issues?"],
+      "answerShort": "Organic materials like plants and recycled objects.",
+      "answerLong": "She uses organic materials like plants and recycled objects in her art."
+    },
+    {
+      "id": "Q0163",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["What message does Patnowska aim to convey through her immersive installations?"],
+      "answerShort": "To make viewers rethink their environmental impact and notice ecological fragility.",
+      "answerLong": "She aims to inspire viewers to reconsider their environmental impact and encourages awareness of ecological fragility."
+    },
+    {
+      "id": "Q0164",
+      "topics": ["Art", "Sustainability", "Poland"],
+      "questions": ["How does Patnowska challenge traditional views on consumption?"],
+      "answerShort": "By highlighting the ecological footprint of human actions and consumption habits.",
+      "answerLong": "Her art challenges traditional consumption habits and highlights the ecological footprint of human actions."
+    },
+    {
+      "id": "Q0165",
+      "topics": ["Art", "Activism", "Poland"],
+      "questions": ["How does Cecylia Malik combine art and activism?"],
+      "answerShort": "Through performance art paired with environmental activism.",
+      "answerLong": "Cecylia Malik combines performance art and activism to address environmental issues."
+    },
+    {
+      "id": "Q0166",
+      "topics": ["Art", "Environment", "Poland"],
+      "questions": ["What environmental issues does Malik particularly focus on?"],
+      "answerShort": "Deforestation and river conservation.",
+      "answerLong": "She focuses on deforestation and river conservation."
+    },
+    {
+      "id": "Q0167",
+      "topics": ["Art", "Projects", "Poland"],
+      "questions": ["What are two notable projects created by Malik?"],
+      "answerShort": "“6 Rivers” and “Tree Hugging.”",
+      "answerLong": "Two of her notable projects are “6 Rivers” and “Tree Hugging.”"
+    },
+    {
+      "id": "Q0168",
+      "topics": ["Art", "Materials", "Poland"],
+      "questions": ["What materials does Sawicka use in her installations?"],
+      "answerShort": "Recycled materials.",
+      "answerLong": "She uses recycled materials in her installations and paintings."
+    },
+    {
+      "id": "Q0169",
+      "topics": ["Art", "Consumerism", "Poland"],
+      "questions": ["What message does she send about consumerism through her artwork?"],
+      "answerShort": "That consumerism contributes to environmental degradation.",
+      "answerLong": "Her work emphasizes how consumerism contributes to environmental degradation."
+    },
+    {
+      "id": "Q0170",
+      "topics": ["Art", "Community", "Poland"],
+      "questions": ["What is the main goal of Izabela Rutkowska’s artistic work?"],
+      "answerShort": "Engaging communities in ecological awareness through art.",
+      "answerLong": "Izabela Rutkowska aims to engage communities in ecological awareness through art."
+    },
+    {
+      "id": "Q0171",
+      "topics": ["Art", "Community", "Poland"],
+      "questions": ["How does Rutkowska involve communities in her projects?"],
+      "answerShort": "Interactive installations and public art that reconnect people with nature.",
+      "answerLong": "She creates interactive installations and public art that encourage people to reconnect with nature."
+    },
+    {
+      "id": "Q0172",
+      "topics": ["Art", "Biodiversity", "Poland"],
+      "questions": ["What is \"The Bear Project\" about, and what issue does it highlight?"],
+      "answerShort": "It raises awareness about biodiversity and wildlife protection.",
+      "answerLong": "“The Bear Project” raises awareness about biodiversity and the need to protect wildlife."
+    },
+
+    {
+      "id": "Q0173",
+      "topics": ["Art", "Green Jobs", "General"],
+      "questions": ["WHAT ARE THE GREEN JOB, THAT ARE RALATED TO ART.?", "What are the green jobs that are related to art?", "What green jobs are related to art?"],
+      "answerShort": "Examples: environmental artist, eco-designer, sustainable architect, environmental illustrator, green set designer, eco-fashion, sustainable graphic designer, and more.",
+      "answerLong": "Green jobs related to art include: Environmental Artist; Eco-Designer; Sustainable Architect / Landscape Designer; Environmental Illustrator; Art Educator (Environmental Focus); Public Art Project Coordinator (Green Projects); Green Set Designer; Eco-Fashion Designer; Sustainable Graphic Designer; Community Arts Organizer (Eco-Initiatives)."
+    },
+    {
+      "id": "Q0174",
+      "topics": ["Project", "Erasmus+", "STEAM"],
+    "questions": [
+    "What is the STEAM for Sustainability project?",
+    "What is Erasmus+ project 2023-1-HR01-KA220-SCH-000161027?"
+  ],
+  "answerShort": "STEAM for Sustainability is an Erasmus+ project focused on raising awareness about environmental sustainability through STEAM education and green careers.",
+  "answerLong": "STEAM for Sustainability is an Erasmus+ project (no 2023-1-HR01-KA220-SCH-000161027) that aims to increase awareness among new generations about environmental sustainability. The project promotes green technologies and green jobs through the implementation of the STEAM field, innovative educational content, and the creation of chatbots in English."
+},
+{
+  "id": "Q0175",
+  "topics": ["Project", "Goals"],
+  "questions": [
+  "What is the main goal of the STEAM for Sustainability project?",
+  "What does the project aim to achieve?"
+  ],
+  "answerShort": "The project aims to raise awareness about sustainability and increase interest in green technologies and green jobs, especially among girls.",
+  "answerLong": "The project aims to increase awareness of environmental sustainability among students and teachers. It promotes interest in green technologies and green jobs within the STEAM field by creating chatbots, innovative teaching materials, and through dissemination activities. A special focus is placed on increasing the interest of girls in green occupations."
+},
+{
+  "id": "Q0176",
+  "topics": ["Project", "Activities"],
+  "questions": [
+  "What activities are included in the project?",
+  "How is the project implemented?"],
+  "answerShort": "The project includes virtual meetings, mobility sessions, workshops, lectures, expert presentations, visits, and professional excursions.",
+  "answerLong": "During 36 months, the project includes 7 virtual meetings and 5 mobility sessions. Activities include 22 workshops, 1 lecture, 2 expert presentations, 6 visits to relevant institutions, and 2 professional excursions. At least 200 students and 50 teachers participate in the project."
+},
+{
+  "id": "Q0177",
+  "topics": ["Project", "Target Group"],
+  "questions": [
+  "Who is the project intended for?",
+  "Who participates in the project?"
+],
+  "answerShort": "The project is intended for students and teachers of Josip Slavenski Čakovec Gymnasium and partner schools.",
+  "answerLong": "The project is intended for students and teachers of Josip Slavenski Čakovec Gymnasium and partner schools from Greece, Italy, Lithuania, and Poland. At least 200 students and 50 teachers participate in project activities."
+},
+{
+  "id": "Q0178",
+  "topics": ["Project", "Partners"],
+  "questions": [
+  "Which countries participate in the project?",
+  "Who are the project partners?"
+  ],
+  "answerShort": "The project partners are schools from Croatia, Italy, Greece, Lithuania, and Poland.",
+  "answerLong": "The project is coordinated by Josip Slavenski Čakovec Gymnasium (Croatia) and includes partner schools from Italy (ITET Leonardo da Vinci – Milazzo), Greece (3 Geniko Lykeio Galatsi), Lithuania (Vilniaus Žvėryno gimnazija), and Poland (Janusz Korczak High School in Wieluń)."
+},
+{
+  "id": "Q0179",
+  "topics": ["Project", "Croatia", "Coordinator"],
+  "questions": [
+    "Who coordinates the project in Croatia?",
+  "Who is the project coordinator?"
+  ],
+  "answerShort": "The project coordinator is Vedrana Močnik from Josip Slavenski Čakovec Gymnasium.",
+  "answerLong": "The project coordinator for Croatia is Vedrana Močnik, a Croatian language teacher at Josip Slavenski Čakovec Gymnasium. The school coordinates the project together with partner schools from Greece, Italy, Lithuania, and Poland."
+},
+{
+  "id": "Q0180",
+  "topics": ["Project", "Mobility"],
+  "questions": [
+  "Which mobilities are included in the project?",
+  "Where have mobility sessions taken place?"
+  ],
+  "answerShort": "Mobility sessions include visits to Greece, Lithuania, Poland, and Croatia.",
+  "answerLong": "The project includes mobility sessions to partner countries. Mobilities have taken place in Greece, Lithuania, Poland, and Croatia as part of international cooperation and learning activities."
+},
+{
+  "id": "Q0181",
+  "topics": ["Project", "Virtual Meetings"],
+  "questions": [
+  "How many virtual meetings are planned?",
+  "What are virtual meetings in the project?"
+  ],
+  "answerShort": "The project includes 7 virtual meetings where partners collaborate online.",
+  "answerLong": "The project includes 7 virtual meetings during its 36-month duration. These online meetings allow partner schools to collaborate, plan activities, share results, and coordinate implementation."
+},
+{
+  "id": "Q0182",
+  "topics": ["Project", "Dissemination"],
+  "questions": [
+  "How are project results promoted?",
+  "How does the project promote sustainability?"
+  ],
+  "answerShort": "Results are disseminated through promotion, social media, workshops, and educational materials.",
+  "answerLong": "The project results are disseminated and promoted throughout implementation. This includes educational workshops, presentations, mobility activities, and promotion through online platforms such as Instagram and school websites."
+},
+{
+  "id": "Q0183",
+  "topics": ["Project", "Duration"],
+  "questions": [
+  "How long does the STEAM for Sustainability project last?",
+  "What is the duration of the project?"
+  ],
+  "answerShort": "The project lasts 36 months.",
+  "answerLong": "The STEAM for Sustainability Erasmus+ project runs for 36 months, during which multiple educational, virtual, and mobility activities are implemented."
+},
+{
+  "id": "Q0184",
+  "topics": ["Project", "STEAM"],
+  "questions": ["What does STEAM stand for?"],
+  "answerShort": "STEAM stands for Science, Technology, Engineering, Arts and Mathematics.",
+  "answerLong": "STEAM stands for Science, Technology, Engineering, Arts and Mathematics. It promotes interdisciplinary learning and problem-solving through creative and scientific approaches."
+},
+{
+  "id": "Q0185",
+  "topics": ["Project", "STEAM"],
+  "questions": ["Why is STEAM important for sustainability?"],
+  "answerShort": "STEAM connects science, technology and creativity to solve environmental problems.",
+  "answerLong": "STEAM is important for sustainability because it integrates scientific knowledge, technological innovation, engineering solutions, creative thinking and mathematics to address environmental challenges and promote green solutions."
+},
+{
+  "id": "Q0186",
+  "topics": ["Project", "Students"],
+  "questions": ["How does the project benefit students?"],
+  "answerShort": "It develops green skills, digital skills and international cooperation experience.",
+  "answerLong": "Students improve their environmental awareness, digital literacy, teamwork, communication skills and knowledge about green jobs while collaborating with peers from other European countries."
+},
+{
+  "id": "Q0187",
+  "topics": ["Project", "Teachers"],
+  "questions": ["How does the project benefit teachers?"],
+  "answerShort": "Teachers gain innovative teaching materials and international collaboration experience.",
+  "answerLong": "Teachers participate in workshops, expert lectures and mobility sessions, gaining new methodologies, digital tools and teaching strategies related to sustainability and STEAM education."
+},
+{
+  "id": "Q0188",
+  "topics": ["Project", "Chatbot"],
+  "questions": ["Why was a chatbot created in this project?"],
+  "answerShort": "To make learning about sustainability interactive and accessible.",
+  "answerLong": "The chatbot was created to provide students and visitors with quick, interactive access to information about sustainability, green jobs and project activities in English."
+},
+{
+  "id": "Q0189",
+  "topics": ["Project", "Digital Tools"],
+  "questions": ["What digital tools are used in the project?"],
+  "answerShort": "Chatbots, online meetings, social media and digital educational materials.",
+  "answerLong": "The project uses digital tools such as chatbots, virtual meetings platforms, online collaboration tools, social media channels and interactive educational content."
+},
+{
+  "id": "Q0190",
+  "topics": ["Project", "Mobility"],
+  "questions": ["What is the purpose of mobility sessions?"],
+  "answerShort": "To exchange knowledge, culture and best practices among partner schools.",
+  "answerLong": "Mobility sessions allow students and teachers to visit partner schools, participate in workshops, explore green technologies and experience different educational systems and cultures."
+},
+{
+  "id": "Q0191",
+  "topics": ["Project", "International Cooperation"],
+  "questions": ["Why is international cooperation important in this project?"],
+  "answerShort": "Because sustainability is a global challenge that requires shared solutions.",
+  "answerLong": "International cooperation enables students and teachers to share perspectives, compare environmental challenges across countries and collaboratively develop innovative sustainable solutions."
+},
+{
+  "id": "Q0192",
+  "topics": ["Project", "Girls in STEAM"],
+  "questions": ["Why does the project focus on girls in green jobs?"],
+  "answerShort": "To reduce gender gaps in STEAM and green careers.",
+  "answerLong": "The project encourages girls to pursue green and STEAM-related careers by increasing awareness, providing role models and promoting equal opportunities in sustainable industries."
+},
+{
+  "id": "Q0193",
+  "topics": ["Project", "Green Careers"],
+  "questions": ["How does the project promote green careers?"],
+  "answerShort": "Through workshops, expert lectures and real-world examples.",
+  "answerLong": "The project introduces students to green professions through expert presentations, visits to relevant institutions, mobility sessions and educational materials focused on sustainable technologies."
+},
+{
+  "id": "Q0194",
+  "topics": ["Project", "Workshops"],
+  "questions": ["How many workshops are planned in the project?"],
+  "answerShort": "22 workshops are planned.",
+  "answerLong": "The project includes 22 workshops that focus on sustainability, green technologies, digital innovation and STEAM-based learning."
+},
+{
+  "id": "Q0195",
+  "topics": ["Project", "Duration"],
+  "questions": ["When did the project start?"],
+  "answerShort": "The project started in 2023.",
+  "answerLong": "The Erasmus+ project STEAM for Sustainability began in 2023 and runs for 36 months."
+},
+{
+  "id": "Q0196",
+  "topics": ["Project", "Impact"],
+  "questions": ["What long-term impact does the project aim to have?"],
+  "answerShort": "To inspire sustainable thinking and future green professionals.",
+  "answerLong": "The project aims to build long-term environmental awareness, encourage sustainable lifestyles and inspire students to pursue green and STEAM-related careers."
+},
+{
+  "id": "Q0197",
+  "topics": ["Project", "Social Media"],
+  "questions": ["Where can we follow the project online?"],
+  "answerShort": "On Instagram and partner school websites.",
+  "answerLong": "The project can be followed on Instagram (steamproject2023) and through official partner school websites and social media platforms."
+},
+{
+  "id": "Q0198",
+  "topics": ["Project", "Community"],
+  "questions": ["How does the project involve the local community?"],
+  "answerShort": "Through dissemination, public presentations and school activities.",
+  "answerLong": "The project promotes sustainability through community events, presentations, workshops and online promotion to engage the wider public."
+},
+{
+  "id": "Q0199",
+  "topics": ["Project", "Environment"],
+  "questions": ["How does the project raise environmental awareness?"], 
+  "answerShort": "By teaching sustainability through interactive and practical activities.",
+  "answerLong": "Environmental awareness is raised through workshops, expert lectures, mobility activities, digital content and the chatbot platform."
+},
+{
+  "id": "Q0200",
+  "topics": ["Project", "Innovation"],
+  "questions": ["What makes this project innovative?"],
+  "answerShort": "It combines STEAM education, sustainability and chatbot technology.",
+  "answerLong": "The project is innovative because it integrates interdisciplinary STEAM education with sustainability topics and uses chatbot technology for interactive learning."
+},
+{
+  "id": "Q0201",
+  "topics": ["Project", "Green Skills"],
+  "questions": ["What green skills do students develop in the project?"],
+  "answerShort": "Energy awareness, recycling knowledge, digital sustainability skills.",
+  "answerLong": "Students develop skills such as energy efficiency awareness, sustainable resource management, recycling knowledge, problem-solving and digital competencies related to environmental sustainability."
+},
+{
+  "id": "Q0202",
+  "topics": ["Project", "EU"],
+  "questions": ["What is Erasmus+?"],
+  "answerShort": "Erasmus+ is a European Union program supporting education and international cooperation.",
+  "answerLong": "Erasmus+ is a European Union funding program that supports education, training, youth and sport initiatives across Europe, promoting mobility and cooperation between institutions."
+}
+    
+  ]
+}
