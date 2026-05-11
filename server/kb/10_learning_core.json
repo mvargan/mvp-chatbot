@@ -400,7 +400,7 @@
         "conservation science"
       ],
       "answerShort": "Conservation science studies and protects ecosystems, habitats and species.",
-      "answerLong": "Conservation science focuses on understanding and protecting ecosystems, habitats and species. It combines biology, ecology, monitoring, field work and data analysis. Related careers include botanists, conservation foresters, marine biologists, zoologists, rangers and ecologists, all of whom help protect biodiversity and natural resources."
+      "answerLong": "Conservation science focuses on understanding and protecting ecosystems, habitats and species. It combines biology, ecology, monitoring, field work and data analysis. It helps people understand environmental damage, restore habitats, protect biodiversity and manage natural resources more responsibly over the long term."
     },
     {
       "id": "C020A",
@@ -458,36 +458,36 @@
     },
     {
       "id": "C024",
-      "topics": ["Environmental Engineering", "Green Jobs"],
-      "keywords": ["environmental engineer", "environmental engineering"],
+      "topics": ["Environmental Engineering", "Sustainability"],
+      "keywords": ["environmental engineering", "engineering for sustainability"],
       "questions": [
-        "What does an environmental engineer do?",
-        "What is environmental engineering?"
+        "What is environmental engineering?",
+        "How does environmental engineering support sustainability?"
       ],
-      "answerShort": "Environmental engineers apply science and technical design to practical environmental problems such as water, waste, energy and infrastructure.",
-      "answerLong": "Environmental engineering applies science and technical design to practical environmental problems. Environmental engineers may work on air quality, water treatment, wastewater systems, waste management, renewable energy, sustainable materials and low-impact infrastructure. A passive house is one simple example of how engineering supports sustainability."
+      "answerShort": "Environmental engineering uses science and design to solve problems such as pollution, water treatment, waste and sustainable infrastructure.",
+      "answerLong": "Environmental engineering applies science and technical design to practical environmental problems. It helps improve air quality, water treatment, wastewater systems, waste management, renewable energy, sustainable materials and low-impact infrastructure. It is important for sustainability because it turns environmental knowledge into practical systems and solutions."
     },
     {
       "id": "C025",
-      "topics": ["Energy Auditor", "Green Jobs"],
-      "keywords": ["energy auditor", "energy auditing"],
+      "topics": ["Energy Auditing", "Efficiency"],
+      "keywords": ["energy auditing", "energy audits"],
       "questions": [
-        "What does an energy auditor do?",
-        "What is an energy auditor?"
+        "What is energy auditing?",
+        "How does energy auditing help sustainability?"
       ],
-      "answerShort": "Energy auditors examine how buildings or processes use energy and find ways to reduce losses and improve efficiency.",
-      "answerLong": "Energy auditors examine buildings, equipment or processes to see how energy is used. They identify losses, inefficiencies and opportunities for improvement, such as better insulation, lighting, controls or equipment. Their work is important because energy efficiency usually saves both money and emissions."
+      "answerShort": "Energy auditing means examining how buildings or systems use energy and finding ways to reduce waste and improve efficiency.",
+      "answerLong": "Energy auditing examines buildings, equipment or processes to see how energy is used. It identifies losses, inefficiencies and opportunities for improvement, such as better insulation, lighting, controls or equipment. It supports sustainability because better energy efficiency usually saves both money and emissions."
     },
     {
       "id": "C026",
-      "topics": ["Sustainability Manager", "Green Jobs"],
-      "keywords": ["sustainability manager", "sustainability analyst"],
+      "topics": ["Sustainability Management", "Organizations"],
+      "keywords": ["sustainability management", "organizational sustainability"],
       "questions": [
-        "What does a sustainability manager do?",
-        "What is a sustainability manager?"
+        "What is sustainability management?",
+        "How do organizations manage sustainability?"
       ],
-      "answerShort": "Sustainability managers collect data, set goals and track progress on energy, waste, emissions and materials.",
-      "answerLong": "Sustainability managers or analysts collect data, set goals, coordinate actions and monitor progress related to energy, waste, emissions, materials or reporting. They often combine environmental knowledge with organization, communication and data skills. It is a good example of a green job that exists in many sectors, not only in science."
+      "answerShort": "Sustainability management means setting goals, measuring impact and improving how an organization uses energy, materials and other resources.",
+      "answerLong": "Sustainability management means setting goals, measuring impact and coordinating improvements related to energy, waste, emissions, materials, travel or reporting. It helps organizations work more responsibly and make long-term environmental improvements through better planning, data use and teamwork."
     },
     {
       "id": "C027",
