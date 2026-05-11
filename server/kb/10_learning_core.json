@@ -72,11 +72,20 @@
       "questions": [
         "What are green jobs?",
         "green jobs",
-        "What jobs help the planet?",
-        "What jobs can I do if I care about the environment?"
+        "What jobs help the planet?"
       ],
       "answerShort": "Green jobs are professions that help the environment by lowering emissions, reducing waste, protecting ecosystems or improving efficiency.",
       "answerLong": "Green jobs are professions that directly or indirectly help the environment. They can be found in renewable energy, energy efficiency, transport, construction, agriculture, environmental science, data analysis, design, education and many other sectors. A job can be green because it lowers emissions, reduces waste, protects ecosystems, improves efficiency or supports a circular economy."
+    },
+    {
+      "id": "C006A",
+      "topics": ["Green Jobs", "Career Examples"],
+      "keywords": ["jobs for environment", "environment career examples"],
+      "questions": [
+        "What jobs can I do if I care about the environment?"
+      ],
+      "answerShort": "If you care about the environment, you could become an environmental scientist, renewable-energy technician, energy auditor, environmental engineer or sustainability manager.",
+      "answerLong": "If you care about the environment, you could work in jobs such as environmental scientist, renewable-energy technician, energy auditor, environmental engineer, sustainability manager or environmental data scientist. These careers help protect nature, reduce pollution, improve efficiency and support a more sustainable future."
     },
     {
       "id": "C007",
@@ -421,11 +430,20 @@
       "questions": [
         "Why is mathematics important for sustainability?",
         "How is mathematics used in sustainability?",
-        "Can maths help the environment?",
-        "Can maths and coding help the planet?"
+        "Can maths help the environment?"
       ],
       "answerShort": "Mathematics is important because sustainability problems must be measured, compared and modeled.",
       "answerLong": "Mathematics is essential in sustainability because environmental problems must be measured and compared. Math is used to analyse pollution, energy use, water flow, emissions, efficiency, risk and future trends. It helps engineers design renewable systems, scientists model climate, analysts evaluate data and planners optimize transport, buildings and resources."
+    },
+    {
+      "id": "C022A",
+      "topics": ["Mathematics", "Coding", "Sustainability"],
+      "keywords": ["maths and coding", "coding for sustainability"],
+      "questions": [
+        "Can maths and coding help the planet?"
+      ],
+      "answerShort": "Yes. Maths and coding can help the planet by analysing environmental data, modelling climate trends and building smarter systems that save energy and resources.",
+      "answerLong": "Yes. Maths and coding can help the planet because they are used to analyse environmental data, model climate and pollution trends, monitor energy use, improve transport systems and build smarter tools for sustainability. Together they help people understand problems better and design more efficient solutions."
     },
     {
       "id": "C023",

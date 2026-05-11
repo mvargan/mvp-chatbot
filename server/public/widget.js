@@ -2,8 +2,9 @@
   const currentScript = document.currentScript;
   const inferredBaseUrl = currentScript ? new URL(currentScript.src).origin : window.location.origin;
   const apiUrl = window.CHATBOT_API_URL || `${inferredBaseUrl}/chat`;
-	const greetingDelayMs = 30000;
+	const idlePromptDelayMs = 30000;
 	const greetingText = "Hi! I’m the S.O.S. chatbot. Ask me about the Erasmus S.O.S. project.";
+	const idlePromptText = "Are you interested in anything else that could help keep your country beautiful and sustainable?";
 
   const root = document.createElement("div");
   root.style.cssText =
@@ -32,8 +33,8 @@
   const inputbar = root.querySelector("#cb-inputbar");
 
   let collapsed = false;
-	let greetingTimer = null;
-	let greetingShown = false;
+	let idleTimer = null;
+	let idlePromptShown = false;
 
   function addMsg(who, text) {
     const wrap = document.createElement("div");
@@ -52,29 +53,30 @@
     return wrap;
   }
 
-	function scheduleGreeting() {
-		if (greetingTimer) clearTimeout(greetingTimer);
-		if (collapsed || greetingShown) return;
+	function scheduleIdlePrompt() {
+		if (idleTimer) clearTimeout(idleTimer);
+		if (collapsed || idlePromptShown) return;
 
-		greetingTimer = setTimeout(() => {
-			if (!greetingShown && !collapsed) {
-				addMsg("bot", greetingText);
-				greetingShown = true;
-      }
-		}, greetingDelayMs);
-  }
+		idleTimer = setTimeout(() => {
+			if (!idlePromptShown && !collapsed) {
+				addMsg("bot", idlePromptText);
+				idlePromptShown = true;
+			}
+		}, idlePromptDelayMs);
+	}
 
-	function resetGreetingTimer() {
-		if (greetingShown) return;
-		scheduleGreeting();
-  }
+	function resetIdlePrompt() {
+		if (idlePromptShown) return;
+		scheduleIdlePrompt();
+	}
 
-	scheduleGreeting();
+	addMsg("bot", greetingText);
+	scheduleIdlePrompt();
 
   async function sendMsg() {
     const msg = input.value.trim();
     if (!msg) return;
-		resetGreetingTimer();
+		resetIdlePrompt();
     input.value = "";
     addMsg("user", msg);
 
@@ -99,10 +101,10 @@
   send.addEventListener("click", sendMsg);
   input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") sendMsg();
-		else resetGreetingTimer();
+		else resetIdlePrompt();
   });
-	input.addEventListener("input", resetGreetingTimer);
-	body.addEventListener("pointerdown", resetGreetingTimer);
+	input.addEventListener("input", resetIdlePrompt);
+	body.addEventListener("pointerdown", resetIdlePrompt);
 
   toggle.addEventListener("click", () => {
     collapsed = !collapsed;
@@ -110,9 +112,9 @@
     inputbar.style.display = collapsed ? "none" : "flex";
     toggle.textContent = collapsed ? "+" : "–";
     if (collapsed) {
-			if (greetingTimer) clearTimeout(greetingTimer);
+			if (idleTimer) clearTimeout(idleTimer);
     } else {
-			scheduleGreeting();
+			scheduleIdlePrompt();
     }
   });
 })();

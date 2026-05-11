@@ -253,7 +253,7 @@ function inappropriateReply() {
 }
 
 function outOfScopeReply() {
-  return "I’m specialized only for the S.O.S. Erasmus project content, so I can’t answer that. Please ask about science, engineering, art, green skills, or green jobs in CRO/PL/IT/GR/LT.";
+  return "I’m a chatbot only for the S.O.S. Erasmus project. If I did not understand your question, please try again with simpler grammar or check the spelling. You can ask about science, engineering, art, green skills, or green jobs in CRO/PL/IT/GR/LT.";
 }
 function isYes(s) {
   return /^(y|yes|da|d|sure|ok|okay|more|opširnije|opsirnije|full)$/i.test((s || "").trim());
@@ -298,6 +298,7 @@ function keywordSearch(query, k = 8) {
 
   const qTokens = tokenize(q).filter((token) => token.length >= 2);
   if (!qTokens.length) return [];
+  const minimumMatchedTokens = qTokens.length >= 2 ? 2 : 1;
 
   return KB_CHUNKS.map((c) => {
     const questions = (c.questions || []).map(norm);
@@ -306,24 +307,39 @@ function keywordSearch(query, k = 8) {
     const text = norm(c.text);
 
     let score = 0;
+    let matchedTokens = 0;
 
     if (questions.includes(q)) score += 120;
     if (keywords.includes(q)) score += 140;
     if (topics.includes(q)) score += 90;
 
     for (const token of qTokens) {
-      if (keywords.some((value) => value === token)) score += 40;
-      if (topics.some((value) => value === token)) score += 28;
-      if (questions.some((value) => value.includes(token))) score += 16;
-      if (text.includes(token)) score += 4;
+      let tokenMatched = false;
+      if (keywords.some((value) => value === token)) {
+        score += 40;
+        tokenMatched = true;
+      }
+      if (topics.some((value) => value === token)) {
+        score += 28;
+        tokenMatched = true;
+      }
+      if (questions.some((value) => value.includes(token))) {
+        score += 16;
+        tokenMatched = true;
+      }
+      if (text.includes(token)) {
+        score += 4;
+        tokenMatched = true;
+      }
+      if (tokenMatched) matchedTokens += 1;
     }
 
     if (qTokens.length <= 3 && keywords.some((value) => qTokens.every((token) => value.includes(token)))) score += 60;
     if (qTokens.length <= 3 && questions.some((value) => qTokens.every((token) => value.includes(token)))) score += 25;
 
-    return { score, chunk: c };
+    return { score, matchedTokens, chunk: c };
   })
-    .filter((result) => result.score >= 18)
+    .filter((result) => result.score >= 18 && result.matchedTokens >= minimumMatchedTokens)
     .sort((a, b) => b.score - a.score)
     .slice(0, k);
 }
@@ -338,6 +354,7 @@ function fallbackSearch(query, k = 5) {
   if (!q) return [];
 
   const tokens = q.split(" ").filter((token) => token.length >= 3 && !STOP.has(token));
+  const minimumMatchedTokens = tokens.length >= 2 ? 2 : 1;
 
   return KB_CHUNKS.map((c) => {
     const hay = norm(c.text || "");
@@ -348,24 +365,42 @@ function fallbackSearch(query, k = 5) {
     ].join(" "));
 
     let score = 0;
+    let matchedTokens = 0;
     for (const token of tokens) {
-      if (qhay.includes(token)) score += 12;
-      if (hay.includes(token)) score += 3;
+      let tokenMatched = false;
+      if (qhay.includes(token)) {
+        score += 12;
+        tokenMatched = true;
+      }
+      if (hay.includes(token)) {
+        score += 3;
+        tokenMatched = true;
+      }
+      if (tokenMatched) matchedTokens += 1;
     }
 
     if (qhay.includes(q)) score += 40;
     if (hay.includes(q)) score += 10;
 
-    return { score, chunk: c };
+    return { score, matchedTokens, chunk: c };
   })
-    .filter((result) => result.score >= 8)
+    .filter((result) => result.score >= 8 && result.matchedTokens >= minimumMatchedTokens)
     .sort((a, b) => b.score - a.score)
     .slice(0, k);
 }
 
 function pickTop(query, k = 5) {
+  const significantTokens = stripQuestionWords(query)
+    .split(" ")
+    .filter((token) => token.length >= 3);
+
   const keywordHits = keywordSearch(query, k);
   if (keywordHits.length) return keywordHits;
+
+  const plainHits = fallbackSearch(query, k);
+  if (plainHits.length) return plainHits;
+
+  if (significantTokens.length >= 2) return [];
 
   const safe = sanitizeForLunr(query);
   if (!safe) return [];
@@ -387,8 +422,7 @@ function pickTop(query, k = 5) {
     }
   }
 
-  // 2) fallback: plain search (za 202 entryja je turbo brzo i stabilno)
-  return fallbackSearch(query, k);
+  return [];
 }
 
 function simplifySentence(sentence) {
