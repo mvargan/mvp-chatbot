@@ -1,0 +1,401 @@
+{
+  "entries": [
+    {
+      "id": "GJ001",
+      "topics": ["Green Jobs", "Overview"],
+      "keywords": ["green jobs overview", "green jobs", "green careers", "careers in sustainability"],
+      "questions": [
+        "What are green jobs?",
+        "What are careers in sustainability?"
+      ],
+      "answerShort": "Green jobs are careers that protect nature, save resources, reduce pollution or help communities live more sustainably.",
+      "answerLong": "Green jobs exist in science, technology, engineering, agriculture, design, education, transport, construction and policy. Some jobs focus directly on nature and climate, while others make everyday systems like buildings, energy, food and transport cleaner and more efficient. Students can prepare for these careers through science, mathematics, digital skills, communication, creativity and problem solving."
+    },
+    {
+      "id": "GJ002",
+      "topics": ["Green Jobs", "Sustainability"],
+      "keywords": ["how green jobs help sustainability", "green jobs sustainability", "how careers help sustainability"],
+      "questions": [
+        "How do green jobs help sustainability?",
+        "How do green careers contribute to sustainability?"
+      ],
+      "answerShort": "Green jobs reduce waste and emissions, protect ecosystems, improve efficiency and help society use resources more responsibly.",
+      "answerLong": "Different green jobs support sustainability in different ways. Some protect biodiversity and water, some design cleaner energy and buildings, some improve recycling and circular economy systems, and others educate people or help organizations make better decisions. Together, these careers connect environmental protection, social responsibility and long-term economic thinking."
+    },
+    {
+      "id": "GJ003",
+      "topics": ["Green Jobs", "Career Choice"],
+      "keywords": ["choose green career", "choosing a green career", "which green career is right for me"],
+      "questions": [
+        "How do I choose a green career?",
+        "Which green career is right for me?",
+        "What green career should I choose?"
+      ],
+      "answerShort": "A good green career match depends on your interests, strengths and the kind of problems you want to solve.",
+      "answerLong": "Students who enjoy biology and nature may prefer careers such as biologist, ecologist or ranger. Students who like technology and building things may prefer engineering, renewable energy, architecture or electric vehicle work. Students who enjoy communication, creativity or organizing people may fit environmental education, policy, sustainability management or eco design."
+    },
+    {
+      "id": "GJ004",
+      "topics": ["Green Jobs", "School Subjects"],
+      "keywords": ["school subjects for green jobs", "subjects for green careers", "what subjects help green jobs"],
+      "questions": [
+        "What school subjects are useful for green jobs?",
+        "Which subjects help with green careers?"
+      ],
+      "answerShort": "Useful school subjects for green jobs include biology, chemistry, physics, geography, mathematics, ICT, engineering, art and languages.",
+      "answerLong": "The best subjects depend on the career, but most green jobs use a combination of scientific understanding, data literacy, communication and teamwork. Biology and chemistry are important for environmental and life science roles, while physics and mathematics support engineering and energy careers. ICT, digital tools, design thinking and foreign languages are also valuable because sustainability problems are global and often interdisciplinary."
+    },
+    {
+      "id": "GJ101",
+      "topics": ["Green Jobs", "Environmental Scientist"],
+      "keywords": ["environmental scientist", "environmental scientists", "environment scientist"],
+      "questions": [
+        "What does an environmental scientist do?",
+        "environmental scientist"
+      ],
+      "answerShort": "An environmental scientist studies pollution, ecosystems, natural resources and environmental risks to understand how human activity affects the planet.",
+      "answerLong": "An environmental scientist studies pollution, ecosystems, natural resources and environmental risks to understand how human activity affects the planet. This career contributes to sustainability by identifying problems, measuring impacts and supporting better decisions about land, air, water and waste. Useful subjects and skills include biology, chemistry, geography, data analysis, critical thinking and field research."
+    },
+    {
+      "id": "GJ102",
+      "topics": ["Green Jobs", "Biologist"],
+      "keywords": ["biologist", "biologists", "biology career"],
+      "questions": [
+        "What does a biologist do?",
+        "biologist"
+      ],
+      "answerShort": "A biologist studies living organisms such as plants, animals, cells and ecosystems.",
+      "answerLong": "A biologist studies living organisms such as plants, animals, cells and ecosystems. This career contributes to sustainability by helping people understand biodiversity, food systems, health and the effects of environmental change. Useful subjects and skills include biology, chemistry, observation, laboratory work and scientific thinking."
+    },
+    {
+      "id": "GJ103",
+      "topics": ["Green Jobs", "Marine Biologist"],
+      "keywords": ["marine biologist", "marine biology", "ocean biologist"],
+      "questions": [
+        "What does a marine biologist do?",
+        "marine biologist"
+      ],
+      "answerShort": "A marine biologist studies life in oceans, seas and coastal ecosystems.",
+      "answerLong": "A marine biologist studies life in oceans, seas and coastal ecosystems. This career contributes to sustainability by helping protect marine biodiversity, fisheries, coral habitats and water quality. Useful subjects and skills include biology, ecology, chemistry, diving or fieldwork skills and data collection."
+    },
+    {
+      "id": "GJ104",
+      "topics": ["Green Jobs", "Zoologist"],
+      "keywords": ["zoologist", "zoology", "animal scientist"],
+      "questions": [
+        "What does a zoologist do?",
+        "zoologist"
+      ],
+      "answerShort": "A zoologist studies animals, their behavior, habitats and relationships with ecosystems.",
+      "answerLong": "A zoologist studies animals, their behavior, habitats and relationships with ecosystems. This career contributes to sustainability by helping protect species, understand food webs and reduce threats such as habitat loss or pollution. Useful subjects and skills include biology, ecology, observation, fieldwork and data recording."
+    },
+    {
+      "id": "GJ105",
+      "topics": ["Green Jobs", "Botanist"],
+      "keywords": ["botanist", "botany", "plant scientist"],
+      "questions": [
+        "What does a botanist do?",
+        "botanist"
+      ],
+      "answerShort": "A botanist studies plants, plant communities and how plants grow, reproduce and adapt.",
+      "answerLong": "A botanist studies plants, plant communities and how plants grow, reproduce and adapt. This career contributes to sustainability by improving conservation, agriculture, habitat restoration and understanding of ecosystems. Useful subjects and skills include biology, ecology, chemistry, patience and careful observation."
+    },
+    {
+      "id": "GJ106",
+      "topics": ["Green Jobs", "Ecologist"],
+      "keywords": ["ecologist", "ecology expert", "ecology career"],
+      "questions": [
+        "What does an ecologist do?",
+        "ecologist"
+      ],
+      "answerShort": "An ecologist studies how organisms interact with each other and with their environment.",
+      "answerLong": "An ecologist studies how organisms interact with each other and with their environment. This career contributes to sustainability by showing how ecosystems function and what happens when habitats are damaged or restored. Useful subjects and skills include biology, geography, statistics, systems thinking and field research."
+    },
+    {
+      "id": "GJ107",
+      "topics": ["Green Jobs", "Conservation Scientist"],
+      "keywords": ["conservation scientist", "conservation science", "nature conservation scientist"],
+      "questions": [
+        "What does a conservation scientist do?",
+        "conservation scientist"
+      ],
+      "answerShort": "A conservation scientist studies ecosystems, habitats and species to support their protection and long-term management.",
+      "answerLong": "A conservation scientist studies ecosystems, habitats and species in order to support their protection and long-term management. This career contributes to sustainability by helping conserve biodiversity, restore habitats and protect natural resources for future generations. Useful subjects and skills include biology, ecology, mapping, data analysis and practical fieldwork."
+    },
+    {
+      "id": "GJ108",
+      "topics": ["Green Jobs", "Forester"],
+      "keywords": ["forester", "conservation forester", "forest manager", "forestry"],
+      "questions": [
+        "What does a forester do?",
+        "forester"
+      ],
+      "answerShort": "A forester manages forests and plans how woodland can be protected, restored and used responsibly.",
+      "answerLong": "A forester manages forests and plans how woodland can be protected, restored and used responsibly. This career contributes to sustainability by balancing biodiversity, carbon storage, wildfire prevention and responsible use of timber and land. Useful subjects and skills include biology, geography, environmental management and long-term planning."
+    },
+    {
+      "id": "GJ109",
+      "topics": ["Green Jobs", "Park Ranger"],
+      "keywords": ["park ranger", "ranger", "nature ranger"],
+      "questions": [
+        "What does a park ranger do?",
+        "park ranger"
+      ],
+      "answerShort": "A park ranger protects natural areas, helps visitors and monitors wildlife, habitats and park rules.",
+      "answerLong": "A park ranger protects natural areas, helps visitors and monitors wildlife, habitats and park rules. This career contributes to sustainability by supporting conservation, environmental education and responsible tourism. Useful subjects and skills include biology, communication, physical fitness, first aid and practical outdoor skills."
+    },
+    {
+      "id": "GJ110",
+      "topics": ["Green Jobs", "Climate Scientist"],
+      "keywords": ["climate scientist", "climatologist", "climate science career"],
+      "questions": [
+        "What does a climate scientist do?",
+        "climate scientist"
+      ],
+      "answerShort": "A climate scientist studies long-term weather patterns, climate systems and climate change.",
+      "answerLong": "A climate scientist studies long-term weather patterns, climate systems and climate change. This career contributes to sustainability by helping societies understand emissions, warming, extreme weather and adaptation needs. Useful subjects and skills include physics, mathematics, geography, data analysis and modeling."
+    },
+    {
+      "id": "GJ111",
+      "topics": ["Green Jobs", "Environmental Chemist"],
+      "keywords": ["environmental chemist", "chemist sustainability", "environment chemistry"],
+      "questions": [
+        "What does an environmental chemist do?",
+        "environmental chemist"
+      ],
+      "answerShort": "An environmental chemist studies chemicals in air, water, soil and living systems.",
+      "answerLong": "An environmental chemist studies chemicals in air, water, soil and living systems. This career contributes to sustainability by detecting pollution, understanding contamination and helping create safer materials and cleaner processes. Useful subjects and skills include chemistry, mathematics, laboratory methods and careful analysis."
+    },
+    {
+      "id": "GJ112",
+      "topics": ["Green Jobs", "Hydrologist"],
+      "keywords": ["hydrologist", "water scientist", "hydrology"],
+      "questions": [
+        "What does a hydrologist do?",
+        "hydrologist"
+      ],
+      "answerShort": "A hydrologist studies water movement, water quality, rivers, groundwater and the water cycle.",
+      "answerLong": "A hydrologist studies water movement, water quality, rivers, groundwater and the water cycle. This career contributes to sustainability by helping protect drinking water, predict floods and droughts and manage water resources responsibly. Useful subjects and skills include geography, physics, mathematics, GIS and environmental measurement."
+    },
+    {
+      "id": "GJ113",
+      "topics": ["Green Jobs", "Environmental Engineer"],
+      "keywords": ["environmental engineer", "environment engineer"],
+      "questions": [
+        "What does an environmental engineer do?",
+        "environmental engineer"
+      ],
+      "answerShort": "An environmental engineer designs systems that reduce pollution and improve water, waste and resource management.",
+      "answerLong": "An environmental engineer designs systems that reduce pollution and improve water, waste and resource management. This career contributes to sustainability by turning scientific knowledge into practical solutions for cleaner cities, industries and communities. Useful subjects and skills include mathematics, physics, chemistry, engineering design and problem solving."
+    },
+    {
+      "id": "GJ114",
+      "topics": ["Green Jobs", "Renewable Energy Engineer"],
+      "keywords": ["renewable energy engineer", "energy engineer", "clean energy engineer"],
+      "questions": [
+        "What does a renewable energy engineer do?",
+        "renewable energy engineer"
+      ],
+      "answerShort": "A renewable energy engineer designs and improves systems such as solar, wind, hydro or geothermal energy.",
+      "answerLong": "A renewable energy engineer designs and improves systems such as solar, wind, hydro or geothermal energy. This career contributes to sustainability by helping replace fossil fuels with cleaner energy sources and by improving efficiency. Useful subjects and skills include physics, mathematics, engineering, digital tools and systems thinking."
+    },
+    {
+      "id": "GJ115",
+      "topics": ["Green Jobs", "Solar Installer"],
+      "keywords": ["solar installer", "solar technician", "pv installer", "photovoltaic technician"],
+      "questions": [
+        "What does a solar installer do?",
+        "solar installer"
+      ],
+      "answerShort": "A solar installer sets up and maintains photovoltaic panels and related energy equipment.",
+      "answerLong": "A solar installer sets up and maintains photovoltaic panels and related energy equipment. This career contributes to sustainability by helping homes, schools and businesses produce renewable electricity with lower emissions. Useful subjects and skills include electricity basics, physics, technical drawing, safety awareness and practical hands-on work."
+    },
+    {
+      "id": "GJ116",
+      "topics": ["Green Jobs", "Wind Turbine Technician"],
+      "keywords": ["wind turbine technician", "wind technician", "wind tech"],
+      "questions": [
+        "What does a wind turbine technician do?",
+        "wind turbine technician"
+      ],
+      "answerShort": "A wind turbine technician installs, inspects and repairs wind turbines and their electrical or mechanical systems.",
+      "answerLong": "A wind turbine technician installs, inspects and repairs wind turbines and their electrical or mechanical systems. This career contributes to sustainability by keeping renewable energy systems reliable and efficient. Useful subjects and skills include mechanics, electricity, physics, digital diagnostics, safety procedures and teamwork."
+    },
+    {
+      "id": "GJ117",
+      "topics": ["Green Jobs", "Energy Auditor"],
+      "keywords": ["energy auditor", "energy efficiency specialist", "building energy auditor"],
+      "questions": [
+        "What does an energy auditor do?",
+        "energy auditor"
+      ],
+      "answerShort": "An energy auditor checks how buildings or systems use energy and finds ways to reduce waste.",
+      "answerLong": "An energy auditor checks how buildings or systems use energy and finds ways to reduce waste. This career contributes to sustainability by improving energy efficiency, lowering costs and cutting emissions. Useful subjects and skills include mathematics, physics, building systems, measurement and report writing."
+    },
+    {
+      "id": "GJ118",
+      "topics": ["Green Jobs", "Sustainable Architect"],
+      "keywords": ["sustainable architect", "green architect", "eco architect"],
+      "questions": [
+        "What does a sustainable architect do?",
+        "sustainable architect"
+      ],
+      "answerShort": "A sustainable architect designs buildings that use less energy, water and material while staying healthy and comfortable for people.",
+      "answerLong": "A sustainable architect designs buildings that use less energy, water and material while staying healthy and comfortable for people. This career contributes to sustainability by improving insulation, natural light, ventilation, material choice and long-term building performance. Useful subjects and skills include mathematics, art, physics, design software and creative problem solving."
+    },
+    {
+      "id": "GJ119",
+      "topics": ["Green Jobs", "Urban Planner"],
+      "keywords": ["urban planner", "sustainable city planner", "city planner"],
+      "questions": [
+        "What does an urban planner do?",
+        "urban planner"
+      ],
+      "answerShort": "An urban planner helps design towns and cities, including transport, green spaces, housing and land use.",
+      "answerLong": "An urban planner helps design towns and cities, including transport, green spaces, housing and land use. This career contributes to sustainability by supporting walkable neighborhoods, public transport, climate resilience and better use of space and resources. Useful subjects and skills include geography, social studies, mathematics, mapping and communication."
+    },
+    {
+      "id": "GJ120",
+      "topics": ["Green Jobs", "Water Resource Engineer"],
+      "keywords": ["water resource engineer", "water engineer"],
+      "questions": [
+        "What does a water resource engineer do?",
+        "water resource engineer"
+      ],
+      "answerShort": "A water resource engineer designs systems for water supply, drainage, flood protection and water treatment.",
+      "answerLong": "A water resource engineer designs systems for water supply, drainage, flood protection and water treatment. This career contributes to sustainability by improving water security, reducing pollution and protecting people from water-related risks. Useful subjects and skills include mathematics, physics, engineering, hydrology and computer modeling."
+    },
+    {
+      "id": "GJ121",
+      "topics": ["Green Jobs", "Waste Management Specialist"],
+      "keywords": ["waste management specialist", "waste manager", "waste expert"],
+      "questions": [
+        "What does a waste management specialist do?",
+        "waste management specialist"
+      ],
+      "answerShort": "A waste management specialist plans how waste is collected, treated, reduced, reused or recycled.",
+      "answerLong": "A waste management specialist plans how waste is collected, treated, reduced, reused or recycled. This career contributes to sustainability by preventing pollution, saving materials and improving circular economy systems. Useful subjects and skills include environmental science, logistics, chemistry, data tracking and organization."
+    },
+    {
+      "id": "GJ122",
+      "topics": ["Green Jobs", "Recycling Coordinator"],
+      "keywords": ["recycling coordinator", "recycling specialist", "circular economy specialist"],
+      "questions": [
+        "What does a recycling coordinator do?",
+        "recycling coordinator"
+      ],
+      "answerShort": "A recycling coordinator organizes systems that sort, recover and reuse materials such as paper, glass, plastics and metals.",
+      "answerLong": "A recycling coordinator organizes systems that sort, recover and reuse materials such as paper, glass, plastics and metals. This career contributes to sustainability by reducing landfill waste and keeping valuable materials in use for longer. Useful subjects and skills include environmental awareness, process planning, communication and data management."
+    },
+    {
+      "id": "GJ123",
+      "topics": ["Green Jobs", "Agronomist"],
+      "keywords": ["agronomist", "sustainable farmer", "agriculture scientist", "agricultural scientist"],
+      "questions": [
+        "What does an agronomist do?",
+        "agronomist"
+      ],
+      "answerShort": "An agronomist studies crops, soils and farming systems in order to improve food production responsibly.",
+      "answerLong": "An agronomist studies crops, soils and farming systems in order to improve food production responsibly. This career contributes to sustainability by helping farmers use water, fertilizer, land and energy more efficiently while protecting soil health and biodiversity. Useful subjects and skills include biology, chemistry, geography, observation and practical problem solving."
+    },
+    {
+      "id": "GJ124",
+      "topics": ["Green Jobs", "Hydroponics Technician"],
+      "keywords": ["hydroponics technician", "hydroponics expert", "hydroponic grower"],
+      "questions": [
+        "What does a hydroponics technician do?",
+        "hydroponics technician"
+      ],
+      "answerShort": "A hydroponics technician grows plants without soil by managing water, nutrients, light and system conditions.",
+      "answerLong": "A hydroponics technician grows plants without soil by managing water, nutrients, light and system conditions. This career contributes to sustainability by saving water, reducing some land pressures and improving controlled food production. Useful subjects and skills include biology, chemistry, ICT, monitoring and practical maintenance."
+    },
+    {
+      "id": "GJ125",
+      "topics": ["Green Jobs", "Environmental Data Analyst"],
+      "keywords": ["environmental data analyst", "sustainability analyst", "environmental data scientist", "gis specialist", "gis analyst"],
+      "questions": [
+        "What does an environmental data analyst do?",
+        "environmental data analyst"
+      ],
+      "answerShort": "An environmental data analyst collects and interprets data about energy, emissions, biodiversity, pollution or resource use.",
+      "answerLong": "An environmental data analyst collects and interprets data about energy, emissions, biodiversity, pollution or resource use. This career contributes to sustainability by turning information into evidence for better environmental decisions. Useful subjects and skills include mathematics, ICT, statistics, visualization and critical thinking."
+    },
+    {
+      "id": "GJ126",
+      "topics": ["Green Jobs", "Sustainability Manager"],
+      "keywords": ["sustainability manager", "esg specialist", "sustainability officer"],
+      "questions": [
+        "What does a sustainability manager do?",
+        "sustainability manager"
+      ],
+      "answerShort": "A sustainability manager helps an organization reduce environmental impact and improve responsible practices.",
+      "answerLong": "A sustainability manager helps an organization reduce environmental impact and improve responsible practices. This career contributes to sustainability by setting goals, measuring progress and coordinating changes in energy, materials, travel, procurement or reporting. Useful subjects and skills include communication, project management, data literacy, environmental knowledge and teamwork."
+    },
+    {
+      "id": "GJ127",
+      "topics": ["Green Jobs", "Eco Designer"],
+      "keywords": ["eco designer", "sustainable product designer", "green designer", "eco design professional"],
+      "questions": [
+        "What does an eco designer do?",
+        "eco designer"
+      ],
+      "answerShort": "An eco designer creates products, packaging or services with lower environmental impact.",
+      "answerLong": "An eco designer creates products, packaging or services with lower environmental impact. This career contributes to sustainability by choosing better materials, reducing waste, extending product life and supporting circular design. Useful subjects and skills include art, technology, design thinking, material awareness and creativity."
+    },
+    {
+      "id": "GJ128",
+      "topics": ["Green Jobs", "Sustainable Fashion Designer"],
+      "keywords": ["sustainable fashion designer", "eco fashion designer", "sustainable fashion"],
+      "questions": [
+        "What does a sustainable fashion designer do?",
+        "sustainable fashion designer"
+      ],
+      "answerShort": "A sustainable fashion designer creates clothing and textiles with more responsible materials, processes and product lifecycles.",
+      "answerLong": "A sustainable fashion designer creates clothing and textiles with more responsible materials, processes and product lifecycles. This career contributes to sustainability by reducing waste, pollution and overproduction in the fashion industry. Useful subjects and skills include art, textiles, design, material research and awareness of supply chains."
+    },
+    {
+      "id": "GJ129",
+      "topics": ["Green Jobs", "Electric Vehicle Technician"],
+      "keywords": ["electric vehicle technician", "ev technician", "electric car technician"],
+      "questions": [
+        "What does an electric vehicle technician do?",
+        "electric vehicle technician"
+      ],
+      "answerShort": "An electric vehicle technician maintains and repairs electric cars, batteries and related systems.",
+      "answerLong": "An electric vehicle technician maintains and repairs electric cars, batteries and related systems. This career contributes to sustainability by supporting cleaner transport technologies and improving their safety and reliability. Useful subjects and skills include electricity, electronics, mechanics, diagnostics and safety procedures."
+    },
+    {
+      "id": "GJ130",
+      "topics": ["Green Jobs", "Battery Engineer"],
+      "keywords": ["battery engineer", "energy storage engineer", "battery specialist"],
+      "questions": [
+        "What does a battery engineer do?",
+        "battery engineer"
+      ],
+      "answerShort": "A battery engineer develops or improves batteries and other energy storage systems.",
+      "answerLong": "A battery engineer develops or improves batteries and other energy storage systems. This career contributes to sustainability by helping renewable energy and electric transport work more effectively and reliably. Useful subjects and skills include chemistry, physics, mathematics, materials science and engineering."
+    },
+    {
+      "id": "GJ131",
+      "topics": ["Green Jobs", "Environmental Educator"],
+      "keywords": ["environmental educator", "sustainability educator", "eco teacher"],
+      "questions": [
+        "What does an environmental educator do?",
+        "environmental educator"
+      ],
+      "answerShort": "An environmental educator teaches people about nature, climate, resources and sustainable choices.",
+      "answerLong": "An environmental educator teaches people about nature, climate, resources and sustainable choices. This career contributes to sustainability by building awareness, changing habits and helping communities make informed decisions. Useful subjects and skills include communication, pedagogy, science knowledge, creativity and empathy."
+    },
+    {
+      "id": "GJ132",
+      "topics": ["Green Jobs", "Environmental Policy Specialist"],
+      "keywords": ["environmental policy specialist", "sustainability policy analyst", "environmental lawyer", "policy analyst"],
+      "questions": [
+        "What does an environmental policy specialist do?",
+        "environmental policy specialist"
+      ],
+      "answerShort": "An environmental policy specialist works on rules, plans or laws related to climate, pollution, biodiversity and resource use.",
+      "answerLong": "An environmental policy specialist works on rules, plans or laws related to climate, pollution, biodiversity and resource use. This career contributes to sustainability by helping societies create fair and effective systems for environmental protection and long-term planning. Useful subjects and skills include social studies, law, geography, writing, analysis and public communication."
+    }
+  ]
+}
