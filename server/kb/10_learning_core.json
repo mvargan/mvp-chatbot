@@ -1,0 +1,313 @@
+{
+  "entries": [
+    {
+      "id": "C001",
+      "topics": ["Sustainability", "Core Concepts"],
+      "keywords": ["sustainability", "sustainable living"],
+      "questions": [
+        "What is sustainability?",
+        "sustainability"
+      ],
+      "answerShort": "Sustainability means using resources responsibly so people can live well today without harming future generations.",
+      "answerLong": "Sustainability means using resources in a responsible way so that people can live well today without harming the environment or limiting the opportunities of future generations. It connects environmental protection, economic responsibility and social well-being. In practice, sustainability means wasting less, polluting less, protecting ecosystems and making fair long-term decisions."
+    },
+    {
+      "id": "C002",
+      "topics": ["Sustainability", "Development"],
+      "keywords": ["sustainable development", "development"],
+      "questions": [
+        "What is sustainable development?",
+        "sustainable development"
+      ],
+      "answerShort": "Sustainable development means improving quality of life while balancing the environment, society and the economy.",
+      "answerLong": "Sustainable development means improving quality of life in a way that balances three things: the environment, society and the economy. It is not only about growth; it is about responsible growth. A sustainable solution should work in the long term, not create bigger environmental or social problems later."
+    },
+    {
+      "id": "C003",
+      "topics": ["Sustainability", "Importance"],
+      "keywords": ["why sustainability matters", "importance of sustainability"],
+      "questions": [
+        "Why is sustainability important?",
+        "Why does sustainability matter?"
+      ],
+      "answerShort": "Sustainability matters because it helps address climate change, pollution, waste, biodiversity loss and unfair use of resources.",
+      "answerLong": "Sustainability is important because the world faces linked challenges such as climate change, pollution, waste, biodiversity loss and unequal access to resources. Young people will live with the long-term consequences of today's choices, so understanding sustainability helps them make better decisions, build useful skills and prepare for future careers."
+    },
+    {
+      "id": "C004",
+      "topics": ["Climate Change"],
+      "keywords": ["climate change"],
+      "questions": [
+        "What is climate change?",
+        "climate change"
+      ],
+      "answerShort": "Climate change is the long-term shift of climate systems, now strongly linked to human greenhouse gas emissions.",
+      "answerLong": "Climate change refers to long-term shifts in temperature, weather patterns and climate systems. Today it is strongly linked to human activities such as burning fossil fuels, deforestation and intensive industry, which increase greenhouse gases in the atmosphere. Climate change can cause heatwaves, droughts, floods, sea-level rise, ecosystem damage and risks for food, water and health."
+    },
+    {
+      "id": "C005",
+      "topics": ["Biodiversity"],
+      "keywords": ["biodiversity"],
+      "questions": [
+        "What is biodiversity?",
+        "biodiversity"
+      ],
+      "answerShort": "Biodiversity is the variety of living organisms and ecosystems that keeps nature stable and productive.",
+      "answerLong": "Biodiversity includes the variety of plants, animals, microorganisms and ecosystems. It matters because ecosystems depend on this variety to remain stable and productive. When biodiversity decreases, ecosystems become weaker, species disappear and natural services such as pollination, clean water and soil health can be damaged."
+    },
+    {
+      "id": "C006",
+      "topics": ["Green Jobs", "Careers"],
+      "keywords": ["green jobs", "green job", "green careers"],
+      "questions": [
+        "What are green jobs?",
+        "green jobs"
+      ],
+      "answerShort": "Green jobs are professions that help the environment by lowering emissions, reducing waste, protecting ecosystems or improving efficiency.",
+      "answerLong": "Green jobs are professions that directly or indirectly help the environment. They can be found in renewable energy, energy efficiency, transport, construction, agriculture, environmental science, data analysis, design, education and many other sectors. A job can be green because it lowers emissions, reduces waste, protects ecosystems, improves efficiency or supports a circular economy."
+    },
+    {
+      "id": "C007",
+      "topics": ["Green Jobs", "Examples"],
+      "keywords": ["examples of green jobs", "green job examples"],
+      "questions": [
+        "What are examples of green jobs?",
+        "Give examples of green jobs."
+      ],
+      "answerShort": "Examples include solar installers, wind technicians, energy auditors, environmental engineers, sustainability managers and environmental data scientists.",
+      "answerLong": "Examples of green jobs include solar panel installers, wind turbine technicians, energy auditors, environmental engineers, sustainability managers, hydrologists, wastewater specialists, environmental consultants, green architects, sustainable transport planners, environmental data scientists and eco-design professionals. The exact job titles differ by country and industry, but the common goal is a more sustainable future."
+    },
+    {
+      "id": "C008",
+      "topics": ["Green Skills", "Core Concepts"],
+      "keywords": ["green skills", "green skill"],
+      "questions": [
+        "What are green skills?",
+        "green skills"
+      ],
+      "answerShort": "Green skills are the knowledge and practical abilities needed to support sustainability in everyday life, education and work.",
+      "answerLong": "Green skills are the knowledge, habits and practical abilities needed to support sustainability. They include understanding energy and water saving, waste reduction, recycling, sustainable materials, environmental awareness, systems thinking, digital literacy, teamwork and responsible decision-making. In jobs, green skills often combine technical knowledge with environmental responsibility."
+    },
+    {
+      "id": "C009",
+      "topics": ["Green Skills", "Examples"],
+      "keywords": ["examples of green skills", "green skills examples"],
+      "questions": [
+        "What are examples of green skills?",
+        "Give examples of green skills."
+      ],
+      "answerShort": "Examples include saving energy and water, sorting waste, measuring environmental impact and designing more efficient systems.",
+      "answerLong": "Examples of green skills range from everyday habits to advanced professional competences. At a basic level they include sorting waste, conserving water, using energy efficiently and choosing sustainable products. In education and work they also include data analysis, measuring environmental impact, understanding renewable energy, designing efficient systems and improving processes to reduce waste."
+    },
+    {
+      "id": "C010",
+      "topics": ["Renewable Energy"],
+      "keywords": ["renewable energy", "clean energy"],
+      "questions": [
+        "What is renewable energy?",
+        "renewable energy"
+      ],
+      "answerShort": "Renewable energy comes from naturally renewed sources such as the sun, wind, water and geothermal heat.",
+      "answerLong": "Renewable energy is energy generated from sources that are naturally renewed, such as solar radiation, wind, flowing water, geothermal heat and sometimes sustainably managed biomass. It is important because it can reduce greenhouse gas emissions, improve energy security and create green jobs. Renewable energy is not impact-free, but it is a key part of a lower-carbon future."
+    },
+    {
+      "id": "C011",
+      "topics": ["Solar Energy"],
+      "keywords": ["solar energy", "solar power"],
+      "questions": [
+        "What is solar energy?",
+        "solar energy"
+      ],
+      "answerShort": "Solar energy uses sunlight to produce electricity or heat.",
+      "answerLong": "Solar energy systems capture sunlight and convert it into useful energy. Photovoltaic panels generate electricity, while solar thermal systems use sunlight to produce heat. People working in solar energy use science, engineering and mathematics to calculate efficiency, panel position, output, storage and maintenance."
+    },
+    {
+      "id": "C012",
+      "topics": ["Wind Energy"],
+      "keywords": ["wind energy", "wind power"],
+      "questions": [
+        "What is wind energy?",
+        "wind energy"
+      ],
+      "answerShort": "Wind energy uses moving air to turn turbines and generate electricity.",
+      "answerLong": "Wind turbines use moving air to turn blades and generate electricity. Wind energy is an important renewable source in many countries, but it depends on wind conditions and needs good planning, maintenance and grid integration. Jobs in this sector include technicians, engineers, planners and analysts."
+    },
+    {
+      "id": "C013",
+      "topics": ["Energy Efficiency"],
+      "keywords": ["energy efficiency", "efficient energy use"],
+      "questions": [
+        "What is energy efficiency?",
+        "energy efficiency"
+      ],
+      "answerShort": "Energy efficiency means using less energy to do the same job.",
+      "answerLong": "Energy efficiency is one of the fastest and most practical ways to reduce environmental impact. If a building, machine or system uses less energy to do the same job, it saves money, reduces emissions and lowers resource use. Examples include good insulation, efficient appliances, LED lighting, better transport systems and careful energy management."
+    },
+    {
+      "id": "C014",
+      "topics": ["Passive House", "Buildings"],
+      "keywords": ["passive house", "passive houses", "low-energy building"],
+      "questions": [
+        "What is a passive house?",
+        "passive house"
+      ],
+      "answerShort": "A passive house is a building designed to need very little energy for heating and cooling.",
+      "answerLong": "A passive house is designed so that it needs very little energy for heating and cooling. Its main features are excellent insulation, airtight construction, careful design to avoid thermal bridges, efficient ventilation and high-performance windows, often triple glazed. Passive houses are important because buildings use a lot of energy, so efficient design can greatly reduce emissions and costs."
+    },
+    {
+      "id": "C015",
+      "topics": ["Hydroponics", "Agriculture"],
+      "keywords": ["hydroponics", "hydroponic gardening"],
+      "questions": [
+        "What is hydroponics?",
+        "What is hydroponic gardening?",
+        "hydroponics"
+      ],
+      "answerShort": "Hydroponics is a way of growing plants in water with nutrients instead of in soil.",
+      "answerLong": "Hydroponics is a controlled method of growing plants in water enriched with nutrients instead of in soil. It can use less water, allow cleaner control of nutrients, reduce some pests and support vertical or indoor farming. It is not automatically sustainable in every case, but it can be very efficient when carefully designed."
+    },
+    {
+      "id": "C016",
+      "topics": ["Food", "Organic Agriculture"],
+      "keywords": ["organic agriculture", "local food", "sustainable food"],
+      "questions": [
+        "What is organic agriculture?",
+        "Why does local food matter for sustainability?"
+      ],
+      "answerShort": "Organic agriculture and local food support biodiversity, careful resource use and often lower transport impact.",
+      "answerLong": "Organic agriculture focuses on healthy soil, biodiversity, careful resource use and limits on synthetic chemicals. More broadly, sustainable food production also values local supply, lower transport impact, responsible water use and farming methods that protect ecosystems. Students can connect this topic with biology, chemistry, economics and health."
+    },
+    {
+      "id": "C017",
+      "topics": ["Circular Economy"],
+      "keywords": ["circular economy", "repair reuse recycle"],
+      "questions": [
+        "What is the circular economy?",
+        "circular economy"
+      ],
+      "answerShort": "A circular economy keeps materials in use longer through durability, repair, reuse, remanufacturing and recycling.",
+      "answerLong": "In a linear economy, products are often made, used and thrown away. In a circular economy, the goal is to keep resources in use longer by designing for durability, repair, reuse, remanufacturing and recycling. This reduces waste, saves raw materials and lowers environmental pressure."
+    },
+    {
+      "id": "C018",
+      "topics": ["Carbon Footprint"],
+      "keywords": ["carbon footprint", "emissions footprint"],
+      "questions": [
+        "What is a carbon footprint?",
+        "carbon footprint"
+      ],
+      "answerShort": "A carbon footprint measures the climate impact of activities through greenhouse gas emissions.",
+      "answerLong": "A carbon footprint measures the climate impact of activities such as transport, electricity use, heating, industry or food production. It is usually discussed in terms of greenhouse gas emissions such as carbon dioxide. People and organizations can reduce their footprint by saving energy, switching to cleaner energy, reducing waste, improving transport choices and using resources more efficiently."
+    },
+    {
+      "id": "C019",
+      "topics": ["Science", "Sustainability"],
+      "keywords": ["science and sustainability", "role of science"],
+      "questions": [
+        "How does science support sustainability?",
+        "What is the role of science in sustainability?"
+      ],
+      "answerShort": "Science supports sustainability by helping us understand problems, test solutions and make evidence-based decisions.",
+      "answerLong": "Science supports sustainability by helping us understand environmental problems, collect data, test technologies and evaluate solutions. Research can improve renewable energy, materials, agriculture, water protection, biodiversity conservation and public policy. Without science, sustainable decisions would be based on guesswork instead of evidence."
+    },
+    {
+      "id": "C020",
+      "topics": ["Conservation Science"],
+      "keywords": ["conservation science", "conservation"],
+      "questions": [
+        "What is conservation science?",
+        "conservation science"
+      ],
+      "answerShort": "Conservation science studies and protects ecosystems, habitats and species.",
+      "answerLong": "Conservation science focuses on understanding and protecting ecosystems, habitats and species. It combines biology, ecology, monitoring, field work and data analysis. Related careers include botanists, conservation foresters, marine biologists, zoologists, rangers and ecologists, all of whom help protect biodiversity and natural resources."
+    },
+    {
+      "id": "C021",
+      "topics": ["Forest Conservation"],
+      "keywords": ["forest conservation", "forest protection"],
+      "questions": [
+        "What is forest conservation?",
+        "forest conservation"
+      ],
+      "answerShort": "Forest conservation protects trees, soil, biodiversity and ecosystem services such as clean air and carbon storage.",
+      "answerLong": "Forest conservation includes protecting trees, soil, biodiversity and ecosystem services such as clean air and carbon storage. Conservation foresters may assess damage from fire or logging, restore damaged areas, monitor forest health and plan sustainable use. Forests matter because they support wildlife, climate regulation and human well-being."
+    },
+    {
+      "id": "C022",
+      "topics": ["Mathematics", "Sustainability"],
+      "keywords": ["mathematics", "math", "mathematics in sustainability"],
+      "questions": [
+        "Why is mathematics important for sustainability?",
+        "How is mathematics used in sustainability?"
+      ],
+      "answerShort": "Mathematics is important because sustainability problems must be measured, compared and modeled.",
+      "answerLong": "Mathematics is essential in sustainability because environmental problems must be measured and compared. Math is used to analyse pollution, energy use, water flow, emissions, efficiency, risk and future trends. It helps engineers design renewable systems, scientists model climate, analysts evaluate data and planners optimize transport, buildings and resources."
+    },
+    {
+      "id": "C023",
+      "topics": ["Data Science", "Green Jobs"],
+      "keywords": ["environmental data scientist", "data scientist"],
+      "questions": [
+        "What does an environmental data scientist do?",
+        "What is an environmental data scientist?"
+      ],
+      "answerShort": "Environmental data scientists analyse pollution, climate, biodiversity, water and energy data to support decisions.",
+      "answerLong": "Environmental data scientists work with information about pollution, climate, biodiversity, water, energy or resource use. They clean and analyse data, find patterns, build models and present results in ways that help organizations and decision-makers. It is a strong example of how mathematics, computing and sustainability come together."
+    },
+    {
+      "id": "C024",
+      "topics": ["Environmental Engineering", "Green Jobs"],
+      "keywords": ["environmental engineer", "environmental engineering"],
+      "questions": [
+        "What does an environmental engineer do?",
+        "What is environmental engineering?"
+      ],
+      "answerShort": "Environmental engineers apply science and technical design to practical environmental problems such as water, waste, energy and infrastructure.",
+      "answerLong": "Environmental engineering applies science and technical design to practical environmental problems. Environmental engineers may work on air quality, water treatment, wastewater systems, waste management, renewable energy, sustainable materials and low-impact infrastructure. A passive house is one simple example of how engineering supports sustainability."
+    },
+    {
+      "id": "C025",
+      "topics": ["Energy Auditor", "Green Jobs"],
+      "keywords": ["energy auditor", "energy auditing"],
+      "questions": [
+        "What does an energy auditor do?",
+        "What is an energy auditor?"
+      ],
+      "answerShort": "Energy auditors examine how buildings or processes use energy and find ways to reduce losses and improve efficiency.",
+      "answerLong": "Energy auditors examine buildings, equipment or processes to see how energy is used. They identify losses, inefficiencies and opportunities for improvement, such as better insulation, lighting, controls or equipment. Their work is important because energy efficiency usually saves both money and emissions."
+    },
+    {
+      "id": "C026",
+      "topics": ["Sustainability Manager", "Green Jobs"],
+      "keywords": ["sustainability manager", "sustainability analyst"],
+      "questions": [
+        "What does a sustainability manager do?",
+        "What is a sustainability manager?"
+      ],
+      "answerShort": "Sustainability managers collect data, set goals and track progress on energy, waste, emissions and materials.",
+      "answerLong": "Sustainability managers or analysts collect data, set goals, coordinate actions and monitor progress related to energy, waste, emissions, materials or reporting. They often combine environmental knowledge with organization, communication and data skills. It is a good example of a green job that exists in many sectors, not only in science."
+    },
+    {
+      "id": "C027",
+      "topics": ["Art", "Sustainability"],
+      "keywords": ["art", "art and sustainability", "eco art"],
+      "questions": [
+        "How can art support sustainability?",
+        "Why is art important in sustainability?"
+      ],
+      "answerShort": "Art supports sustainability by making environmental issues visible, memorable and emotionally engaging.",
+      "answerLong": "Art is important in sustainability because facts alone do not always change behaviour. Creative work can make environmental issues more visible, emotional and memorable. Green art-related work includes environmental art, eco-design, sustainable fashion, graphic design with lower-impact materials, public art projects and educational creative activities."
+    },
+    {
+      "id": "C028",
+      "topics": ["STEAM", "Inclusion"],
+      "keywords": ["diversity in steam", "women in steam", "girls in steam"],
+      "questions": [
+        "Why does diversity matter in STEAM?",
+        "Why should girls be encouraged in STEAM?"
+      ],
+      "answerShort": "Diversity matters in STEAM because complex sustainability problems need different viewpoints and talents.",
+      "answerLong": "Science, technology, engineering, arts and mathematics benefit from diversity because complex problems need different viewpoints and talents. Encouraging women and girls in STEAM helps reduce barriers, create fairer opportunities and build stronger teams for future green innovation."
+    }
+  ]
+}

@@ -16,20 +16,12 @@ const COUNTRY_ALIASES = {
   CRO: ["cro", "croatia", "hr", "hrvatska", "hrv", "cro "],
   PL: ["pl", "poland", "polska"],
   IT: ["it", "italy", "italia"],
-  GR: ["gr", "greece", "hellas", "ellada"],
+  GR: ["gr", "greece", "hellas", "ellada", "greek"],
   LT: ["lt", "lithuania", "lietuva"],
 };
 
-const COUNTRY_NAMES = {
-  CRO: "Croatia",
-  PL: "Poland",
-  IT: "Italy",
-  GR: "Greece",
-  LT: "Lithuania",
-};
-
 function normalizeToken(s) {
-  return (s || "").toLowerCase().replace(/[^a-z0-9čćđšž]+/gi, "").trim();
+  return (s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "").trim();
 }
 
 function detectCountryInMessage(message) {
@@ -76,39 +68,47 @@ function inferCountryFromFilename(filename) {
 function stripQuestionWords(s) {
   return (s || "")
     .toLowerCase()
-    .replace(/\b(what|who|where|when|why|how|is|are|do|does|did|can|could|should|would|tell|me|about|the|a|an)\b/g, " ")
+    .replace(/\b(what|who|where|when|why|how|is|are|do|does|did|can|could|should|would|tell|me|about|the|a|an|please|explain)\b/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function fallbackSearch(query, k = 5) {
-  const q = stripQuestionWords(query);
-  if (!q) return [];
+function norm(s) {
+  return (s || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  const tokens = q.split(" ").filter(Boolean);
+function tokenize(s) {
+  return norm(s).split(" ").filter(Boolean);
+}
 
-  // jednostavan scoring: koliko tokena se pojavljuje u textu + bonus ako se pojavi u pitanju
-  const scored = KB_CHUNKS.map((c) => {
-    const hay = (c.text || "").toLowerCase();
-    const qhay = (c.questions || []).join(" ").toLowerCase();
+function exactQuestionMatch(queryMessage) {
+  const q = norm(queryMessage);
+  if (!q) return null;
+
+  let best = null;
+
+  for (const c of KB_CHUNKS) {
+    const questions = (c.questions || []).map(norm);
+    const keywords = (c.keywords || []).map(norm);
+    const topics = (c.topics || []).map(norm);
 
     let score = 0;
-    for (const t of tokens) {
-      if (hay.includes(t)) score += 1;
-      if (qhay.includes(t)) score += 2; // pitanja su važnija
+    if (keywords.includes(q)) score = Math.max(score, 300);
+    if (questions.includes(q)) score = Math.max(score, 250);
+    if (topics.includes(q)) score = Math.max(score, 120);
+
+    if (!score) continue;
+
+    if (!best || score > best.score) {
+      best = { score, chunk: c };
     }
+  }
 
-    // dodatni bonus ako je cijeli pojam unutra (npr. "hydroponics")
-    if (hay.includes(q)) score += 5;
-
-    return { score, chunk: c };
-  })
-    .filter(x => x.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, k)
-    .map(x => ({ score: x.score, chunk: x.chunk }));
-
-  return scored;
+  return best ? best.chunk : null;
 }
 
 const app = express();
@@ -128,6 +128,7 @@ function loadAllJsonFiles() {
   return fs
     .readdirSync(kbDir)
     .filter((f) => f.toLowerCase().endsWith(".json"))
+    .sort()
     .map((f) => {
       const p = path.join(kbDir, f);
       const raw = fs.readFileSync(p, "utf8");
@@ -155,6 +156,7 @@ function normalizeEntry(entry, filename, i) {
   const id = (entry && entry.id) ? String(entry.id) : `${filename}::E${i + 1}`;
 
   const topics = Array.isArray(entry?.topics) ? entry.topics.map(String) : [];
+  const keywords = Array.isArray(entry?.keywords) ? entry.keywords.map(String).filter(Boolean) : [];
   const questions = Array.isArray(entry?.questions) ? entry.questions.map(String).filter(Boolean) : [];
 
   const answerShort = entry?.answerShort ? String(entry.answerShort) : "";
@@ -166,6 +168,7 @@ function normalizeEntry(entry, filename, i) {
   const text = [
     ...questions,
     topics.join(" "),
+    keywords.join(" "),
     answerShort,
     answerLong
   ].filter(Boolean).join("\n");
@@ -176,10 +179,11 @@ function normalizeEntry(entry, filename, i) {
     text,
     questions,
     topics,
+    keywords,
     answerShort,
     answerLong,
     filename,
-    countryCode: inferCountryFromFilename(filename),
+    countryCode: entry?.countryCode ? String(entry.countryCode).toUpperCase() : inferCountryFromFilename(filename),
   };
 }
 
@@ -250,7 +254,13 @@ function inappropriateReply() {
 function outOfScopeReply() {
   return "I’m specialized only for the S.O.S. Erasmus project content, so I can’t answer that. Please ask about science, engineering, art, green skills, or green jobs in CRO/PL/IT/GR/LT.";
 }
+function isYes(s) {
+  return /^(y|yes|da|d|sure|ok|okay|more|opširnije|opsirnije|full)$/i.test((s || "").trim());
+}
 
+function isNo(s) {
+  return /^(n|no|ne|nah|nope)$/i.test((s || "").trim());
+}
 // query expansion = better matching (permutations)
 function expandQuery(q) {
   let s = q;
@@ -264,6 +274,8 @@ function expandQuery(q) {
     [/recycling/gi, "waste sorting recycling circular economy"],
     [/circular economy/gi, "recycling reuse repair circular economy"],
     [/eco design/gi, "sustainable design green design"],
+    [/school/gi, "partner school coordinator country"],
+    [/project/gi, "erasmus project partner schools coordinators"],
   ];
   for (const [re, add] of repl) if (re.test(s)) s = s + " " + add;
 
@@ -279,7 +291,81 @@ function sanitizeForLunr(q) {
     .trim();
 }
 
+function keywordSearch(query, k = 8) {
+  const q = norm(query);
+  if (!q) return [];
+
+  const qTokens = tokenize(q).filter((token) => token.length >= 2);
+  if (!qTokens.length) return [];
+
+  return KB_CHUNKS.map((c) => {
+    const questions = (c.questions || []).map(norm);
+    const topics = (c.topics || []).map(norm);
+    const keywords = (c.keywords || []).map(norm);
+    const text = norm(c.text);
+
+    let score = 0;
+
+    if (questions.includes(q)) score += 120;
+    if (keywords.includes(q)) score += 140;
+    if (topics.includes(q)) score += 90;
+
+    for (const token of qTokens) {
+      if (keywords.some((value) => value === token)) score += 40;
+      if (topics.some((value) => value === token)) score += 28;
+      if (questions.some((value) => value.includes(token))) score += 16;
+      if (text.includes(token)) score += 4;
+    }
+
+    if (qTokens.length <= 3 && keywords.some((value) => qTokens.every((token) => value.includes(token)))) score += 60;
+    if (qTokens.length <= 3 && questions.some((value) => qTokens.every((token) => value.includes(token)))) score += 25;
+
+    return { score, chunk: c };
+  })
+    .filter((result) => result.score >= 18)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, k);
+}
+
+function fallbackSearch(query, k = 5) {
+  const STOP = new Set([
+    "what","who","where","when","why","how","is","are","do","does","did","can","could","should","would",
+    "tell","me","about","the","a","an","and","or","to","in","of","for","on","with","please","explain"
+  ]);
+
+  const q = stripQuestionWords(query);
+  if (!q) return [];
+
+  const tokens = q.split(" ").filter((token) => token.length >= 3 && !STOP.has(token));
+
+  return KB_CHUNKS.map((c) => {
+    const hay = norm(c.text || "");
+    const qhay = norm([
+      ...(c.questions || []),
+      ...(c.keywords || []),
+      ...(c.topics || []),
+    ].join(" "));
+
+    let score = 0;
+    for (const token of tokens) {
+      if (qhay.includes(token)) score += 12;
+      if (hay.includes(token)) score += 3;
+    }
+
+    if (qhay.includes(q)) score += 40;
+    if (hay.includes(q)) score += 10;
+
+    return { score, chunk: c };
+  })
+    .filter((result) => result.score >= 8)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, k);
+}
+
 function pickTop(query, k = 5) {
+  const keywordHits = keywordSearch(query, k);
+  if (keywordHits.length) return keywordHits;
+
   const safe = sanitizeForLunr(query);
   if (!safe) return [];
 
@@ -326,9 +412,22 @@ function formatAnswer(message, hits) {
     .trim();
 
   let short = clean(c.answerShort) || clean(c.answerLong);
+  
+  // limit na max 220 znakova (MVP), bez rezanja riječi
+  if (short.length > 220) {
+    short = short.slice(0, 220).replace(/\s+\S*$/, "") + "...";
+  }
+  
   const cc = c.countryCode && c.countryCode !== "GLOBAL" ? c.countryCode : null;
 
-  if (short) return { reply: cc ? `(${cc}) ${short}` : short };
+  if (short) {
+    const base = cc ? `(${cc}) ${short}` : short;
+    return {
+      reply: `${base}\n\nDo you want the full answer? (y/n)`,
+      pendingId: c.id,
+      pendingLong: clean(c.answerLong) || clean(c.answerShort) || ""
+    };
+  }
 
   return null;
 }
@@ -342,6 +441,19 @@ app.post("/chat", (req, res) => {
 
   const sessionId = req.ip; // simple session
   const state = SESSION_MEMORY.get(sessionId) || {};
+
+  // If we previously asked "full answer? (y/n)"
+  if (state?.pending && (isYes(message) || isNo(message))) {
+    if (isYes(message)) {
+      const longText = state.pendingLong || "No extended answer available.";
+      SESSION_MEMORY.set(sessionId, { ...state, pending: null, pendingLong: null, pendingId: null });
+      return res.json({ reply: longText });
+    } else {
+      SESSION_MEMORY.set(sessionId, { ...state, pending: null, pendingLong: null, pendingId: null });
+      return res.json({ reply: "OK." });
+    }
+  }
+
   const detected = detectCountryInMessage(message);
 
   // Detect intent
@@ -353,10 +465,22 @@ app.post("/chat", (req, res) => {
     if (reply) return res.json({ reply });
   }
 
+  const exact = exactQuestionMatch(message);
+  if (exact) {
+    const clean = (t) => (t || "").replace(/\s+/g, " ").trim();
+    const short = clean(exact.answerShort) || clean(exact.answerLong);
+    const cc = exact.countryCode && exact.countryCode !== "GLOBAL" ? exact.countryCode : null;
+    return res.json({ reply: cc ? `(${cc}) ${short}` : short });
+  }
+
   // if user inputs only "CRO" / "PL" / ...
   if (detected && stripCountryFromMessage(message).length === 0) {
+    const normalizedMessage = norm(message);
+    const bareShortCode = ["cro", "pl", "it", "gr", "lt", "hr"].includes(normalizedMessage);
     SESSION_MEMORY.set(sessionId, { ...state, country: detected });
-    return res.json({ reply: `OK — using ${detected}. Ask your question.` });
+    if (bareShortCode) {
+      return res.json({ reply: `OK — using ${detected}. Ask your question.` });
+    }
   }
 
   // if user inputs "CRO green job" -> detect CRO and remove token from query
@@ -365,7 +489,6 @@ app.post("/chat", (req, res) => {
 
   if (detected) {
     country = detected;
-    queryMessage = stripCountryFromMessage(message);
     SESSION_MEMORY.set(sessionId, { ...state, country });
   }
 
@@ -377,10 +500,25 @@ app.post("/chat", (req, res) => {
     hitsAll = pickTop(expandQuery(simplified), 15);
   }
 
-  const hits = country ? hitsAll.filter(h => h.chunk?.countryCode === country) : hitsAll;
+  const hits = country ? hitsAll.filter(h => h.chunk?.countryCode === country || h.chunk?.countryCode === "GLOBAL") : hitsAll;
 
-  const out = formatAnswer(queryMessage, hits.length ? hits : hitsAll, sessionId);
+  const out = formatAnswer(queryMessage, hits.length ? hits : hitsAll);
   if (!out) return res.json({ reply: outOfScopeReply() });
+
+  // store pending long answer in session
+  if (out.pendingId) {
+    SESSION_MEMORY.set(sessionId, {
+      ...state,
+      country,
+      pending: out.pendingId,
+      pendingLong: out.pendingLong,
+      pendingId: out.pendingId
+    });
+
+    // do not expose internal fields
+    const { pendingId, pendingLong, ...publicOut } = out;
+    return res.json(publicOut);
+  }
 
   return res.json(out);
 });

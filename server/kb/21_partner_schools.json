@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "S001",
+      "countryCode": "CRO",
+      "topics": ["School", "Croatia"],
+      "keywords": ["gimnazija josipa slavenskog cakovec", "josip slavenski", "school croatia"],
+      "questions": [
+        "What is Gimnazija Josipa Slavenskog Cakovec?",
+        "Which Croatian school is in the project?"
+      ],
+      "answerShort": "Gimnazija Josipa Slavenskog Cakovec is the Croatian coordinating school in the project.",
+      "answerLong": "Gimnazija Josipa Slavenskog Cakovec is the Croatian coordinating school in the STEAM for Sustainability project. In the provided materials, it is presented as the project lead and as the school linked with coordinator Vedrana Mocnik."
+    },
+    {
+      "id": "S002",
+      "countryCode": "IT",
+      "topics": ["School", "Italy"],
+      "keywords": ["itet leonardo da vinci", "leonardo da vinci milazzo", "school italy"],
+      "questions": [
+        "What is ITET Leonardo da Vinci?",
+        "Which Italian school is in the project?"
+      ],
+      "answerShort": "ITET Leonardo da Vinci is the Italian partner school in the project.",
+      "answerLong": "ITET Leonardo da Vinci in Milazzo is the Italian partner school named in the project materials. It contributes to the partnership through activities related to green jobs, sustainability and STEAM learning."
+    },
+    {
+      "id": "S003",
+      "countryCode": "GR",
+      "topics": ["School", "Greece"],
+      "keywords": ["3rd general lyceum of galatsi", "galatsi lyceum", "school greece"],
+      "questions": [
+        "What is the 3rd General Lyceum of Galatsi?",
+        "Which Greek school is in the project?"
+      ],
+      "answerShort": "The 3rd General Lyceum of Galatsi is the Greek partner school in the project.",
+      "answerLong": "The 3rd General Lyceum of Galatsi is the Greek school participating in the project. In the uploaded materials, it is linked with work on passive houses, green energy, art and sustainability-related mathematics."
+    },
+    {
+      "id": "S004",
+      "countryCode": "LT",
+      "topics": ["School", "Lithuania"],
+      "keywords": ["vilniaus zveryno gimnazija", "zveryno gymnasium", "school lithuania"],
+      "questions": [
+        "What is Vilniaus Zveryno gimnazija?",
+        "Which Lithuanian school is in the project?"
+      ],
+      "answerShort": "Vilniaus Zveryno gimnazija is the Lithuanian partner school in the project.",
+      "answerLong": "Vilniaus Zveryno gimnazija is the Lithuanian partner school named in the materials. Its contribution is strongly connected with renewable energy, green science and creative sustainability topics."
+    },
+    {
+      "id": "S005",
+      "countryCode": "PL",
+      "topics": ["School", "Poland"],
+      "keywords": ["janusz korczak high school", "wielun school", "school poland"],
+      "questions": [
+        "What is Janusz Korczak High School?",
+        "Which Polish school is in the project?"
+      ],
+      "answerShort": "Janusz Korczak High School in Wielun is the Polish partner school in the project.",
+      "answerLong": "Janusz Korczak High School in Wielun is the Polish partner school named in the uploaded materials. The Polish content emphasizes green skills, engineering careers, mathematics, sustainability analytics and environmental art."
+    }
+  ]
+}

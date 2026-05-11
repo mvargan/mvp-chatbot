@@ -1,0 +1,177 @@
+{
+  "entries": [
+    {
+      "id": "P001",
+      "topics": ["Project", "Overview", "STEAM", "Sustainability"],
+      "keywords": ["project", "steam for sustainability", "erasmus", "s.o.s.", "sos"],
+      "questions": [
+        "What is the STEAM for Sustainability project?",
+        "What is this Erasmus project about?"
+      ],
+      "answerShort": "STEAM for Sustainability is an Erasmus+ school project about environmental sustainability, green skills, green jobs and STEAM learning.",
+      "answerLong": "STEAM for Sustainability is a 36-month Erasmus+ school project that helps students learn about environmental sustainability through STEAM: science, technology, engineering, arts and mathematics. The project connects green skills, green jobs, digital tools, international cooperation and practical learning activities such as workshops, mobilities and a chatbot."
+    },
+    {
+      "id": "P002",
+      "topics": ["Project", "Goals"],
+      "keywords": ["goal", "main goal", "purpose", "aim"],
+      "questions": [
+        "What is the main goal of the project?",
+        "What does the project aim to achieve?"
+      ],
+      "answerShort": "The main goal is to raise awareness about sustainability and help students understand green careers through STEAM education.",
+      "answerLong": "The project aims to increase awareness of environmental sustainability among students and teachers. It helps young people understand why sustainability matters, introduces green jobs and green technologies, and encourages curiosity, creativity, digital literacy and international cooperation. A special value of the project is that it motivates girls as well as boys to explore STEAM and green professions."
+    },
+    {
+      "id": "P003",
+      "topics": ["Project", "STEAM"],
+      "keywords": ["steam", "science technology engineering arts mathematics"],
+      "questions": [
+        "What does STEAM mean?",
+        "What is STEAM?"
+      ],
+      "answerShort": "STEAM stands for Science, Technology, Engineering, Arts and Mathematics.",
+      "answerLong": "STEAM stands for Science, Technology, Engineering, Arts and Mathematics. It is an interdisciplinary way of learning that combines scientific thinking, problem solving, creativity and practical application. In this project, STEAM is used to explore sustainability, green innovation and future careers."
+    },
+    {
+      "id": "P004",
+      "topics": ["Project", "Duration", "Activities"],
+      "keywords": ["duration", "how long", "activities", "meetings", "workshops", "mobilities"],
+      "questions": [
+        "How long does the project last?",
+        "What activities are included in the project?",
+        "How many meetings and workshops are planned?"
+      ],
+      "answerShort": "The project lasts 36 months and includes virtual meetings, workshops, mobilities, lectures, visits and expert presentations.",
+      "answerLong": "The project runs for 36 months. According to the provided materials, it includes 7 virtual meetings, 5 mobilities, 22 workshops, 1 lecture, 2 expert presentations, 6 visits to relevant institutions and 2 professional excursions. These activities help students learn through direct experience, teamwork and international exchange."
+    },
+    {
+      "id": "P005",
+      "topics": ["Project", "Countries", "Partners"],
+      "keywords": ["countries", "partner countries", "which countries", "country"],
+      "questions": [
+        "Which countries participate in the project?",
+        "Which partner countries are in the project?"
+      ],
+      "answerShort": "The partner countries are Croatia, Greece, Italy, Lithuania and Poland, with Croatia as the coordinating country.",
+      "answerLong": "The project partnership includes Croatia, Greece, Italy, Lithuania and Poland. Croatia has the coordinating role, while the other countries participate as partner schools in the shared Erasmus+ project."
+    },
+    {
+      "id": "P006",
+      "topics": ["Project", "Partners", "Schools"],
+      "keywords": ["schools", "school", "partner schools"],
+      "questions": [
+        "Which schools are partners in the project?",
+        "What are the partner schools?"
+      ],
+      "answerShort": "The partner schools are Gimnazija Josipa Slavenskog Cakovec, ITET Leonardo da Vinci, 3rd General Lyceum of Galatsi, Vilniaus Zveryno gimnazija and Janusz Korczak High School.",
+      "answerLong": "The partner schools named in the uploaded materials are Gimnazija Josipa Slavenskog Cakovec in Croatia, ITET Leonardo da Vinci in Milazzo, Italy, 3rd General Lyceum of Galatsi in Greece, Vilniaus Zveryno gimnazija in Lithuania and Janusz Korczak High School in Wielun, Poland."
+    },
+    {
+      "id": "P007",
+      "topics": ["Project", "Coordinators", "People"],
+      "keywords": ["coordinators", "coordinator", "names", "people"],
+      "questions": [
+        "Who are the coordinators?",
+        "Who are the project coordinators?",
+        "Who coordinates the partner schools?"
+      ],
+      "answerShort": "The named coordinators are Vedrana Mocnik, Di Blasi Antonio Maria, Dimitra Rimpa, Ausra Kruopiene and Joanna Rybczynska.",
+      "answerLong": "The materials identify the following project coordinators: Vedrana Mocnik for Croatia, Di Blasi Antonio Maria for Italy, Dimitra Rimpa for Greece, Ausra Kruopiene for Lithuania, and Joanna Rybczynska for Poland. These are the named project representatives clearly visible in the provided files."
+    },
+    {
+      "id": "P008",
+      "topics": ["Project", "Participants"],
+      "keywords": ["participants", "students", "teachers", "who participates"],
+      "questions": [
+        "Who participates in the project?",
+        "How many students and teachers are involved?"
+      ],
+      "answerShort": "The project involves students and teachers from all partner schools; the materials mention at least 200 students and 50 teachers.",
+      "answerLong": "The project is intended for students and teachers from the coordinating and partner schools. The provided project materials state that at least 200 students and 50 teachers participate. I did not find a complete named list of all student participants in the uploaded files, so the safest confirmed participant information is the list of partner schools and coordinators."
+    },
+    {
+      "id": "P009",
+      "topics": ["Project", "Chatbot", "Digital tools"],
+      "keywords": ["chatbot", "digital tools", "website", "questions", "how to use chatbot"],
+      "questions": [
+        "Why was the chatbot created?",
+        "Why was the chatbot created in this project?",
+        "What is the purpose of the chatbot?"
+      ],
+      "answerShort": "The chatbot was created to give students quick, simple and interactive access to project knowledge and sustainability topics.",
+      "answerLong": "The chatbot was created as an educational digital tool. Its purpose is to help students and visitors quickly access information about the project, sustainability, green skills, green jobs and partner countries. A good chatbot in this project should answer clearly, avoid guessing, and help users learn by giving short definitions first and fuller explanations when needed."
+    },
+    {
+      "id": "P010",
+      "topics": ["Project", "Inclusion", "STEAM"],
+      "keywords": ["inclusion", "girls in steam", "equal opportunities", "women in steam"],
+      "questions": [
+        "Why is inclusion important in the project?",
+        "Why does the project encourage girls in STEAM?"
+      ],
+      "answerShort": "The project encourages girls in STEAM because sustainability needs diverse talents and equal access to future careers.",
+      "answerLong": "Equal opportunities are important because green and STEAM careers should be open to everyone. When girls see sustainability, engineering, science, data work and creative problem solving as realistic options, society gains more ideas, more talent and more innovation. Diversity strengthens both education and sustainable development."
+    },
+    {
+      "id": "P011",
+      "countryCode": "CRO",
+      "topics": ["Project", "Coordinators", "Croatia"],
+      "keywords": ["croatia coordinator", "croatian coordinator", "vedrana mocnik", "vedrana"],
+      "questions": [
+        "Who is the Croatian coordinator?",
+        "Who coordinates Croatia in the project?"
+      ],
+      "answerShort": "The Croatian coordinator named in the materials is Vedrana Mocnik from Gimnazija Josipa Slavenskog Cakovec.",
+      "answerLong": "According to the uploaded project materials, the Croatian coordinator is Vedrana Mocnik from Gimnazija Josipa Slavenskog Cakovec, the coordinating school of the project."
+    },
+    {
+      "id": "P012",
+      "countryCode": "IT",
+      "topics": ["Project", "Coordinators", "Italy"],
+      "keywords": ["italy coordinator", "italian coordinator", "di blasi antonio maria", "antonio"],
+      "questions": [
+        "Who is the Italian coordinator?",
+        "Who coordinates Italy in the project?"
+      ],
+      "answerShort": "The Italian coordinator named in the materials is Di Blasi Antonio Maria from ITET Leonardo da Vinci.",
+      "answerLong": "According to the uploaded materials, the Italian coordinator is Di Blasi Antonio Maria, linked with ITET Leonardo da Vinci in Milazzo."
+    },
+    {
+      "id": "P013",
+      "countryCode": "GR",
+      "topics": ["Project", "Coordinators", "Greece"],
+      "keywords": ["greece coordinator", "greek coordinator", "dimitra rimpa", "dimitra"],
+      "questions": [
+        "Who is the Greek coordinator?",
+        "Who coordinates Greece in the project?"
+      ],
+      "answerShort": "The Greek coordinator named in the materials is Dimitra Rimpa from the 3rd General Lyceum of Galatsi.",
+      "answerLong": "According to the uploaded materials, Dimitra Rimpa is the named coordinator for the Greek partner school, the 3rd General Lyceum of Galatsi."
+    },
+    {
+      "id": "P014",
+      "countryCode": "LT",
+      "topics": ["Project", "Coordinators", "Lithuania"],
+      "keywords": ["lithuania coordinator", "lithuanian coordinator", "ausra kruopiene", "ausra"],
+      "questions": [
+        "Who is the Lithuanian coordinator?",
+        "Who coordinates Lithuania in the project?"
+      ],
+      "answerShort": "The Lithuanian coordinator named in the materials is Ausra Kruopiene from Vilniaus Zveryno gimnazija.",
+      "answerLong": "According to the uploaded materials, Ausra Kruopiene is the named coordinator for the Lithuanian partner school, Vilniaus Zveryno gimnazija."
+    },
+    {
+      "id": "P015",
+      "countryCode": "PL",
+      "topics": ["Project", "Coordinators", "Poland"],
+      "keywords": ["poland coordinator", "polish coordinator", "joanna rybczynska", "joanna"],
+      "questions": [
+        "Who is the Polish coordinator?",
+        "Who coordinates Poland in the project?"
+      ],
+      "answerShort": "The Polish coordinator named in the materials is Joanna Rybczynska from Janusz Korczak High School.",
+      "answerLong": "According to the uploaded materials, Joanna Rybczynska is the named coordinator for the Polish partner school, Janusz Korczak High School in Wielun."
+    }
+  ]
+}

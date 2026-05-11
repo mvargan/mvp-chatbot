@@ -1,0 +1,129 @@
+{
+  "entries": [
+    {
+      "id": "K001",
+      "countryCode": "CRO",
+      "topics": ["Country", "Croatia", "School"],
+      "keywords": ["croatia", "cro", "hrvatska", "cakovec", "gimnazija josipa slavenskog", "vedrana mocnik", "vedrana"],
+      "questions": [
+        "Tell me about Croatia in the project.",
+        "Which school represents Croatia?",
+        "Who is the Croatian coordinator?"
+      ],
+      "answerShort": "Croatia is the coordinating country. Its school is Gimnazija Josipa Slavenskog Cakovec and the named coordinator is Vedrana Mocnik.",
+      "answerLong": "Croatia has the coordinating role in the project. The coordinating school is Gimnazija Josipa Slavenskog Cakovec. The uploaded project materials name Vedrana Mocnik as the Croatian coordinator. In the thematic materials, Croatia is linked with green jobs, green skills, engineering, renewable energy awareness and green technology."
+    },
+    {
+      "id": "K002",
+      "countryCode": "GR",
+      "topics": ["Country", "Greece", "School"],
+      "keywords": ["greece", "gr", "greek", "galatsi", "3rd general lyceum of galatsi", "dimitra rimpa", "dimitra"],
+      "questions": [
+        "Tell me about Greece in the project.",
+        "Which school represents Greece?",
+        "Who is the Greek coordinator?"
+      ],
+      "answerShort": "Greece is represented by the 3rd General Lyceum of Galatsi, with Dimitra Rimpa named as coordinator in the materials.",
+      "answerLong": "In the project partnership, Greece is represented by the 3rd General Lyceum of Galatsi. The uploaded files name Dimitra Rimpa as the Greek coordinator. The Greek thematic contributions focus especially on passive houses, green energy, sustainability in art and the role of mathematics in sustainable careers."
+    },
+    {
+      "id": "K003",
+      "countryCode": "IT",
+      "topics": ["Country", "Italy", "School"],
+      "keywords": ["italy", "it", "italia", "milazzo", "itet leonardo da vinci", "di blasi antonio maria", "antonio"],
+      "questions": [
+        "Tell me about Italy in the project.",
+        "Which school represents Italy?",
+        "Who is the Italian coordinator?"
+      ],
+      "answerShort": "Italy is represented by ITET Leonardo da Vinci in Milazzo, and the named coordinator is Di Blasi Antonio Maria.",
+      "answerLong": "Italy is one of the partner countries in the project. The partner school is ITET Leonardo da Vinci in Milazzo, and the uploaded materials name Di Blasi Antonio Maria as the Italian coordinator. The Italian learning materials focus on green jobs, sustainable materials, green technology and art-related sustainable professions."
+    },
+    {
+      "id": "K004",
+      "countryCode": "LT",
+      "topics": ["Country", "Lithuania", "School"],
+      "keywords": ["lithuania", "lt", "lietuva", "vilniaus zveryno gimnazija", "vilniaus", "ausra kruopiene", "ausra", "zveryno"],
+      "questions": [
+        "Tell me about Lithuania in the project.",
+        "Which school represents Lithuania?",
+        "Who is the Lithuanian coordinator?"
+      ],
+      "answerShort": "Lithuania is represented by Vilniaus Zveryno gimnazija, with Ausra Kruopiene named as coordinator.",
+      "answerLong": "Lithuania participates through Vilniaus Zveryno gimnazija. The materials name Ausra Kruopiene as the Lithuanian coordinator. Lithuanian contributions in the provided files include renewable energy, green science, water-related jobs, creative sustainability, digital art and examples of green innovation."
+    },
+    {
+      "id": "K005",
+      "countryCode": "PL",
+      "topics": ["Country", "Poland", "School"],
+      "keywords": ["poland", "pl", "polska", "janusz korczak high school", "wielun", "joanna rybczynska", "joanna"],
+      "questions": [
+        "Tell me about Poland in the project.",
+        "Which school represents Poland?",
+        "Who is the Polish coordinator?"
+      ],
+      "answerShort": "Poland is represented by Janusz Korczak High School in Wielun, and the named coordinator is Joanna Rybczynska.",
+      "answerLong": "Poland is a project partner represented by Janusz Korczak High School in Wielun. The uploaded materials identify Joanna Rybczynska as the Polish coordinator. Polish thematic content in the files focuses on green skills, engineering careers, sustainability analytics, mathematics in green jobs and environmental art and activism."
+    },
+    {
+      "id": "K006",
+      "countryCode": "CRO",
+      "topics": ["Country", "Croatia", "Themes"],
+      "keywords": ["croatia themes", "croatia topics", "green technology croatia", "engineering croatia"],
+      "questions": [
+        "What sustainability topics are connected with Croatia in the project?",
+        "What did Croatia contribute thematically?"
+      ],
+      "answerShort": "Croatian materials focus on green jobs, green skills, green technology, engineering and passive-house thinking.",
+      "answerLong": "The Croatian learning materials connect sustainability with engineering and technology. They explain green jobs, green skills, renewable energy awareness, environmentally responsible engineering and passive-house principles as examples of practical sustainable design."
+    },
+    {
+      "id": "K007",
+      "countryCode": "GR",
+      "topics": ["Country", "Greece", "Themes"],
+      "keywords": ["greece themes", "greece topics", "passive house greece", "green energy greece", "art greece"],
+      "questions": [
+        "What sustainability topics are connected with Greece in the project?",
+        "What did Greece contribute thematically?"
+      ],
+      "answerShort": "Greek materials focus on passive houses, green energy, sustainable careers, environmental art and mathematics in sustainability.",
+      "answerLong": "The Greek materials show sustainability from several angles: low-energy buildings such as passive houses, renewable and green energy, green careers, art as a way to communicate sustainability and mathematics as a tool for modelling, prediction and better environmental decisions."
+    },
+    {
+      "id": "K008",
+      "countryCode": "IT",
+      "topics": ["Country", "Italy", "Themes"],
+      "keywords": ["italy themes", "italy topics", "green jobs italy", "art professions italy", "technology italy"],
+      "questions": [
+        "What sustainability topics are connected with Italy in the project?",
+        "What did Italy contribute thematically?"
+      ],
+      "answerShort": "Italian materials focus on green jobs, sustainable materials, green technology, mathematics vocabulary and art-related green professions.",
+      "answerLong": "The Italian materials connect sustainability with future work and creative practice. They discuss green jobs, sustainable materials, technology-based green careers, mathematical thinking for understanding change and a range of sustainable art professions such as eco-design, sustainable interiors and responsible jewellery or fashion work."
+    },
+    {
+      "id": "K009",
+      "countryCode": "LT",
+      "topics": ["Country", "Lithuania", "Themes"],
+      "keywords": ["lithuania themes", "lithuania topics", "renewable energy lithuania", "science lithuania"],
+      "questions": [
+        "What sustainability topics are connected with Lithuania in the project?",
+        "What did Lithuania contribute thematically?"
+      ],
+      "answerShort": "Lithuanian materials focus on renewable energy, green science, water-related jobs, energy efficiency and creative sustainability.",
+      "answerLong": "Lithuanian contributions strongly connect science and sustainability. They include renewable energy, solar innovation, energy-saving behaviour, water-related professions, environmental consulting, energy auditing, creative reuse, digital art and eco-fashion. The emphasis is practical: how science and creativity can both support sustainability."
+    },
+    {
+      "id": "K010",
+      "countryCode": "PL",
+      "topics": ["Country", "Poland", "Themes"],
+      "keywords": ["poland themes", "poland topics", "engineering poland", "maths poland", "art activism poland"],
+      "questions": [
+        "What sustainability topics are connected with Poland in the project?",
+        "What did Poland contribute thematically?"
+      ],
+      "answerShort": "Polish materials focus on green skills, engineering careers, data and maths in sustainability, plus environmental art and activism.",
+      "answerLong": "The Polish materials connect sustainability with both technical and creative fields. They discuss green skills, renewable energy and engineering careers, ESG and sustainability analytics, mathematics as a core skill for environmental work, and environmental art that raises public awareness through design, activism and recycled materials."
+    }
+  ]
+}
