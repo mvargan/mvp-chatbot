@@ -6,7 +6,8 @@
       "keywords": ["project", "steam for sustainability", "erasmus", "s.o.s.", "sos"],
       "questions": [
         "What is the STEAM for Sustainability project?",
-        "What is this Erasmus project about?"
+        "What is this Erasmus project about?",
+        "What was the purpose of this Erasmus project?"
       ],
       "answerShort": "STEAM for Sustainability is an Erasmus+ school project about environmental sustainability, green skills, green jobs and STEAM learning.",
       "answerLong": "STEAM for Sustainability is a 36-month Erasmus+ school project that helps students learn about environmental sustainability through STEAM: science, technology, engineering, arts and mathematics. The project connects green skills, green jobs, digital tools, international cooperation and practical learning activities such as workshops, mobilities and a chatbot."
@@ -17,7 +18,8 @@
       "keywords": ["goal", "main goal", "purpose", "aim"],
       "questions": [
         "What is the main goal of the project?",
-        "What does the project aim to achieve?"
+        "What does the project aim to achieve?",
+        "Why should I learn STEAM for the future?"
       ],
       "answerShort": "The main goal is to raise awareness about sustainability and help students understand green careers through STEAM education.",
       "answerLong": "The project aims to increase awareness of environmental sustainability among students and teachers. It helps young people understand why sustainability matters, introduces green jobs and green technologies, and encourages curiosity, creativity, digital literacy and international cooperation. A special value of the project is that it motivates girls as well as boys to explore STEAM and green professions."
@@ -46,12 +48,26 @@
       "answerLong": "The project runs for 36 months. According to the provided materials, it includes 7 virtual meetings, 5 mobilities, 22 workshops, 1 lecture, 2 expert presentations, 6 visits to relevant institutions and 2 professional excursions. These activities help students learn through direct experience, teamwork and international exchange."
     },
     {
+      "id": "P004A",
+      "topics": ["Project", "Mobility", "International Cooperation"],
+      "keywords": ["mobility", "mobilities", "exchange", "international cooperation"],
+      "questions": [
+        "What is mobility in the project?",
+        "Why are mobilities important in the project?"
+      ],
+      "answerShort": "Mobilities let students and teachers visit partner schools, learn together in real settings and experience international cooperation directly.",
+      "answerLong": "Mobilities are one of the most important project activities because they allow students and teachers to meet partner schools, join workshops, compare ideas and learn in real international contexts. They support sustainability learning through direct experience, teamwork, cultural exchange and shared problem solving."
+    },
+    {
       "id": "P005",
       "topics": ["Project", "Countries", "Partners"],
       "keywords": ["countries", "partner countries", "which countries", "country"],
       "questions": [
         "Which countries participate in the project?",
-        "Which partner countries are in the project?"
+        "Which partner countries are in the project?",
+        "Which countries were in the project?",
+        "What country led the project?",
+        "Which country coordinated the project?"
       ],
       "answerShort": "The partner countries are Croatia, Greece, Italy, Lithuania and Poland, with Croatia as the coordinating country.",
       "answerLong": "The project partnership includes Croatia, Greece, Italy, Lithuania and Poland. Croatia has the coordinating role, while the other countries participate as partner schools in the shared Erasmus+ project."
@@ -59,13 +75,26 @@
     {
       "id": "P006",
       "topics": ["Project", "Partners", "Schools"],
-      "keywords": ["schools", "school", "partner schools"],
+      "keywords": ["schools", "school", "partner schools", "project partners"],
       "questions": [
         "Which schools are partners in the project?",
-        "What are the partner schools?"
+        "What are the partner schools?",
+        "Which schools were project partners?"
       ],
       "answerShort": "The partner schools are Gimnazija Josipa Slavenskog Cakovec, ITET Leonardo da Vinci, 3rd General Lyceum of Galatsi, Vilniaus Zveryno gimnazija and Janusz Korczak High School.",
       "answerLong": "The partner schools named in the uploaded materials are Gimnazija Josipa Slavenskog Cakovec in Croatia, ITET Leonardo da Vinci in Milazzo, Italy, 3rd General Lyceum of Galatsi in Greece, Vilniaus Zveryno gimnazija in Lithuania and Janusz Korczak High School in Wielun, Poland."
+    },
+    {
+      "id": "P006A",
+      "countryCode": "CRO",
+      "topics": ["Project", "Coordinator School", "Croatia"],
+      "keywords": ["project coordinator school", "coordinator school", "which school was the project coordinator"],
+      "questions": [
+        "Which school was the project coordinator?",
+        "Which school coordinated the project?"
+      ],
+      "answerShort": "The coordinating school was Gimnazija Josipa Slavenskog Cakovec in Croatia.",
+      "answerLong": "The project coordinator school was Gimnazija Josipa Slavenskog Cakovec in Croatia. The uploaded materials present it as the coordinating school of the STEAM for Sustainability project."
     },
     {
       "id": "P007",
@@ -76,8 +105,20 @@
         "Who are the project coordinators?",
         "Who coordinates the partner schools?"
       ],
-      "answerShort": "The named coordinators are Vedrana Mocnik, Di Blasi Antonio Maria, Dimitra Rimpa, Ausra Kruopiene and Joanna Rybczynska.",
-      "answerLong": "The materials identify the following project coordinators: Vedrana Mocnik for Croatia, Di Blasi Antonio Maria for Italy, Dimitra Rimpa for Greece, Ausra Kruopiene for Lithuania, and Joanna Rybczynska for Poland. These are the named project representatives clearly visible in the provided files."
+      "answerShort": "The main project coordinator is Vedrana Mocnik from Croatia, and the other named coordinators are Di Blasi Antonio Maria, Dimitra Rimpa, Ausra Kruopiene and Joanna Rybczynska.",
+      "answerLong": "The materials identify Vedrana Mocnik from Croatia as the main project coordinator. The other named project coordinators are Di Blasi Antonio Maria for Italy, Dimitra Rimpa for Greece, Ausra Kruopiene for Lithuania, and Joanna Rybczynska for Poland. These are the named project representatives clearly visible in the provided files."
+    },
+    {
+      "id": "P007A",
+      "countryCode": "CRO",
+      "topics": ["Project", "Main Coordinator", "Croatia"],
+      "keywords": ["main coordinator", "head coordinator", "glavni koordinator", "vedrana mocnik"],
+      "questions": [
+        "Who is the main project coordinator?",
+        "Who is the main coordinator?"
+      ],
+      "answerShort": "The main project coordinator is Vedrana Mocnik from Croatia.",
+      "answerLong": "According to the project information, the main project coordinator is Vedrana Mocnik from Croatia, from Gimnazija Josipa Slavenskog Cakovec."
     },
     {
       "id": "P008",
@@ -97,10 +138,49 @@
       "questions": [
         "Why was the chatbot created?",
         "Why was the chatbot created in this project?",
-        "What is the purpose of the chatbot?"
+        "What is the purpose of the chatbot?",
+        "Why is this chatbot useful for schools?"
       ],
       "answerShort": "The chatbot was created to give students quick, simple and interactive access to project knowledge and sustainability topics.",
       "answerLong": "The chatbot was created as an educational digital tool. Its purpose is to help students and visitors quickly access information about the project, sustainability, green skills, green jobs and partner countries. A good chatbot in this project should answer clearly, avoid guessing, and help users learn by giving short definitions first and fuller explanations when needed."
+    },
+    {
+      "id": "P009A",
+      "topics": ["Project", "Learning", "Sustainability Education"],
+      "keywords": ["how project helped students learn", "learning about sustainability", "project learning"],
+      "questions": [
+        "How did the project help students learn about sustainability?",
+        "How did the project teach sustainability?",
+        "How did the project promote sustainability education?",
+        "How can this project help my future career?",
+        "What did students actually learn in this project?",
+        "How does this project connect sustainability with careers?"
+      ],
+      "answerShort": "The project helped students learn through STEAM activities, workshops, mobilities, digital tools and practical sustainability topics.",
+      "answerLong": "The project helped students learn about sustainability by combining STEAM subjects with practical activities such as workshops, mobilities, expert presentations, visits and digital tools like the chatbot. Students could explore green jobs, green skills, renewable energy, sustainable technologies and international cooperation in ways that connected theory with real experience."
+    },
+    {
+      "id": "P009B",
+      "topics": ["Project", "Themes", "Learning Topics"],
+      "keywords": ["topics explored", "project topics", "what topics were explored during the project"],
+      "questions": [
+        "What topics were explored during the project?",
+        "Which themes did the project explore?",
+        "What were the main themes of the project?"
+      ],
+      "answerShort": "The project explored sustainability, green jobs, green skills, renewable energy, engineering, mathematics, art, technology and international cooperation.",
+      "answerLong": "Across the shared materials, the project explored environmental sustainability through STEAM. Main topics included sustainability, sustainable development, green jobs, green skills, renewable energy, passive houses, hydroponics, circular economy, carbon footprint, conservation science, mathematics, science, art, technology and the role of partner countries and schools in the Erasmus project."
+    },
+    {
+      "id": "P009C",
+      "topics": ["Project", "Student Benefits", "Teaching"],
+      "keywords": ["student benefits", "project benefits", "schools use project"],
+      "questions": [
+        "What benefits did students get from participating?",
+        "How can schools use this project in teaching?"
+      ],
+      "answerShort": "Students gained sustainability knowledge, green-career awareness, teamwork experience and practical STEAM learning that schools can reuse in lessons and projects.",
+      "answerLong": "Students benefited from practical STEAM learning, better understanding of sustainability, exposure to green jobs and green skills, teamwork with international partners and learning through workshops, mobilities and digital tools. Schools can use the project in teaching by connecting sustainability topics with science, technology, engineering, arts and mathematics lessons, classroom discussions, project work and career guidance."
     },
     {
       "id": "P010",

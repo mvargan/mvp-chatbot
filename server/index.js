@@ -214,6 +214,7 @@ function reloadKb() {
 
 // ---------- Intent handling (friendly + safe + SOS-only) ----------
 function detectIntent(message) {
+  const normalizedMessage = norm(message);
   const inappropriate = [
     /\b(sex|porn|nude|blowjob|fuck|dick|pussy)\b/i,
     /\b(kill myself|suicide|self harm)\b/i,
@@ -225,7 +226,7 @@ function detectIntent(message) {
   if (/\b(thanks|thank you|thx|ty)\b/i.test(message)) return "thanks";
   if (/\b(how are you|how r you|how's it going)\b/i.test(message)) return "howareyou";
   if (/\b(who are you|what are you|your name)\b/i.test(message)) return "identity";
-  if (/\b(what can you do|help|how to use)\b/i.test(message)) return "help";
+  if (["help", "what can you do", "how to use", "how do i use this", "what can this bot do"].includes(normalizedMessage)) return "help";
 
   return "domain";
 }
