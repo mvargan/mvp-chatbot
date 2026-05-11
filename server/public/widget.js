@@ -1,5 +1,7 @@
 (function () {
-  const apiUrl = window.CHATBOT_API_URL || "http://localhost:3000/chat";
+  const currentScript = document.currentScript;
+  const inferredBaseUrl = currentScript ? new URL(currentScript.src).origin : window.location.origin;
+  const apiUrl = window.CHATBOT_API_URL || `${inferredBaseUrl}/chat`;
 
   const root = document.createElement("div");
   root.style.cssText =
